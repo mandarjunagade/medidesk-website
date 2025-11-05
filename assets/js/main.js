@@ -589,3 +589,272 @@
     });
   }
 })(jQuery); // End of use strict
+/**
+ * AGB Page JavaScript
+ * Handles smooth scrolling and active section highlighting
+ */
+
+(function () {
+  'use strict';
+
+  // Wait for DOM to be fully loaded
+  document.addEventListener('DOMContentLoaded', function () {
+
+    // ============= SMOOTH SCROLL FOR SIDEBAR NAVIGATION =============
+    const sidebarLinks = document.querySelectorAll('.agb-nav-list a');
+
+    sidebarLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+
+        if (targetSection) {
+          const offset = 120; // Offset for fixed header
+          const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset - offset;
+
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+
+          // Update active state
+          updateActiveLink(this);
+        }
+      });
+    });
+
+    // ============= HIGHLIGHT ACTIVE SECTION ON SCROLL =============
+    const sections = document.querySelectorAll('.agb-section');
+    const navLinks = document.querySelectorAll('.agb-nav-list a');
+
+    function highlightActiveSection() {
+      let currentSection = '';
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        const scrollPosition = window.pageYOffset + 200; // Add offset for better UX
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+          currentSection = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + currentSection) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    // Function to update active link
+    function updateActiveLink(clickedLink) {
+      navLinks.forEach(link => link.classList.remove('active'));
+      clickedLink.classList.add('active');
+    }
+
+    // Listen to scroll events
+    let scrollTimeout;
+    window.addEventListener('scroll', function () {
+      // Debounce scroll event for better performance
+      if (scrollTimeout) {
+        window.cancelAnimationFrame(scrollTimeout);
+      }
+
+      scrollTimeout = window.requestAnimationFrame(function () {
+        highlightActiveSection();
+      });
+    });
+
+    // Initial check on page load
+    highlightActiveSection();
+
+    // ============= PRINT FUNCTIONALITY =============
+    // Add print button functionality if needed
+    const printButton = document.querySelector('.agb-print-button');
+    if (printButton) {
+      printButton.addEventListener('click', function () {
+        window.print();
+      });
+    }
+
+    // ============= BACK TO TOP IN SIDEBAR =============
+    const backToTopBtn = document.querySelector('.agb-back-to-top');
+    if (backToTopBtn) {
+      backToTopBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
+
+    // ============= COPY SECTION LINK =============
+    // Add copy link functionality to section headers
+    const sectionHeaders = document.querySelectorAll('.agb-section h2');
+
+    sectionHeaders.forEach(header => {
+      // Create copy icon
+      const copyIcon = document.createElement('span');
+      copyIcon.className = 'agb-copy-link';
+      copyIcon.innerHTML = '<i class="fa fa-link"></i>';
+      copyIcon.title = 'Link kopieren';
+      copyIcon.style.cssText = 'cursor: pointer; margin-left: 10px; opacity: 0.3; transition: opacity 0.3s;';
+
+      copyIcon.addEventListener('mouseenter', function () {
+        this.style.opacity = '1';
+      });
+
+      copyIcon.addEventListener('mouseleave', function () {
+        this.style.opacity = '0.3';
+      });
+
+      copyIcon.addEventListener('click', function (e) {
+        e.preventDefault();
+        const sectionId = header.parentElement.getAttribute('id');
+        const url = window.location.origin + window.location.pathname + '#' + sectionId;
+
+        // Copy to clipboard
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(url).then(function () {
+            showCopyNotification('Link kopiert!');
+          }).catch(function () {
+            fallbackCopyTextToClipboard(url);
+          });
+        } else {
+          fallbackCopyTextToClipboard(url);
+        }
+      });
+
+      header.appendChild(copyIcon);
+    });
+
+    // Fallback copy function for older browsers
+    function fallbackCopyTextToClipboard(text) {
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      textArea.style.position = 'fixed';
+      textArea.style.top = '0';
+      textArea.style.left = '0';
+      textArea.style.opacity = '0';
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+
+      try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showCopyNotification('Link kopiert!');
+        }
+      } catch (err) {
+        console.error('Kopieren fehlgeschlagen:', err);
+      }
+
+      document.body.removeChild(textArea);
+    }
+
+    // Show copy notification
+    function showCopyNotification(message) {
+      const notification = document.createElement('div');
+      notification.textContent = message;
+      notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #4CAF50;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 10000;
+        font-weight: 600;
+        animation: slideInRight 0.3s ease;
+      `;
+
+      document.body.appendChild(notification);
+
+      setTimeout(function () {
+        notification.style.animation = 'slideOutRight 0.3s ease';
+        setTimeout(function () {
+          document.body.removeChild(notification);
+        }, 300);
+      }, 2000);
+    }
+
+    // Add animations
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes slideInRight {
+        from {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slideOutRight {
+        from {
+          transform: translateX(0);
+          opacity: 1;
+        }
+        to {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+      }
+      .agb-nav-list a.active {
+        background: #f0f4f8;
+        color: var(--highlighted-color);
+        border-left-color: var(--highlighted-color);
+        font-weight: 600;
+      }
+    `;
+    document.head.appendChild(style);
+
+    // ============= EXPAND/COLLAPSE SECTIONS ON MOBILE =============
+    if (window.innerWidth <= 767) {
+      const sidebarHeading = document.querySelector('.agb-sidebar h4');
+      const navList = document.querySelector('.agb-nav-list');
+
+      if (sidebarHeading && navList) {
+        // Initially collapse on mobile
+        navList.style.display = 'none';
+        sidebarHeading.style.cursor = 'pointer';
+        sidebarHeading.innerHTML += ' <i class="fa fa-chevron-down" style="float: right; font-size: 14px;"></i>';
+
+        sidebarHeading.addEventListener('click', function () {
+          const icon = this.querySelector('i');
+          if (navList.style.display === 'none') {
+            navList.style.display = 'block';
+            icon.classList.remove('fa-chevron-down');
+            icon.classList.add('fa-chevron-up');
+          } else {
+            navList.style.display = 'none';
+            icon.classList.remove('fa-chevron-up');
+            icon.classList.add('fa-chevron-down');
+          }
+        });
+
+        // Close sidebar when link is clicked on mobile
+        sidebarLinks.forEach(link => {
+          link.addEventListener('click', function () {
+            if (window.innerWidth <= 767) {
+              navList.style.display = 'none';
+              const icon = sidebarHeading.querySelector('i');
+              icon.classList.remove('fa-chevron-up');
+              icon.classList.add('fa-chevron-down');
+            }
+          });
+        });
+      }
+    }
+
+  });
+
+})();

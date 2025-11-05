@@ -3168,3 +3168,508 @@ textarea {
 }
 
 /* ============= Final CTA End ============= */
+
+/* ============= AGB PAGE STYLES ============= */
+
+/* AGB Hero Section */
+.agb-hero-section {
+  background: linear-gradient(135deg, #1e4472 0%, #052448 100%);
+  padding: 180px 20px 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.agb-hero-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.agb-hero-content {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.agb-hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.agb-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.agb-update {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+  margin: 0;
+}
+
+/* AGB Content Section */
+.agb-content-section {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+/* Sidebar Navigation */
+.agb-sidebar {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 4px 20px rgba(30, 58, 95, 0.08);
+  position: sticky;
+  top: 120px;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+.agb-sidebar h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--highlighted-color);
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e8ecef;
+}
+
+.agb-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.agb-nav-list li {
+  margin-bottom: 12px;
+}
+
+.agb-nav-list li a {
+  display: block;
+  padding: 10px 15px;
+  color: var(--body-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+}
+
+.agb-nav-list li a:hover {
+  background: #f0f4f8;
+  color: var(--highlighted-color);
+  border-left-color: var(--highlighted-color);
+  transform: translateX(5px);
+}
+
+/* Custom scrollbar for sidebar */
+.agb-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.agb-sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.agb-sidebar::-webkit-scrollbar-thumb {
+  background: var(--highlighted-color);
+  border-radius: 10px;
+}
+
+.agb-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #0d2847;
+}
+
+/* Main Content */
+.agb-main-content {
+  background: white;
+  border-radius: 16px;
+  padding: 50px 40px;
+  box-shadow: 0 4px 20px rgba(30, 58, 95, 0.08);
+}
+
+/* Individual Sections */
+.agb-section {
+  margin-bottom: 50px;
+  scroll-margin-top: 120px;
+}
+
+.agb-section:last-child {
+  margin-bottom: 0;
+}
+
+.agb-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--highlighted-color);
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #e8ecef;
+  position: relative;
+}
+
+.agb-section h2::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(135deg, #1e4472 0%, #052448 100%);
+}
+
+.agb-section h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin: 25px 0 15px 0;
+}
+
+.agb-section p {
+  font-size: 16px;
+  color: var(--body-color);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.agb-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lists in AGB */
+.agb-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.agb-list li {
+  font-size: 16px;
+  color: var(--body-color);
+  line-height: 1.8;
+  margin-bottom: 12px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.agb-list li::before {
+  content: '•';
+  position: absolute;
+  left: 10px;
+  color: var(--highlighted-color);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Contact Box */
+.agb-contact-box {
+  background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
+  border-radius: 16px;
+  padding: 35px 40px;
+  margin-top: 50px;
+  border-left: 5px solid #4CAF50;
+}
+
+.agb-contact-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E7D32;
+  margin-bottom: 15px;
+}
+
+.agb-contact-box p {
+  font-size: 16px;
+  color: #2E7D32;
+  margin-bottom: 20px;
+}
+
+.agb-contact-info {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.agb-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #2E7D32;
+  font-weight: 600;
+}
+
+.agb-contact-item i {
+  font-size: 20px;
+  color: #2E7D32;
+}
+
+/* Company Info Box */
+.agb-company-box {
+  background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+  border-radius: 16px;
+  padding: 35px 40px;
+  margin-top: 50px;
+  border-left: 5px solid var(--highlighted-color);
+}
+
+.agb-company-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--highlighted-color);
+  margin-bottom: 15px;
+}
+
+.agb-company-box p {
+  font-size: 16px;
+  color: var(--highlighted-color);
+  margin-bottom: 10px;
+}
+
+.agb-company-box .agb-contact-info {
+  margin: 20px 0;
+}
+
+.agb-company-box .agb-contact-item {
+  color: var(--highlighted-color);
+}
+
+.agb-company-box .agb-contact-item i {
+  color: var(--highlighted-color);
+}
+
+.agb-tax-info {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid rgba(30, 68, 114, 0.2);
+}
+
+.agb-tax-info p {
+  font-size: 14px;
+  color: var(--highlighted-color);
+  margin-bottom: 5px;
+}
+
+/* Intro Title */
+.agb-intro-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e8ecef;
+}
+
+/* Print Styles */
+@media print {
+  .agb-hero-section {
+    background: white;
+    padding: 40px 20px;
+  }
+
+  .agb-hero-content h1,
+  .agb-subtitle,
+  .agb-update {
+    color: #000;
+  }
+
+  .agb-sidebar {
+    display: none;
+  }
+
+  .agb-main-content {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .agb-section {
+    page-break-inside: avoid;
+  }
+
+  .agb-section h2 {
+    page-break-after: avoid;
+  }
+}
+
+/* Tablet Responsive */
+@media (max-width: 991px) {
+  .agb-hero-section {
+    padding: 140px 20px 60px 20px;
+  }
+
+  .agb-hero-content h1 {
+    font-size: 36px;
+  }
+
+  .agb-subtitle {
+    font-size: 16px;
+  }
+
+  .agb-content-section {
+    padding: 60px 0;
+  }
+
+  .agb-sidebar {
+    position: static;
+    margin-bottom: 30px;
+    max-height: none;
+  }
+
+  .agb-main-content {
+    padding: 40px 30px;
+  }
+
+  .agb-section h2 {
+    font-size: 24px;
+  }
+
+  .agb-section h3 {
+    font-size: 18px;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+  .agb-hero-section {
+    padding: 120px 15px 50px 15px;
+  }
+
+  .agb-hero-content h1 {
+    font-size: 28px;
+  }
+
+  .agb-subtitle {
+    font-size: 15px;
+  }
+
+  .agb-update {
+    font-size: 14px;
+  }
+
+  .agb-content-section {
+    padding: 40px 0;
+  }
+
+  .agb-sidebar {
+    padding: 25px 20px;
+  }
+
+  .agb-sidebar h4 {
+    font-size: 16px;
+  }
+
+  .agb-nav-list li a {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .agb-main-content {
+    padding: 30px 20px;
+  }
+
+  .agb-section {
+    margin-bottom: 40px;
+  }
+
+  .agb-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+  }
+
+  .agb-section h3 {
+    font-size: 17px;
+    margin: 20px 0 12px 0;
+  }
+
+  .agb-section p {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .agb-list li {
+    font-size: 15px;
+    padding-left: 25px;
+  }
+
+  .agb-contact-box {
+    padding: 25px 20px;
+    margin-top: 40px;
+  }
+
+  .agb-contact-box h3 {
+    font-size: 20px;
+  }
+
+  .agb-contact-box p {
+    font-size: 15px;
+  }
+
+  .agb-contact-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .agb-contact-item {
+    font-size: 15px;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 480px) {
+  .agb-hero-content h1 {
+    font-size: 24px;
+  }
+
+  .agb-subtitle {
+    font-size: 14px;
+  }
+
+  .agb-main-content {
+    padding: 25px 15px;
+  }
+
+  .agb-section h2 {
+    font-size: 20px;
+  }
+
+  .agb-section h3 {
+    font-size: 16px;
+  }
+
+  .agb-section p,
+  .agb-list li {
+    font-size: 14px;
+  }
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection Color */
+.agb-main-content ::selection {
+  background: var(--highlighted-color);
+  color: white;
+}
+
+.agb-main-content ::-moz-selection {
+  background: var(--highlighted-color);
+  color: white;
+}
+
+/* ============= AGB PAGE STYLES END ============= */
