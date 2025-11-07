@@ -37,12 +37,13 @@
                       <li><span>Passt sich Ihrem Ablauf an – </span> keine Umstellung notwendig</li>
                       <li><span>In 48 Stunden einsatzbereit – </span> ohne IT-Aufwand</li>
                       <li><span>Einfach in jede Website einbindbar </span> (WordPress, PHP, Wix, usw.)</li>
+                      <li><span>mehrere Standort möglich </span></li>
                       <li><span>Verfügbar in Deutsch & Englisch </span> (für internationale Patient:innen & Teams)</li>
                   </ul>
 
                   <div class="cta-buttons">
                       <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
-                      <a href="#demo" class="btn btn-secondary">15-Min-Demo ansehen</a>
+                      <a href="#demo" class="btn btn-secondary">kurze Demo ansehen</a>
                   </div>
               </div>
             </div>
@@ -121,7 +122,7 @@
                 <span class="answer-seo-anchor">
                     Alle Patient:innenanfragen laufen <span>klar strukturiert</span> ein – ganz ohne Telefonchaos.
                 </span>
-                <h2>So funktioniert <span class="highlight-text-green">Medidesk</span> im<br>Praxisalltag</h2>
+                <h2>So funktioniert <span class="highlight-text-green">MediDesk ®</span> im<br>Praxisalltag</h2>
                 <p class="subline">
                     Drei einfache Schritte
                 </p>
@@ -178,7 +179,7 @@
         <!-- Section Header -->
         <div class="section-4-header">
             <span class="seo-anchor">Ergebnisse & Vorteile</span>
-            <h2>Was sich mit <span class="highlight-text-bg2">Medidesk</span> in Ihrer <br>Praxis verändert</h2>
+            <h2>Was sich mit <span class="highlight-text-bg2">MediDesk ®</span> in Ihrer <br>Praxis verändert</h2>
             <p class="section-4-subline">Mehr Ruhe. Mehr Struktur. Mehr Zeit für die Menschen vor Ihnen.</p>
         </div>
 
@@ -273,10 +274,10 @@
     <section class="section-5-features">
         <!-- Section Header -->
         <div class="section-5-header">
-            <span class="seo-anchor">Funktionen von Medidesk</span>
+            <span class="seo-anchor">Funktionen von MediDesk ®</span>
             <h2>Die <span class="highlight-text-bg">wichtigsten Funktionen</span> – einfach<br>& alltagstauglich</h2>
             <p class="section-5-subline">
-                Medidesk passt sich Ihrer Praxis an, nicht umgekehrt. Alles bleibt so, wie Sie arbeiten – nur ruhiger und besser organisiert.
+                MediDesk ® passt sich Ihrer Praxis an, nicht umgekehrt. Alles bleibt so, wie Sie arbeiten – nur ruhiger und besser organisiert.
             </p>
         </div>
 
@@ -369,10 +370,10 @@
         <!-- Section Header -->
         <div class="section-6-header">
             <h2>Für welche Fachrichtungen eignet <br>
-                <span class="highlight-text-bg2">sich Medidesk?</span>
+                <span class="highlight-text-bg2">sich MediDesk ®?</span>
             </h2>
             <p class="section-6-subline">
-                Medidesk wird in ganz unterschiedlichen medizinischen Einrichtungen eingesetzt – überall dort, wo Patient:innenanfragen ruhig, strukturiert und sicher bearbeitet werden sollen.
+                MediDesk ® wird in ganz unterschiedlichen medizinischen Einrichtungen eingesetzt – überall dort, wo Patient:innenanfragen ruhig, strukturiert und sicher bearbeitet werden sollen.
             </p>
         </div>
 
@@ -462,12 +463,12 @@
         <!-- Footer -->
         <div class="section-6-footer">
             <p class="section-6-footer-text">
-                Ob Einzelpraxis, Schwerpunktpraxis oder Klinik – Medidesk passt sich Ihren Abläufen an.
+                Ob Einzelpraxis, Schwerpunktpraxis oder Klinik – MediDesk ® passt sich Ihren Abläufen an.
             </p>
             
             <!-- CTA -->
             <div class="section-6-cta-container">
-                <a href="#" class="btn btn-primary">Wie könnte Medidesk bei Ihrer Fachrichtung aussehen?</a>
+                <a href="#" class="btn btn-primary">Wie könnte MediDesk ® bei Ihrer Fachrichtung aussehen?</a>
             </div>
         </div>
     </section>
@@ -496,7 +497,7 @@
                             <i class="fa-solid fa-handshake"></i>
                         </div>
                         <div>
-                            <h3 class="section-7-step-title">Kurz kennenlernen (15 Min.)</h3>
+                            <h3 class="section-7-step-title">Kurz kennenlernen</h3>
                             <p class="section-7-step-description">
                                 Wir verstehen Ihre Abläufe und schalten passende Formulare (Termin, AU, Befund, Rezept, …) frei – DE/EN inklusive.
                             </p>
@@ -572,7 +573,7 @@
                     <i class="fa-solid fa-calendar-check"></i>
                 </div>
                 <div class="section-8-text">
-                    Termin anfragen / verschieben / absagen
+                    Termin buchen / verschieben / absagen
                 </div>
             </div>
 
@@ -592,7 +593,7 @@
                     <i class="fa-solid fa-file-lines"></i>
                 </div>
                 <div class="section-8-text">
-                    Befund / Arztbrief abrufen
+                    Befund / Arztbrief anfordern
                 </div>
             </div>
 
@@ -602,7 +603,7 @@
                     <i class="fa-solid fa-prescription"></i>
                 </div>
                 <div class="section-8-text">
-                    Rezept verlängern / Folgerezept anfragen
+                    Rezept anfragen
                 </div>
             </div>
 
@@ -627,14 +628,14 @@
             </div>
 
             <!-- Item 7 -->
-            <div class="section-8-item">
+            <!-- <div class="section-8-item">
                 <div class="section-8-icon">
                     <i class="fa-solid fa-cloud-arrow-up"></i>
                 </div>
                 <div class="section-8-text">
                     Übermittlung von Dokumenten/Fotos (z. B. dermatologische Befunde)
                 </div>
-            </div>
+            </div> -->
 
             <!-- Item 8 -->
             <div class="section-8-item">
@@ -642,7 +643,7 @@
                     <i class="fa-solid fa-circle-question"></i>
                 </div>
                 <div class="section-8-text">
-                    Allgemeine Frage stellen (klar strukturiert – kein Freitext-Chaos)
+                    Allgemeine Fragen stellen (klar strukturiert – kein Freitext-Chaos)
                 </div>
             </div>
         </div>
@@ -723,7 +724,7 @@
                         <i class="fa-solid fa-file-contract"></i>
                     </div>
                     <div class="section-9-text">
-                        Auftragsverarbeitungsvertrag (AVV) auf Wunsch verfügbar
+                        Auftragsverarbeitungsvertrag (AVV)
                     </div>
                 </div>
             </div>
@@ -746,7 +747,7 @@
             <h2><span class="highlight-text-bg2">Einfache Einbindung</span>
             – egal, wie Ihre Website gebaut ist</h2>
             <p class="section-10-subline">
-                Der Medidesk-Chat ist ein kleiner Code-Snippet – in Minuten integriert.
+                Der MediDesk ® -Chat ist ein kleiner Code-Snippet – in Minuten integriert.
             </p>
         </div>
 
@@ -821,14 +822,14 @@
             <!-- FAQ 1 -->
             <div class="faq-item">
                 <div class="faq-question" onclick="toggleFaq(this)">
-                    <div class="faq-question-text">Ist Medidesk ein Callcenter?</div>
+                    <div class="faq-question-text">Ist MediDesk ® ein Callcenter?</div>
                     <div class="faq-icon">
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
                 </div>
                 <div class="faq-answer">
                     <div class="faq-answer-text">
-                        Nein. Medidesk ist kein Telefonservice. Patient:innen stellen online strukturierte Anfragen; Ihr Team bearbeitet sie in Ruhe.
+                        Nein. MediDesk ® ist kein Telefonservice. Patient:innen stellen online strukturierte Anfragen; Ihr Team bearbeitet sie in Ruhe.
                     </div>
                 </div>
             </div>
@@ -866,7 +867,7 @@
             <!-- FAQ 4 -->
             <div class="faq-item">
                 <div class="faq-question" onclick="toggleFaq(this)">
-                    <div class="faq-question-text">Gibt es Medidesk auf Deutsch und Englisch?</div>
+                    <div class="faq-question-text">Gibt es MediDesk ® auf Deutsch und Englisch?</div>
                     <div class="faq-icon">
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
@@ -936,7 +937,7 @@
 
             <!-- Subline -->
             <p class="cta-subline">
-                Wir zeigen Ihnen in 15 Minuten, wie Medidesk bei Ihnen aussehen kann – unverbindlich und ohne technischen Aufwand.
+                Wir zeigen Ihnen in 15 Minuten, wie MediDesk ® bei Ihnen aussehen kann – unverbindlich und ohne technischen Aufwand.
             </p>
 
             <!-- CTA Buttons -->
@@ -952,7 +953,7 @@
             </div>
 
             <!-- Trust Badges -->
-            <div class="trust-badges">
+            <!-- <div class="trust-badges">
                 <div class="trust-item">
                     <i class="fa-solid fa-circle-check"></i>
                     <span>Keine Installation</span>
@@ -965,7 +966,7 @@
                     <i class="fa-solid fa-circle-check"></i>
                     <span>Kein Risiko</span>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- ============= CTA Final End ============= -->

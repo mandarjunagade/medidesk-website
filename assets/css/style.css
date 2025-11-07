@@ -91,7 +91,7 @@ p {
   padding: 5px 15px;
   display: inline-block;
   border-radius: 22px;
-  transform: rotate(1deg);
+  transform: rotate(0deg);
 }
 
 .highlight-text-bg2 {
