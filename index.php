@@ -38,7 +38,7 @@
                       <li><span>In 48 Stunden einsatzbereit – </span> ohne IT-Aufwand</li>
                       <li><span>Einfach in jede Website einbindbar </span> (WordPress, PHP, Wix, usw.)</li>
                       <li><span>mehrere Standort möglich </span></li>
-                      <li><span>Verfügbar in Deutsch & Englisch </span> (für internationale Patient:innen & Teams)</li>
+                      <li><span>Verfügbar in Deutsch & Englisch </span> (anderen Sprachen auf Anfragen)</li>
                   </ul>
 
                   <div class="cta-buttons">
@@ -99,6 +99,14 @@
                     <p>Wenig Zeit für Patient:innen vor Ort. Das Team fühlt
                         sich gehetzt und unter Druck.</p>
                 </div>
+
+                <div class="challenge-card">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <h3>Sprachbarrieren</h3>
+                    <p>klare Vorgaben welche Angaben notwendig sind.</p>
+                </div>
             </div>
 
             <div class="transition-box">
@@ -144,7 +152,7 @@
                     <div class="answer-icon-wrapper">
                         <i class="fa fa-inbox"></i>
                     </div>
-                    <p class="answer-card-step">Anfrage kommt strukturiert an</p>
+                    <p class="answer-card-step">Anfrage kommt vollständig an</p>
                     <h3>Ohne Zettel & ohne Unterbrechungen</h3>
                     <p>Ihr Team erhält alle Angaben verständlich sortiert.</p>
                 </div>
@@ -155,7 +163,7 @@
                         <i class="fa fa-user-clock"></i>
                     </div>
                     <p class="answer-card-step">Team reagiert in Ruhe</p>
-                    <h3>Antworten, koordinieren, vorbereiten</h3>
+                    <h3>Antworten direkt aus dem System</h3>
                     <p>Weniger Stress, mehr Zeit für Patient:innen vor Ort.</p>
                 </div>
             </div>
@@ -215,7 +223,7 @@
                 </span>
                 <h3 class="section-4-title">Klare Abläufe</h3>
                 <p class="section-4-description">
-                    Alle Anfragen kommen sauber sortiert rein. Keine Zettel, keine verlorenen Informationen.
+                    Alle Anfragen kommen vollständig nach Priorität und sauber sortiert.
                 </p>
             </div>
 
