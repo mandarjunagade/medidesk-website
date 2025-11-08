@@ -33,7 +33,7 @@
                 </li>
             </ul>
             
-            <a href="#demo" class="cta-button">Jetzt testen</a>
+            <a href="#kostenlos-testen" class="cta-button">Jetzt testen</a>
         </nav>
     </div>
 </div>

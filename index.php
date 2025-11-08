@@ -269,7 +269,7 @@
 
         <!-- CTA -->
         <div class="section-4-cta-container">
-            <a href="#" class="btn btn-primary">Jetzt unverbindlich ausprobieren</a>
+            <a href="#kostenlos-testen" class="btn btn-primary">Jetzt unverbindlich ausprobieren</a>
         </div>
     </section>
     <!-- Benefits End -->
@@ -364,7 +364,7 @@
 
         <!-- CTA -->
         <div class="section-5-cta-container">
-            <a href="#" class="btn btn-primary">Kostenlos testen</a>
+            <a href="#kostenlos-testen" class="btn btn-primary">Jetzt kostenlos testen</a>
         </div>
     </section>
     <!-- Features End -->
@@ -554,7 +554,7 @@
 
         <!-- CTA -->
         <div class="section-7-cta-container">
-            <a href="#" class="btn btn-primary">Kostenlos testen</a>
+            <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
         </div>
     </section>
     <!-- Section 7 End -->
@@ -954,7 +954,7 @@
                     <span>Jetzt kostenlose Demo ansehen</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
-                <a href="#" class="btn-secondary">
+                <a href="#kostenlos-testen" class="btn-secondary">
                     <i class="fa-solid fa-play-circle"></i>
                     <span>Kostenlos testen</span>
                 </a>
