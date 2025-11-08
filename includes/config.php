@@ -1,5 +1,5 @@
 <?php 
-$root="https://medideskr.cloud/";
+$root="http://localhost/medidesk/";
 $mail="";
 $mail2="";
 $phoneno="";
