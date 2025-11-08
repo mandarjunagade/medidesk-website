@@ -1,5 +1,5 @@
 <?php include 'includes/meta.php'; ?>
-<title>Home | <?= $brandname; ?></title>
+<title>Die digitale Online-Rezeption für Praxen, Kliniken & Therapiepraxen | <?= $brandname; ?></title>
 </head>
 
 <body>

@@ -73,9 +73,9 @@
 						Copyright © <span id="currentYear"></span>. All Rights Reserved.
 					</p>
                     <ul class="footer-bottom-links">
-                        <li><a href="#">Datenschutz</a></li>
-                        <li><a href="#">Impressum</a></li>
-                        <li><a href="#">AGB</a></li>
+                        <li><a href="<?= $root; ?>#">Datenschutz</a></li>
+                        <li><a href="<?= $root; ?>impressum">Impressum</a></li>
+                        <li><a href="<?= $root; ?>agb">AGB</a></li>
                     </ul>
                 </div>
 
