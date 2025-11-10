@@ -132,7 +132,6 @@
 	<script src="<?= $root; ?>assets/js/jquery-timepicker.min.js"></script>
 	<script src="<?= $root; ?>assets/js/select2.min.js"></script>
 	<script src="<?= $root; ?>assets/js/ripples.min.js"></script>
-	<script src="<?= $root; ?>assets/js/main.js"></script><script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="68fcf8ca34e0666457f4666f"></script>
 
 </body>
 
