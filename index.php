@@ -3,7 +3,7 @@
 </head>
 
 <body>
-
+<script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="6905f5f1757668ab4807f861"></script>
     <!-- Header Include -->
 	<?php include 'includes/header.php'; ?>
 	<!-- Header Include -->     
