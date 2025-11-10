@@ -999,5 +999,5 @@
                 faqItem.classList.add('active');
             }
         }
-    </script>
+    </script><script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="68fcf8ca34e0666457f4666f"></script>
     <!-- FAQ End -->
