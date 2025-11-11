@@ -132,7 +132,6 @@
 	<script src="<?= $root; ?>assets/js/jquery-timepicker.min.js"></script>
 	<script src="<?= $root; ?>assets/js/select2.min.js"></script>
 	<script src="<?= $root; ?>assets/js/ripples.min.js"></script>
-	<script src="<?= $root; ?>assets/js/main.js"></script>
 
 </body>
 
