@@ -1,7 +1,7 @@
 <div class="header">
     <div class="navbar">
         <nav class="nav-container">
-            <a href="#" class="logo">
+            <a href="<?= $root; ?>" class="logo">
                 <div class="logo-icon">
                     <img src="<?= $root; ?>assets/img/logo.png" />
                 </div>
