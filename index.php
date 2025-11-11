@@ -981,4 +981,3 @@
 
     <!-- Footer Include -->
     <?php include 'includes/footer.php'; ?>
-	<!-- Footer Include -->
