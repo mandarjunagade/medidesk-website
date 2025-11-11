@@ -982,22 +982,3 @@
     <!-- Footer Include -->
     <?php include 'includes/footer.php'; ?>
 	<!-- Footer Include -->
-
-    <!-- FAQ -->
-    <script>
-        function toggleFaq(element) {
-            const faqItem = element.parentElement;
-            const isActive = faqItem.classList.contains('active');
-            
-            // Close all other FAQs
-            document.querySelectorAll('.faq-item').forEach(item => {
-                item.classList.remove('active');
-            });
-            
-            // Toggle current FAQ
-            if (!isActive) {
-                faqItem.classList.add('active');
-            }
-        }
-    </script>
-    <!-- FAQ End -->
