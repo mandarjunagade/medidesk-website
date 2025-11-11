@@ -74,7 +74,7 @@
 						Copyright © <span id="currentYear"></span>. All Rights Reserved.
 					</p>
                     <ul class="footer-bottom-links">
-                        <li><a href="<?= $root; ?>#">Datenschutz</a></li>
+                        <li><a href="<?= $root; ?>datenschutz">Datenschutz</a></li>
                         <li><a href="<?= $root; ?>impressum">Impressum</a></li>
                         <li><a href="<?= $root; ?>agb">AGB</a></li>
                     </ul>
@@ -132,7 +132,97 @@
 	<script src="<?= $root; ?>assets/js/jquery-timepicker.min.js"></script>
 	<script src="<?= $root; ?>assets/js/select2.min.js"></script>
 	<script src="<?= $root; ?>assets/js/ripples.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const menuIcon = menuToggle.querySelector('i');
+        const navLinks = document.querySelectorAll('.nav-menu li a');
 
+        // Toggle mobile menu
+        menuToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            toggleMenu();
+        });
+
+        function toggleMenu() {
+            navMenu.classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+            
+            // FontAwesome icon change
+            if (navMenu.classList.contains('active')) {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark'); // close icon
+            } else {
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars'); // menu icon
+            }
+        }
+
+        // Close menu on link click (mobile only)
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 991) {
+                    closeMenu();
+                }
+            });
+        });
+
+        function closeMenu() {
+            navMenu.classList.remove('active');
+            document.body.classList.remove('menu-open');
+            menuIcon.classList.remove('fa-xmark');
+            menuIcon.classList.add('fa-bars');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!navMenu.contains(event.target) && !menuToggle.contains(event.target)) {
+                if (navMenu.classList.contains('active')) {
+                    closeMenu();
+                }
+            }
+        });
+
+        // Close menu on window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 991 && navMenu.classList.contains('active')) {
+                closeMenu();
+            }
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offset = 100;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+            });
+        });
+    });
+</script>
+<!-- FAQ -->
+    <script>
+        function toggleFaq(element) {
+            const faqItem = element.parentElement;
+            const isActive = faqItem.classList.contains('active');
+            
+            // Close all other FAQs
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Toggle current FAQ
+            if (!isActive) {
+                faqItem.classList.add('active');
+            }
+        }
+    </script>
+    <!-- FAQ End -->
 </body>
 
 </html>
