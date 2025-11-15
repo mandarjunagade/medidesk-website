@@ -4,6 +4,7 @@
 
 <body>
 
+    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="68fcf1e7e4e45d9212f23e61"></script>
     <!-- Header Include -->
 	<?php include 'includes/header.php'; ?>
 	<!-- Header Include -->     
@@ -19,7 +20,7 @@
             <div class="col-12">
                 <div class="hero-banner text-center">
                   <h1>
-                      Die digitale <span class="highlight-text-bg">Online-Rezeption</span> für Praxen, Kliniken & Therapiepraxen
+                      Die digitale <span class="highlight-text-bg">Online-Rezeption</span> für MaNDAr Praxen, Kliniken & Therapiepraxen
                   </h1>
                   <p class="subheading">
                       Patient:innen stellen Anfragen direkt online – statt per Telefon. 
@@ -818,6 +819,170 @@
     </section>
     <!-- ============= Section 10 - Integrationen End ============= -->
 
+    <!-- ============= PRICING SECTION ============= -->
+<section class="pricing-section">
+  <div class="container">
+    <div class="pricing-header">
+      <h2>Preisübersicht MediDesk</h2>
+      <p class="pricing-subline">Transparente Preise für jede Praxisgröße</p>
+    </div>
+
+    <!-- Arztpraxen Pricing -->
+    <div class="pricing-category">
+      <h3 class="pricing-category-title">
+        <i class="fas fa-user-md"></i>
+        Preise für Arztpraxen
+      </h3>
+      
+      <div class="pricing-grid">
+        <!-- Card 1 -->
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <div class="pricing-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4 class="pricing-title">1-2 Ärzte</h4>
+          </div>
+          <div class="pricing-card-body">
+            <div class="pricing-amount">
+              <span class="price-number">119,00</span>
+              <span class="price-currency">€*</span>
+            </div>
+            <p class="pricing-period">pro Monat</p>
+          </div>
+          <div class="pricing-card-footer">
+            <a href="#contact" class="pricing-btn">Jetzt starten</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="pricing-card pricing-card-popular">
+          <div class="popular-badge">
+            <i class="fas fa-star"></i>
+            Beliebt
+          </div>
+          <div class="pricing-card-header">
+            <div class="pricing-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4 class="pricing-title">3-4 Ärzte</h4>
+          </div>
+          <div class="pricing-card-body">
+            <div class="pricing-amount">
+              <span class="price-number">179,00</span>
+              <span class="price-currency">€*</span>
+            </div>
+            <p class="pricing-period">pro Monat</p>
+          </div>
+          <div class="pricing-card-footer">
+            <a href="#contact" class="pricing-btn">Jetzt starten</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <div class="pricing-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4 class="pricing-title">5-6 Ärzte</h4>
+          </div>
+          <div class="pricing-card-body">
+            <div class="pricing-amount">
+              <span class="price-number">298,00</span>
+              <span class="price-currency">€*</span>
+            </div>
+            <p class="pricing-period">pro Monat</p>
+          </div>
+          <div class="pricing-card-footer">
+            <a href="#contact" class="pricing-btn">Jetzt starten</a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <div class="pricing-icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <h4 class="pricing-title">&gt;6 Ärzte</h4>
+          </div>
+          <div class="pricing-card-body">
+            <div class="pricing-amount">
+              <span class="price-number">59,00</span>
+              <span class="price-currency">€*</span>
+            </div>
+            <p class="pricing-period">je weiteren Arzt</p>
+          </div>
+          <div class="pricing-card-footer">
+            <a href="#contact" class="pricing-btn">Jetzt starten</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Additional Info Box -->
+    <div class="pricing-info-box">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p><strong>Zusätzlicher Standort:</strong> zzgl. 89,00€* pro Standort</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-hospital"></i>
+        <p><strong>Klinik & MVZ:</strong> Preise auf Anfrage</p>
+      </div>
+    </div>
+
+    <!-- Physiotherapie Section -->
+    <div class="pricing-category pricing-physio">
+      <h3 class="pricing-category-title">
+        <i class="fas fa-hands"></i>
+        Preise für Physiotherapie Praxen
+      </h3>
+      
+      <div class="pricing-special-card">
+        <div class="special-card-content">
+          <div class="special-icon">
+            <i class="fas fa-spa"></i>
+          </div>
+          <div class="special-info">
+            <h4>Unabhängig von der Anzahl der Therapeuten</h4>
+            <p>Perfekt für Physiotherapie-Praxen jeder Größe</p>
+          </div>
+          <div class="special-price">
+            <span class="price-number">199,00</span>
+            <span class="price-currency">€*</span>
+            <span class="price-period">pro Monat</span>
+          </div>
+        </div>
+        <a href="#contact" class="pricing-btn-special">Jetzt starten</a>
+      </div>
+    </div>
+
+    <!-- Footer Notes -->
+    <div class="pricing-footer-notes">
+      <div class="note-item">
+        <i class="fas fa-tools"></i>
+        <p>Sonderwünsche der Praxen werden nach Aufwand abgerechnet.</p>
+      </div>
+    </div>
+
+    <!-- VAT Notice -->
+    <div class="pricing-vat-notice">
+      <p><span class="asterisk">*</span> Alle genannten Preise verstehen sich zzgl. der jeweils gültigen Mehrwertsteuer.</p>
+    </div>
+
+    <!-- CTA Button -->
+    <div class="pricing-cta">
+      <a href="#contact" class="btn btn-primary">
+        Kostenlose Beratung vereinbaren
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- ============= PRICING SECTION END ============= -->
+    
     <!-- ============= Faq's ============= -->
     <section class="section-faq">
         <!-- Section Header -->
