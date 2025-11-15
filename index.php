@@ -4,7 +4,7 @@
 
 <body>
 
-    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="68fcf1e7e4e45d9212f23e61"></script>
+    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="6918990dbbc437bc39e5f42c"></script>
     <!-- Header Include -->
 	<?php include 'includes/header.php'; ?>
 	<!-- Header Include -->     
