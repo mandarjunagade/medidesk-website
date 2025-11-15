@@ -20,7 +20,7 @@
             <div class="col-12">
                 <div class="hero-banner text-center">
                   <h1>
-                      Die digitale <span class="highlight-text-bg">Online-Rezeption</span> für MaNDAr Praxen, Kliniken & Therapiepraxen
+                      Die digitale <span class="highlight-text-bg">Online-Rezeption</span> für Praxen, Kliniken & Therapiepraxen
                   </h1>
                   <p class="subheading">
                       Patient:innen stellen Anfragen direkt online – statt per Telefon. 
