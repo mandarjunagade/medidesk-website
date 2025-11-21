@@ -222,8 +222,7 @@
         }
     </script>
     <!-- FAQ End -->
-    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="691b5e9d7703e8c7c88fa8d4"></script>
-    <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
+    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="691b5e9d7703e8c7c88fa8d4" async></script>
 </body>
 
 </html>
