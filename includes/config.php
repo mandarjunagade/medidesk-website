@@ -1,8 +1,8 @@
 <?php 
 $root="https://medideskr.cloud/";
-$mail="";
+$mail="info@medideskr.cloud";
 $mail2="";
-$phoneno="";
+$phoneno="0172-4056551";
 $brandname="MediDesk";
-$address="";
+$address="Hambergsfeld 8, D-21394 Westergellersen";
 ?>
