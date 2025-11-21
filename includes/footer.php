@@ -1,5 +1,4 @@
 	<!-- ============= FOOTER SECTION START ============= -->
-    <?php include 'includes/testen-popup.php'; ?>
     <div class="footer-wrapper">
         <footer class="footer">
             <div class="footer-container">

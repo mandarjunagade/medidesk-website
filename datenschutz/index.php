@@ -383,6 +383,7 @@
     <!-- Content Section End -->
 
     <!-- Footer Include -->
+    <?php include '../includes/testen-popup.php'; ?>
     <?php include '../includes/footer.php'; ?>
     <!-- Footer Include -->
 
