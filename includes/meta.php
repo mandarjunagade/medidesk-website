@@ -19,4 +19,5 @@
   <link href="<?= $root; ?>assets/css/intlTelInput.css" rel="stylesheet">
   <link href="<?= $root; ?>assets/css/style.css" rel="stylesheet">
   <link href="<?= $root; ?>assets/css/responsive.css" rel="stylesheet">
-  <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-ruleset-id="oFgXmipdMbCysV" async></script>
+  <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
+  <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="oFgXmipdMbCysV" async></script>
