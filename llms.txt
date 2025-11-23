@@ -1,0 +1,97 @@
+# MediDesk - Digitale Online-Rezeption für Praxen, Kliniken & Therapiepraxen
+
+> https://medideskr.cloud
+
+## About MediDesk
+
+MediDesk ist eine digitale Online-Rezeption für medizinische Praxen, Kliniken und Therapiepraxen. Das System ermöglicht es Patienten, strukturierte Anfragen online zu stellen - ohne Telefonchaos. 
+
+## Key Features
+
+- Digitale Patientenanfragen ohne Telefonanrufe
+- Strukturierte Terminvereinbarungen, AU-Anfragen, Befund- und Rezeptanfragen
+- In 48 Stunden einsatzbereit ohne IT-Aufwand
+- Einfache Integration in jede Website (WordPress, PHP, Wix, etc.)
+- Mehrsprachig verfügbar (Deutsch & Englisch)
+- DSGVO-konform mit EU-Hosting und verschlüsselter Übertragung
+- Mehrere Standorte möglich
+
+## Target Audience
+
+- Arztpraxen
+- Kliniken
+- Therapiepraxen
+- Allgemeinmediziner
+- Fachärzte für innere Medizin
+- Andere medizinische Fachrichtungen
+
+## Main Sections
+
+/ - Homepage mit vollständiger Produktbeschreibung und Funktionen
+/fachrichtungen/ - Übersicht der unterstützten medizinischen Fachrichtungen
+/fachrichtungen/allgemeinmedizin/ - Lösung für Allgemeinmedizin-Praxen
+/fachrichtungen/innere-medizin/ - Lösung für Internisten
+/datenschutz/ - Datenschutzerklärung
+/impressum/ - Impressum und Kontaktdaten
+/agb/ - Allgemeine Geschäftsbedingungen
+
+## Problems MediDesk Solves
+
+1. Ständiges Telefonklingeln in Praxen
+2. Unklare Rückruflisten und Post-its
+3. Anmeldung unter Dauerstress
+4. Sprachbarrieren bei Patientenkommunikation
+
+## How MediDesk Works
+
+1. Patient wählt im Chat: Termin, AU, Befund, Rezept oder Frage
+2. Anfrage kommt vollständig und strukturiert an - ohne Zettel oder Unterbrechungen
+3. Team reagiert in Ruhe und antwortet direkt aus dem System
+
+## Benefits
+
+- Mehr Ruhe am Empfang
+- Weniger Stress für das Team
+- Mehr Zeit für Patienten vor Ort
+- Strukturierte Arbeitsabläufe
+- Keine Umstellung des bestehenden Ablaufs notwendig
+- Passt sich individuellen Praxisabläufen an
+
+## Technical Details
+
+- Keine Installation erforderlich
+- Code-Snippet Integration
+- Kompatibel mit allen gängigen Website-Systemen
+- EU-Server Hosting
+- DSGVO-konform
+- AVV auf Wunsch verfügbar
+
+## Frequently Asked Questions
+
+Q: Ist MediDesk ein Callcenter?
+A: Nein. MediDesk ist kein Telefonservice. Patienten stellen online strukturierte Anfragen, die das Praxisteam in Ruhe bearbeitet.
+
+Q: Wie schnell sind wir startklar?
+A: In der Regel innerhalb von 48 Stunden ohne IT-Aufwand.
+
+Q: Funktioniert das auf jeder Website?
+A: Ja. Ein kurzer Code-Snippet reicht. WordPress, HTML/CSS, PHP, Wix - alles möglich.
+
+Q: Gibt es MediDesk auf Deutsch und Englisch?
+A: Ja, der Chat und die Formulare sind in DE/EN verfügbar.
+
+Q: Was ist mit Datenschutz?
+A: DSGVO-konform, EU-Hosting, verschlüsselte Übertragung, AVV auf Wunsch.
+
+## Contact & Demo
+
+Kostenlose Demo und Testversion verfügbar
+Keine Vertragsbindung
+Transparente Preisgestaltung
+
+---
+
+# llms.txt
+
+This file provides structured information about MediDesk for AI systems and large language models.
+Last updated: 2025-11-23
