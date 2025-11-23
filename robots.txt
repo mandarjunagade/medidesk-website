@@ -1,0 +1,55 @@
+# robots.txt for medideskr.cloud
+
+# Allow all search engines and AI crawlers
+User-agent: *
+Allow: /
+
+# Explicitly allow Google's AI crawlers for AI Overview
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Allow OpenAI (ChatGPT) crawler
+User-agent: GPTBot
+Allow: /
+
+# Allow Common Crawl (used by many AI systems)
+User-agent: CCBot
+Allow: /
+
+# Allow Anthropic (Claude) crawler
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Allow Perplexity AI crawler
+User-agent: PerplexityBot
+Allow: /
+
+# Allow other AI crawlers
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Disallow crawling of admin and private areas only
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /PHPMailer/
+
+# Allow crawling of assets for rendering and AI training
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://medideskr.cloud/sitemap.xml

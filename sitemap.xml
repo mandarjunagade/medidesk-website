@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://medideskr.cloud/</loc>
+        <lastmod>2025-11-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- AGB (Terms & Conditions) -->
+    <url>
+        <loc>https://medideskr.cloud/agb/</loc>
+        <lastmod>2025-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Datenschutz (Privacy Policy) -->
+    <url>
+        <loc>https://medideskr.cloud/datenschutz/</loc>
+        <lastmod>2025-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Fachrichtungen (Specialties) -->
+    <url>
+        <loc>https://medideskr.cloud/fachrichtungen/</loc>
+        <lastmod>2025-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Allgemeinmedizin (General Medicine) -->
+    <url>
+        <loc>https://medideskr.cloud/fachrichtungen/allgemeinmedizin/</loc>
+        <lastmod>2025-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Innere Medizin (Internal Medicine) -->
+    <url>
+        <loc>https://medideskr.cloud/fachrichtungen/innere-medizin/</loc>
+        <lastmod>2025-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Impressum (Imprint) -->
+    <url>
+        <loc>https://medideskr.cloud/impressum/</loc>
+        <lastmod>2025-11-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>
