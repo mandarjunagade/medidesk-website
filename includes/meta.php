@@ -20,4 +20,4 @@
   <link href="<?= $root; ?>assets/css/style.css" rel="stylesheet">
   <link href="<?= $root; ?>assets/css/responsive.css" rel="stylesheet">
   <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
-  <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="oFgXmipdMbCysV" async></script>
+  <meta name="google-site-verification" content="7nj_97yLZlME50RjY0vbOuyxH998liYITsbsGVSBVVY" />
