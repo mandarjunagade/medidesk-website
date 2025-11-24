@@ -16,9 +16,6 @@
   
   <link rel="stylesheet" type="text/css" href="<?= $root; ?>assets/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="<?= $root; ?>assets/fontawesome/css/all.min.css" />
-  <link rel="stylesheet" type="text/css" href="<?= $root; ?>assets/css/slick.css" />
-  <link href="<?= $root; ?>assets/css/intlTelInput.css" rel="stylesheet">
   <link href="<?= $root; ?>assets/css/style.css" rel="stylesheet">
-  <link href="<?= $root; ?>assets/css/responsive.css" rel="stylesheet">
   <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
   <meta name="google-site-verification" content="7nj_97yLZlME50RjY0vbOuyxH998liYITsbsGVSBVVY" />
