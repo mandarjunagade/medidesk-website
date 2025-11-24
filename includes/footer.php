@@ -222,7 +222,7 @@
         }
     </script>
     <!-- FAQ End -->
-    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="691b5e9d7703e8c7c88fa8d4" async></script>
+    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="69246ca8ec9402a9fa1db934"></script>
     <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="oFgXmipdMbCysV" async></script>
 </body>
 
