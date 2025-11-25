@@ -46,12 +46,7 @@
     </style>
 </head>
 <body>
-    <div class="widget-container">
-        <h1>Widget Demo</h1>
-        <div class="widget-wrapper">
-            <!-- Your widget will appear here -->
-        </div>
-    </div>
+
 
     <!-- Add your widget script here, just before the closing body tag -->
     <!-- <script src="your-widget-script.js"></script> -->
