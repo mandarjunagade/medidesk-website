@@ -1143,7 +1143,7 @@
         </div>
     </section>
     <!-- ============= CTA Final End ============= -->
-    <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="69246ca8ec9402a9fa1db934"></script>
+    <!-- <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="69246ca8ec9402a9fa1db934"></script> -->
     <!-- Footer Include -->
     <?php include 'includes/testen-popup.php'; ?>
     <?php include 'includes/footer.php'; ?>
