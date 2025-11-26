@@ -26,7 +26,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="<?= $root; ?>fachrichtungen/allgemeinmedizin">Allgemeinmedizin</a></li>
-                        <li><a href="<?= $root; ?>fachrichtungen/innere-medizin">Zahnarzt</a></li>
+                        <li><a href="<?= $root; ?>fachrichtungen/innere-medizin">Innere Medizin</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
