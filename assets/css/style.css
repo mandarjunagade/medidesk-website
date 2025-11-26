@@ -279,7 +279,7 @@ textarea {
   font-size: 20px;
 }
 
-.logo-icon img{
+.logo-icon img {
   width: 22px;
   height: auto;
 }
@@ -295,9 +295,6 @@ textarea {
   position: absolute;
   top: -6px;
   right: -18px;
-}
-
-.logo span::after {
   color: #1d426f;
 }
 
@@ -388,7 +385,6 @@ textarea {
     box-shadow: 2px 0 20px rgba(0, 0, 0, 0.1);
     z-index: 999;
     display: flex !important;
-    /* Force display */
     visibility: hidden;
   }
 
@@ -398,9 +394,10 @@ textarea {
     border-radius: 20px;
   }
 
-  /* ---- Close Icon Button ---- */
   .mobile-menu-toggle {
     z-index: 2001;
+    display: block;
+    position: relative;
     background: none;
     border: none;
     padding: 0;
@@ -413,7 +410,6 @@ textarea {
     transition: transform 0.3s ease;
   }
 
-  /* Slight rotate effect when menu open (nice touch 😎) */
   body.menu-open .mobile-menu-toggle i.fa-xmark {
     transform: rotate(90deg);
     position: absolute;
@@ -438,11 +434,6 @@ textarea {
 
   .nav-menu li:last-child {
     border-bottom: none;
-  }
-
-  .mobile-menu-toggle {
-    display: block;
-    position: relative;
   }
 
   .cta-button {
@@ -482,14 +473,11 @@ textarea {
 
 /* ============= NAVIGATION SECTION ENDS ============= */
 
-/* ============= REUSABLE MEGA MENU - FLAT STRUCTURE (15 ITEMS IN 5 COLUMNS) ============= */
-
-/* Mega Menu Dropdown Container */
+/* ============= MEGA MENU - DESKTOP ============= */
 .mega-menu-dropdown {
   position: relative;
 }
 
-/* Mega Menu Panel */
 .mega-menu {
   position: absolute;
   top: 100%;
@@ -516,14 +504,12 @@ textarea {
   transform: translateX(-50%) translateY(0);
 }
 
-/* Grid Layout - 5 Equal Columns */
 .mega-menu-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 16px;
 }
 
-/* Individual Menu Item */
 .mega-menu-item {
   display: flex;
   align-items: center;
@@ -543,7 +529,6 @@ textarea {
   box-shadow: 0 4px 12px rgba(30, 68, 114, 0.1);
 }
 
-/* Item Icon */
 .mega-item-icon {
   width: 42px;
   height: 42px;
@@ -566,7 +551,6 @@ textarea {
   color: white;
 }
 
-/* Item Text */
 .mega-item-text {
   display: flex;
   flex-direction: column;
@@ -588,7 +572,7 @@ textarea {
   line-height: 1.3;
 }
 
-/* Staggered Animation for Items */
+/* Desktop animations */
 .mega-menu-item {
   animation: fadeInItem 0.4s ease backwards;
 }
@@ -620,9 +604,7 @@ textarea {
   }
 }
 
-/* ============= RESPONSIVE BREAKPOINTS ============= */
-
-/* Large Desktop (1200px - 1440px) */
+/* ============= DESKTOP BREAKPOINTS ============= */
 @media (min-width: 1200px) and (max-width: 1440px) {
   .mega-menu {
     max-width: 1150px;
@@ -655,7 +637,6 @@ textarea {
   }
 }
 
-/* Desktop (992px - 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .mega-menu {
     max-width: 950px;
@@ -689,9 +670,8 @@ textarea {
   }
 }
 
-/* Tablet (768px - 991px) */
+/* ============= 🔥 MOBILE MEGA MENU WITH SCROLLING ============= */
 @media (max-width: 991px) {
-  /* Mobile Accordion Style */
   .mega-menu {
     position: static;
     width: 100%;
@@ -702,17 +682,49 @@ textarea {
     box-shadow: none;
     border-radius: 12px;
     margin-top: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, padding 0.5s ease;
+    margin-bottom: 0;
     background: #f8fafc;
     border: none;
     padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;
   }
 
+  /* ✅ ACTIVE STATE WITH SCROLLING */
   .mega-menu-dropdown.active .mega-menu {
-    max-height: 3000px;
+    max-height: 70vh; /* 70% of viewport height */
     padding: 20px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+
+  /* ✅ CUSTOM SCROLLBAR STYLING */
+  .mega-menu-dropdown.active .mega-menu::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .mega-menu-dropdown.active .mega-menu::-webkit-scrollbar-track {
+    background: #e8ecef;
+    border-radius: 10px;
+  }
+
+  .mega-menu-dropdown.active .mega-menu::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #1e4472 0%, #052448 100%);
+    border-radius: 10px;
+  }
+
+  .mega-menu-dropdown.active .mega-menu::-webkit-scrollbar-thumb:hover {
+    background: #052448;
+  }
+
+  /* Firefox scrollbar */
+  .mega-menu-dropdown.active .mega-menu {
+    scrollbar-width: thin;
+    scrollbar-color: #1e4472 #e8ecef;
   }
 
   .mega-menu-grid {
@@ -742,11 +754,25 @@ textarea {
   .mega-item-text span {
     font-size: 12px;
   }
+
+  /* ✅ ARROW ROTATION ON MOBILE */
+  .dropdown-icon {
+    transition: transform 0.3s ease;
+  }
+
+  .mega-menu-dropdown > a .dropdown-icon {
+    transform: rotate(0deg);
+  }
+
+  .mega-menu-dropdown.active > a .dropdown-icon {
+    transform: rotate(180deg);
+  }
 }
 
-/* Mobile (767px and below) */
+/* ============= TABLET RESPONSIVE ============= */
 @media (max-width: 767px) {
   .mega-menu-dropdown.active .mega-menu {
+    max-height: 60vh; /* Smaller on tablets */
     padding: 15px 10px;
   }
 
@@ -773,8 +799,12 @@ textarea {
   }
 }
 
-/* Extra Small Mobile (480px and below) */
+/* ============= MOBILE RESPONSIVE ============= */
 @media (max-width: 480px) {
+  .mega-menu-dropdown.active .mega-menu {
+    max-height: 55vh; /* Even smaller on phones */
+  }
+
   .mega-menu-item {
     padding: 8px 10px;
   }
@@ -876,15 +906,14 @@ textarea {
   .dropdown:not(.mega-menu-dropdown) .dropdown-menu li a:hover {
     padding-left: 44px;
   }
-}
 
-/* ============= DROPDOWN ICON ROTATION ============= */
-.dropdown > a .dropdown-icon {
-  transition: transform 0.3s ease;
-}
-
-.dropdown.active > a .dropdown-icon {
-  transform: rotate(180deg);
+  .dropdown.active > a .dropdown-icon {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown:not(.active) > a .dropdown-icon {
+    transform: rotate(0deg);
+  }
 }
 
 /* ============= ACCESSIBILITY ============= */
@@ -4615,100 +4644,6 @@ html {
     font-size: 14px;
   }
 }
-
-/* ============= DROPDOWN MENU STYLES ============= */
-.dropdown {
-    position: relative;
-}
-
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: white;
-    min-width: 220px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-10px);
-    transition: all 0.3s ease;
-    padding: 12px 0;
-    margin-top: 10px;
-    z-index: 1000;
-    list-style: none;
-}
-
-.dropdown:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-
-.dropdown-menu li {
-    list-style: none;
-}
-
-.dropdown-menu li a {
-    display: block;
-    padding: 12px 24px;
-    color: #2c3e50;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    border-left: 3px solid transparent;
-}
-
-.dropdown-menu li a:hover {
-    background: #f0f4f8;
-    color: var(--highlighted-color);
-    border-left-color: var(--highlighted-color);
-    padding-left: 28px;
-}
-
-/* Mobile Dropdown Styles */
-@media (max-width: 991px) {
-    .dropdown-menu {
-        position: static;
-        opacity: 1;
-        visibility: visible;
-        transform: none;
-        box-shadow: none;
-        background: #f8fafc;
-        margin: 0;
-        padding: 0;
-        border-radius: 0;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease;
-    }
-
-    .dropdown.active .dropdown-menu {
-        max-height: 500px;
-        padding: 8px 0;
-        margin-top: 8px;
-        border-radius: 8px;
-    }
-
-    .dropdown-menu li a {
-        padding: 12px 20px 12px 40px;
-        font-size: 16px;
-    }
-
-    .dropdown-menu li a:hover {
-        padding-left: 44px;
-    }
-
-    .dropdown > a .dropdown-icon {
-        transition: transform 0.3s ease;
-    }
-
-    .dropdown.active > a .dropdown-icon {
-        transform: rotate(180deg);
-    }
-}
-/* ============= INNERE MEDIZIN RESPONSIVE FIXES ============= */
 
 /* Fix challenge cards alignment - STRAIGHT VERTICAL on ALL screens */
 .challenges-container {
