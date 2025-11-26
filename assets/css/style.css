@@ -227,6 +227,7 @@ textarea {
 }
 
 /* ============= NAVIGATION SECTION START ============= */
+/* ============= NAVIGATION SECTION START ============= */
 .navbar {
   position: fixed;
   top: 20px;
@@ -367,6 +368,7 @@ textarea {
 
 /* ============= MOBILE MENU STYLES ============= */
 @media (max-width: 991px) {
+  /* ✅ Nav menu with scroll */
   .nav-menu {
     position: fixed;
     left: 0;
@@ -386,12 +388,34 @@ textarea {
     z-index: 999;
     display: flex !important;
     visibility: hidden;
+    overflow-y: auto !important; /* ✅ Scrollable nav menu */
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
   }
 
   .nav-menu.active {
     transform: translateX(0);
     visibility: visible;
     border-radius: 20px;
+  }
+
+  /* ✅ Custom scrollbar for nav-menu */
+  .nav-menu::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .nav-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  .nav-menu::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #1e4472 0%, #052448 100%);
+    border-radius: 10px;
+  }
+
+  .nav-menu::-webkit-scrollbar-thumb:hover {
+    background: #052448;
   }
 
   .mobile-menu-toggle {
@@ -421,6 +445,7 @@ textarea {
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding: 0;
+    flex-shrink: 0; /* Prevent compression */
   }
 
   .nav-menu li a {
@@ -442,7 +467,7 @@ textarea {
   }
 
   body.menu-open {
-    overflow: hidden;
+    overflow: hidden; /* Prevent background scroll */
   }
 }
 
@@ -670,7 +695,7 @@ textarea {
   }
 }
 
-/* ============= 🔥 MOBILE MEGA MENU - SIMPLE SCROLL ============= */
+/* ============= 🔥 MOBILE MEGA MENU ============= */
 @media (max-width: 991px) {
   /* Default hidden state */
   .mega-menu {
@@ -682,8 +707,7 @@ textarea {
     visibility: visible;
     box-shadow: none;
     border-radius: 12px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     background: #f8fafc;
     border: none;
     padding: 0;
@@ -692,34 +716,12 @@ textarea {
     transition: max-height 0.4s ease, padding 0.4s ease;
   }
 
-  /* ✅ ACTIVE STATE - SIMPLE SCROLL */
+  /* ✅ ACTIVE STATE - Dropdown opens */
   .mega-menu-dropdown.active .mega-menu {
-    max-height: 400px; /* Fixed height for scroll */
+    max-height: 2000px; /* Big enough for all items */
     padding: 20px 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    overflow-y: scroll; /* Simple scroll */
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch; /* Smooth on iOS */
-  }
-
-  /* Custom scrollbar */
-  .mega-menu::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  .mega-menu::-webkit-scrollbar-track {
-    background: #e8ecef;
-    border-radius: 10px;
-  }
-
-  .mega-menu::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #1e4472 0%, #052448 100%);
-    border-radius: 10px;
-  }
-
-  .mega-menu::-webkit-scrollbar-thumb:hover {
-    background: #052448;
   }
 
   /* Grid single column */
@@ -748,6 +750,10 @@ textarea {
     font-size: 14px;
   }
 
+  .mega-item-text span {
+    font-size: 12px;
+  }
+
   /* ✅ ARROW ROTATION */
   .dropdown-icon {
     transition: transform 0.3s ease;
@@ -764,11 +770,6 @@ textarea {
 
 /* ============= TABLET ============= */
 @media (max-width: 767px) {
-  .mega-menu-dropdown.active .mega-menu {
-    max-height: 350px; /* Slightly smaller */
-    padding: 15px 10px;
-  }
-
   .mega-menu-item {
     padding: 10px 12px;
   }
@@ -789,10 +790,6 @@ textarea {
 
 /* ============= SMALL MOBILE ============= */
 @media (max-width: 480px) {
-  .mega-menu-dropdown.active .mega-menu {
-    max-height: 300px; /* Smaller on phones */
-  }
-
   .mega-menu-item {
     padding: 8px 10px;
   }
