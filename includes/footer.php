@@ -62,7 +62,7 @@
                         </div>
                         <div class="contact-item">
                             <i class="fa fa-map-marker-alt"></i>
-                            <span><?= $addresso; ?></span>
+                            <span><?= $address; ?></span>
                         </div>
                     </div>
                 </div>
