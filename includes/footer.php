@@ -54,15 +54,15 @@
                         <h4 class="footer-heading">Kontakt</h4>
                         <div class="contact-item">
                             <i class="fa fa-envelope"></i>
-                            <span>info@medidesk.de</span>
+                            <span><?= $mail; ?></span>
                         </div>
                         <div class="contact-item">
                             <i class="fa fa-phone"></i>
-                            <span>+49 (0) 123 456789</span>
+                            <span><?= $phoneno; ?></span>
                         </div>
                         <div class="contact-item">
                             <i class="fa fa-map-marker-alt"></i>
-                            <span>Musterstraße 123<br>12345 Berlin, Deutschland</span>
+                            <span><?= $addresso; ?></span>
                         </div>
                     </div>
                 </div>
