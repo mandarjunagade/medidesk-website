@@ -1,4 +1,5 @@
-<?php include 'includes/meta.php'; ?>
+<html>
+<head>
 <title>Lohrbach</title>
 </head>
 
