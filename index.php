@@ -420,7 +420,7 @@
                         <td><span class="section-6-table-fach">Neurologie</span></td>
                         <td><span class="section-6-table-desc">Terminabsprachen & Befundbereitstellungen ohne ständige Telefonunterbrechungen.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/Pädiatrie/index.php';" style="cursor:pointer;">
+                    <tr onclick="window.location.href='fachrichtungen/paediatrie/index.php';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #FFF9C4 0%, #FFF59D 100%);"><i class="fa-solid fa-baby" style="color: #F9A825;"></i></span></td>
                         <td><span class="section-6-table-fach">Pädiatrie</span></td>
                         <td><span class="section-6-table-desc">Elternanfragen eindeutig sortiert & schnell beantwortbar.</span></td>
