@@ -1,5 +1,5 @@
 <?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Kardiologie - MediDesk® | Digitale Herzpraxis & Kardiovaskuläre Medizin</title>
+<title>Online-Rezeption für Kardiologie - MediDesk® - Digitale Herzpraxis & Kardiovaskuläre Medizin</title>
 <meta name="description" content="Die digitale Online-Rezeption speziell für Kardiologen und kardiologische Praxen. Herzinsuffizienz-Monitoring, Rhythmusstörungen koordinieren, Schrittmacher-Kontrollen planen, bis zu 60% weniger Telefonate. DSGVO-konform und klinikerprobt.">
 <meta name="keywords" content="Online-Rezeption Kardiologie, digitale Praxisverwaltung Kardiologe, Herzinsuffizienz Management, Rhythmusstörungen digital, kardiologische Ambulanz digital, Antikoagulation Management, Schrittmacher Nachsorge digital, MediDesk Kardiologie, Herzmedizin Organisation">
 <meta name="author" content="MediDesk - Digitale Lösungen für Kardiologie">

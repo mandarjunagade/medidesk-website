@@ -1,5 +1,5 @@
 <?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Neurologie - MediDesk® | Digitale Neurologische Praxis</title>
+<title>Online-Rezeption für Neurologie - MediDesk® - Digitale Neurologische Praxis</title>
 <meta name="description" content="Die digitale Online-Rezeption speziell für Neurologen und neurologische Praxen. Schlaganfall-Erkennung, MS-Schübe dokumentieren, Kopfschmerz-Tagebuch, Parkinson-Monitoring, bis zu 65% weniger Telefonate. DSGVO-konform und klinikerprobt.">
 <meta name="keywords" content="Online-Rezeption Neurologie, digitale Praxisverwaltung Neurologe, Schlaganfall Erkennung digital, Multiple Sklerose Management, Epilepsie Dokumentation, Kopfschmerz Tagebuch, Parkinson Monitoring, MediDesk Neurologie, neurologische Ambulanz digital">
 <meta name="author" content="MediDesk - Digitale Lösungen für Neurologie">
