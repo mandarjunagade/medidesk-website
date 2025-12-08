@@ -19,3 +19,4 @@
   <link href="<?= $root; ?>assets/css/style.css" rel="stylesheet">
   <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
   <meta name="google-site-verification" content="7nj_97yLZlME50RjY0vbOuyxH998liYITsbsGVSBVVY" />
+  
