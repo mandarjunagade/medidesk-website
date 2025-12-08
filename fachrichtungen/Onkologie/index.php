@@ -3,7 +3,7 @@
 <meta name="description" content="Die digitale Online-Rezeption speziell für Onkologen und onkologische Praxen. Chemotherapie-Termine koordinieren, Nebenwirkungen erfassen, Tumorpatienten strukturiert betreuen, bis zu 65% weniger Telefonate. DSGVO-konform und klinikintegrierbar.">
 <meta name="keywords" content="Online-Rezeption Onkologie, digitale Praxisverwaltung Onkologe, Chemotherapie Terminplanung, Tumorpatienten Management, onkologische Ambulanz digital, Nebenwirkungsmanagement, Tumornachsorge digital, MediDesk Onkologie, Krebstherapie Organisation">
 <meta name="author" content="MediDesk - Digitale Lösungen für Onkologie">
-<meta property="og:title" content="Online-Rezeption für Onkologie - MediDesk®">
+<meta property="og:title" content="Online-Rezeption für Onkologie | MediDesk®">
 <meta property="og:description" content="Spezialisierte digitale Lösung für Onkologen: Chemotherapie-Zyklen koordinieren, Nebenwirkungen erfassen, Tumorpatienten einfühlsam betreuen.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="<?= $root; ?>fachrichtungen/onkologie">
