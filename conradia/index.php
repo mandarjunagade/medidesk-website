@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Lohrbach</title>
+<title>Conradia Radiologie München</title>
 </head>
 
 <body>
