@@ -93,7 +93,7 @@
                                 </div>
                             </a>
 
-                            <a href="<?= $root; ?>fachrichtungen/orthopaedie" class="mega-menu-item">
+                            <a href="<?= $root; ?>fachrichtungen/orthopaedie/" class="mega-menu-item">
                                 <div class="mega-item-icon">
                                     <i class="fa-solid fa-bone"></i>
                                 </div>

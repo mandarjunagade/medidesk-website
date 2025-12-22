@@ -70,7 +70,7 @@
                     <div class="hero-content">
                         <h1>Online-Rezeption für <span class="highlight-text-bg">Orthopädie</span> & Unfallchirurgie</h1>
                         <p class="subheading">
-                            Die digitale Lösung für orthopädische Praxen: Bildgebung koordinieren, Post-OP-Nachsorge strukturieren, Physiotherapie-Verordnungen effizient bearbeiten
+                            Die digitale Lösung für orthopädische Praxen : Bildgebung koordinieren, Post-OP-Nachsorge strukturieren, Physiotherapie-Verordnungen effizient bearbeiten
                         </p>
 
                         <ul class="features-list">
