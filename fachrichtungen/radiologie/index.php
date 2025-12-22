@@ -32,10 +32,8 @@
                         <ul class="features-list">
                             <li><span>Bis zu 70% weniger Telefonstress</span> durch digitale Terminbuchung & Befundabfragen</li>
                             <li><span>Speziell für Bildgebung entwickelt</span> – CT, MRT, Röntgen, Sono, Mammographie</li>
-                            <li><span>PACS-Integration möglich</span> – Befunde automatisch aus dem System abrufen</li>
                             <li><span>Zuweiser-Management</span> – Überweisungen digital empfangen & bearbeiten</li>
                             <li><span>Kontrastmittel-Screening</span> – Kreatinin-Werte, Allergien, Vorbereitung automatisch erfassen</li>
-                            <li><span>DSGVO-konform & KV-zertifiziert</span> – Höchste Datensicherheit für medizinische Bilddaten</li>
                         </ul>
 
                         <div class="cta-buttons">
