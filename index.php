@@ -395,17 +395,17 @@
                         <td><span class="section-6-table-fach">Allgemeinmedizin</span></td>
                         <td><span class="section-6-table-desc">Routineanfragen wie Termine, AU & Rezeptverlängerungen laufen klar strukturiert ein.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/innere-medizin/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/innere-medizin/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 100%);"><i class="fa-solid fa-lungs" style="color: #C2185B;"></i></span></td>
                         <td><span class="section-6-table-fach">Innere Medizin</span></td>
                         <td><span class="section-6-table-desc">Befund- & Nachsorgeanfragen ohne Rückruf-Chaos.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/radiologie/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/radiologie/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%);"><i class="fa-solid fa-x-ray" style="color: #7B1FA2;"></i></span></td>
                         <td><span class="section-6-table-fach">Radiologie</span></td>
                         <td><span class="section-6-table-desc">Termin- & Befundanfragen ruhig & nachvollziehbar koordinieren.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/onkologie/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/onkologie/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #E8EAF6 0%, #C5CAE9 100%);"><i class="fa-solid fa-dna" style="color: #3F51B5;"></i></span></td>
                         <td><span class="section-6-table-fach">Onkologie</span></td>
                         <td><span class="section-6-table-desc">Sensible Kommunikation strukturiert & einfühlsam organisieren.</span></td>
@@ -415,22 +415,22 @@
                         <td><span class="section-6-table-fach">Kardiologie</span></td>
                         <td><span class="section-6-table-desc">Patientenanfragen werden gebündelt, ohne das Team zu unterbrechen.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/neurologie/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/neurologie/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #E0F2F1 0%, #B2DFDB 100%);"><i class="fa-solid fa-brain" style="color: #00796B;"></i></span></td>
                         <td><span class="section-6-table-fach">Neurologie</span></td>
                         <td><span class="section-6-table-desc">Terminabsprachen & Befundbereitstellungen ohne ständige Telefonunterbrechungen.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/paediatrie/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/paediatrie/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #FFF9C4 0%, #FFF59D 100%);"><i class="fa-solid fa-baby" style="color: #F9A825;"></i></span></td>
                         <td><span class="section-6-table-fach">Pädiatrie</span></td>
                         <td><span class="section-6-table-desc">Elternanfragen eindeutig sortiert & schnell beantwortbar.</span></td>
                     </tr>
-                     <tr onclick="window.location.href='fachrichtungen/orthopaedie/';" style="cursor:pointer;">
+                      <tr onclick="window.location.href='fachrichtungen/orthopaedie/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #FBE9E7 0%, #FFCCBC 100%);"><i class="fa-solid fa-bone" style="color: #D84315;"></i></span></td>
                         <td><span class="section-6-table-fach">Orthopädie</span></td>
                         <td><span class="section-6-table-desc">Terminwünsche & Befundabrufe laufen sauber dokumentiert ein.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/zahnmedizin/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/zahnmedizin/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #E0F7FA 0%, #B2EBF2 100%);"><i class="fa-solid fa-tooth" style="color: #0097A7;"></i></span></td>
                         <td><span class="section-6-table-fach">Zahnmedizin</span></td>
                         <td><span class="section-6-table-desc">Weniger Telefonstress, mehr Ruhe am Empfang.</span></td>
@@ -440,7 +440,7 @@
                         <td><span class="section-6-table-fach">Dermatologie</span></td>
                         <td><span class="section-6-table-desc">Fotobefunde & Rückfragen klar gegliedert & nachvollziehbar.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/gynaekologie/';" style="cursor:pointer;">
+                   <tr onclick="window.location.href='fachrichtungen/gynaekologie/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 100%);"><i class="fa-solid fa-venus" style="color: #E91E63;"></i></span></td>
                         <td><span class="section-6-table-fach">Gynäkologie</span></td>
                         <td><span class="section-6-table-desc">Terminserien, Vorsorge & Befundabgaben ohne ständiges Nachtelefonieren.</span></td>
@@ -450,12 +450,12 @@
                         <td><span class="section-6-table-fach">MVZ & Kliniken</span></td>
                         <td><span class="section-6-table-desc">Für Teams & mehrere Standorte skalierbar.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/physio_reha/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/physio_reha/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%);"><i class="fa-solid fa-hands-holding" style="color: #0288D1;"></i></span></td>
                         <td><span class="section-6-table-fach">Physio & Reha</span></td>
                         <td><span class="section-6-table-desc">Mehr Zeit für Behandlung, weniger Zeit am Telefon.</span></td>
                     </tr>
-                    <tr onclick="window.location.href='fachrichtungen/psychotherapie/';" style="cursor:pointer;">
+                     <tr onclick="window.location.href='fachrichtungen/psychotherapie/';" style="cursor:pointer;">
                         <td><span class="section-6-table-icon" style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%);"><i class="fa-solid fa-head-side-virus" style="color: #8E24AA;"></i></span></td>
                         <td><span class="section-6-table-fach">Psychotherapie</span></td>
                         <td><span class="section-6-table-desc">Ruhe & Klarheit in der Termin- & Anfragekoordination.</span></td>

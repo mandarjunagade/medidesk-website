@@ -129,7 +129,7 @@
                                 </div>
                             </a>
 
-                            <a href="<?= $root; ?>fachrichtungen/mvz-kliniken" class="mega-menu-item">
+                            <a href="<?= $root; ?>fachrichtungen/mvz_kliniken" class="mega-menu-item">
                                 <div class="mega-item-icon">
                                     <i class="fa-solid fa-hospital-user"></i>
                                 </div>
@@ -138,7 +138,7 @@
                                 </div>
                             </a>
 
-                            <a href="<?= $root; ?>fachrichtungen/physio-reha" class="mega-menu-item">
+                            <a href="<?= $root; ?>fachrichtungen/physio_reha" class="mega-menu-item">
                                 <div class="mega-item-icon">
                                     <i class="fa-solid fa-hands-holding-circle"></i>
                                 </div>
@@ -156,7 +156,7 @@
                                 </div>
                             </a>
 
-                            <a href="<?= $root; ?>fachrichtungen/chirurgie-op" class="mega-menu-item">
+                            <a href="<?= $root; ?>fachrichtungen/chirurgische_opzentren" class="mega-menu-item">
                                 <div class="mega-item-icon">
                                     <i class="fa-solid fa-scissors"></i>
                                 </div>
