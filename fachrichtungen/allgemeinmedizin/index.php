@@ -530,7 +530,7 @@
             </p>
 
             <div class="final-cta-buttons">
-                <a href="#demo" class="btn-primary">
+                <a href="#kostenlos-testen" class="btn-primary">
                     <span>Kostenlose Demo ansehen</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
