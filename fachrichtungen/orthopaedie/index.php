@@ -784,7 +784,7 @@
         </div>
     </section>
 
-    <?php include 'includes/footer.php'; ?>
+    <?php include '../../includes/footer.php'; ?>
 
     <!-- FAQ Toggle Script -->
     <script>
@@ -803,5 +803,3 @@
             }
         }
     </script>
-</body>
-</html>
