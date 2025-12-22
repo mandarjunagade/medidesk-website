@@ -850,7 +850,7 @@
 
                         <div class="cta-buttons">
                             <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
-                            <a href="#demo" class="btn btn-secondary">Praxis-Demo für Kardiologen</a>
+                            <a href="#kostenlos-testen" class="btn btn-secondary">Praxis-Demo für Kardiologen</a>
                         </div>
                     </div>
                 </div>
@@ -1536,7 +1536,7 @@
             </p>
 
             <div class="final-cta-buttons">
-                <a href="#demo" class="btn-primary">
+                <a href="#kostenlos-testen" class="btn-primary">
                     <span>Kostenlose Demo für Kardiologen</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
@@ -1564,6 +1564,7 @@
     </section>
 
     <?php include '../../includes/footer.php'; ?>
+    <?php include '../../includes/testen-popup.php'; ?>
 
     <script>
         function toggleFaq(element) {

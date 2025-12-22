@@ -34,7 +34,7 @@
 
                         <div class="cta-buttons">
                             <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
-                            <a href="#demo" class="btn btn-secondary">Demo ansehen</a>
+                            <a href="#kostenlos-testen" class="btn btn-secondary">Demo ansehen</a>
                         </div>
                     </div>
                 </div>

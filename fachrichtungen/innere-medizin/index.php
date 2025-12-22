@@ -39,7 +39,7 @@
 
                         <div class="cta-buttons">
                             <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
-                            <a href="#demo" class="btn btn-secondary">Praxis-Demo für Internisten</a>
+                            <a href="#kostenlos-testen" class="btn btn-secondary">Praxis-Demo für Internisten</a>
                         </div>
                     </div>
                 </div>
@@ -739,7 +739,7 @@
             </p>
 
             <div class="final-cta-buttons">
-                <a href="#demo" class="btn-primary">
+                <a href="#kostenlos-testen" class="btn-primary">
                     <span>Kostenlose Demo für Internisten</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>

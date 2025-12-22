@@ -84,7 +84,7 @@
 
                         <div class="cta-buttons">
                             <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
-                            <a href="#demo" class="btn btn-secondary">Live-Demo für Zahnärzte</a>
+                            <a href="#kostenlos-testen" class="btn btn-secondary">Live-Demo für Zahnärzte</a>
                         </div>
                     </div>
                 </div>
@@ -733,6 +733,7 @@
     </section>
 
     <?php include '../../includes/footer.php'; ?>
+    <?php include '../../includes/testen-popup.php'; ?>
 
     <!-- FAQ Toggle Script -->
     <script>

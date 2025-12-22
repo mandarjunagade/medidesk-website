@@ -660,7 +660,7 @@
 
                         <div class="cta-buttons">
                             <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
-                            <a href="#demo" class="btn btn-secondary">Praxis-Demo für Onkologen</a>
+                            <a href="#kostenlos-testen" class="btn btn-secondary">Praxis-Demo für Onkologen</a>
                         </div>
                     </div>
                 </div>
@@ -1378,6 +1378,7 @@
     </section>
 
     <?php include '../../includes/footer.php'; ?>
+    <?php include '../../includes/testen-popup.php'; ?>
 
     <script>
         function toggleFaq(element) {

@@ -38,7 +38,7 @@
 
                         <div class="cta-buttons">
                             <a href="#kostenlos-testen" class="btn btn-primary">Kostenlos testen</a>
-                            <a href="#demo" class="btn btn-secondary">Praxis-Demo für Radiologen</a>
+                            <a href="#kostenlos-testen" class="btn btn-secondary">Praxis-Demo für Radiologen</a>
                         </div>
                     </div>
                 </div>
