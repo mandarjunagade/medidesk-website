@@ -174,6 +174,13 @@
                         Über uns
                     </a>
                 </li>
+
+                <!-- Blog -->
+                <li class="dropdown">
+                    <a href="<?= $root; ?>blog">
+                        Blogs
+                    </a>
+                </li>
             </ul>
             
             <a href="#kostenlos-testen" class="cta-button">Jetzt testen</a>

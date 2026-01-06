@@ -1,4 +1,5 @@
 <?php
+include '../includes/config.php';
 $page_title = "Blog: Digitalisierung in der Arztpraxis | MediDesk®";
 $page_description = "Fachwissen zur Digitalisierung in Arztpraxen: Online-Rezeption, Telefonentlastung, DSGVO-konforme Patientenkommunikation und mehr.";
 $page_keywords = "Arztpraxis Blog, Online-Rezeption, digitale Patientenkommunikation, Praxisdigitalisierung";
@@ -41,25 +42,23 @@ include '../includes/meta.php';
 
 <?php include '../includes/header.php'; ?>
 
-<!-- Breadcrumb -->
-<section style="background: #f8f9fa; padding: 15px 0;">
-    <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-0" style="font-size: 14px;">
-                <li class="breadcrumb-item"><a href="<?= $root; ?>">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Blog</li>
-            </ol>
-        </nav>
-    </div>
-</section>
-
 <!-- Page Header -->
-<section class="hero-section" style="padding: 60px 0 40px;">
+<section class="hero-section">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
-                <h1>Blog: <span class="highlight-text-bg">Digitalisierung in der Arztpraxis</span></h1>
+                <h1>Blog: <span class="highlight-text-bg">Digitalisierung</span> in der Arztpraxis</h1>
                 <p class="lead text-muted mt-3">Fachwissen zu Online-Rezeption, Telefonentlastung und digitaler Patientenkommunikation.</p>
+                
+                <!-- Breadcrumb - Centered - FIXED -->
+                <div class="mt-4">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0 justify-content-center" style="background: transparent;">
+                            <li class="breadcrumb-item"><a href="<?= $root; ?>">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                        </ol>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>

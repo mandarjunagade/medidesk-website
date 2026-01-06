@@ -996,168 +996,168 @@ include 'includes/meta.php';
     <!-- ============= Section 10 - Integrationen End ============= -->
 
     <!-- ============= PRICING SECTION ============= -->
-<section class="pricing-section">
-  <div class="container">
-    <div class="pricing-header">
-      <h2>Preisübersicht MediDesk</h2>
-      <p class="pricing-subline">Transparente Preise für jede Praxisgröße</p>
-    </div>
-
-    <!-- Arztpraxen Pricing -->
-    <div class="pricing-category">
-      <h3 class="pricing-category-title">
-        <i class="fas fa-user-md"></i>
-        Preise für Arztpraxen
-      </h3>
-      
-      <div class="pricing-grid">
-        <!-- Card 1 -->
-        <div class="pricing-card">
-          <div class="pricing-card-header">
-            <div class="pricing-icon">
-              <i class="fas fa-users"></i>
-            </div>
-            <h4 class="pricing-title">1-2 Ärzte</h4>
-          </div>
-          <div class="pricing-card-body">
-            <div class="pricing-amount">
-              <span class="price-number">119,00</span>
-              <span class="price-currency">€*</span>
-            </div>
-            <p class="pricing-period">pro Monat</p>
-          </div>
-          <div class="pricing-card-footer">
-            <a href="#contact" class="pricing-btn">Jetzt starten</a>
-          </div>
+    <section class="pricing-section">
+    <div class="container">
+        <div class="pricing-header">
+        <h2>Preisübersicht MediDesk</h2>
+        <p class="pricing-subline">Transparente Preise für jede Praxisgröße</p>
         </div>
 
-        <!-- Card 2 -->
-        <div class="pricing-card pricing-card-popular">
-          <div class="popular-badge">
-            <i class="fas fa-star"></i>
-            Beliebt
-          </div>
-          <div class="pricing-card-header">
-            <div class="pricing-icon">
-              <i class="fas fa-users"></i>
+        <!-- Arztpraxen Pricing -->
+        <div class="pricing-category">
+        <h3 class="pricing-category-title">
+            <i class="fas fa-user-md"></i>
+            Preise für Arztpraxen
+        </h3>
+        
+        <div class="pricing-grid">
+            <!-- Card 1 -->
+            <div class="pricing-card">
+            <div class="pricing-card-header">
+                <div class="pricing-icon">
+                <i class="fas fa-users"></i>
+                </div>
+                <h4 class="pricing-title">1-2 Ärzte</h4>
             </div>
-            <h4 class="pricing-title">3-4 Ärzte</h4>
-          </div>
-          <div class="pricing-card-body">
-            <div class="pricing-amount">
-              <span class="price-number">179,00</span>
-              <span class="price-currency">€*</span>
+            <div class="pricing-card-body">
+                <div class="pricing-amount">
+                <span class="price-number">119,00</span>
+                <span class="price-currency">€*</span>
+                </div>
+                <p class="pricing-period">pro Monat</p>
             </div>
-            <p class="pricing-period">pro Monat</p>
-          </div>
-          <div class="pricing-card-footer">
-            <a href="#contact" class="pricing-btn">Jetzt starten</a>
-          </div>
+            <div class="pricing-card-footer">
+                <a href="#contact" class="pricing-btn">Jetzt starten</a>
+            </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="pricing-card pricing-card-popular">
+            <div class="popular-badge">
+                <i class="fas fa-star"></i>
+                Beliebt
+            </div>
+            <div class="pricing-card-header">
+                <div class="pricing-icon">
+                <i class="fas fa-users"></i>
+                </div>
+                <h4 class="pricing-title">3-4 Ärzte</h4>
+            </div>
+            <div class="pricing-card-body">
+                <div class="pricing-amount">
+                <span class="price-number">179,00</span>
+                <span class="price-currency">€*</span>
+                </div>
+                <p class="pricing-period">pro Monat</p>
+            </div>
+            <div class="pricing-card-footer">
+                <a href="#contact" class="pricing-btn">Jetzt starten</a>
+            </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="pricing-card">
+            <div class="pricing-card-header">
+                <div class="pricing-icon">
+                <i class="fas fa-users"></i>
+                </div>
+                <h4 class="pricing-title">5-6 Ärzte</h4>
+            </div>
+            <div class="pricing-card-body">
+                <div class="pricing-amount">
+                <span class="price-number">298,00</span>
+                <span class="price-currency">€*</span>
+                </div>
+                <p class="pricing-period">pro Monat</p>
+            </div>
+            <div class="pricing-card-footer">
+                <a href="#contact" class="pricing-btn">Jetzt starten</a>
+            </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="pricing-card">
+            <div class="pricing-card-header">
+                <div class="pricing-icon">
+                <i class="fas fa-user-plus"></i>
+                </div>
+                <h4 class="pricing-title">&gt;6 Ärzte</h4>
+            </div>
+            <div class="pricing-card-body">
+                <div class="pricing-amount">
+                <span class="price-number">59,00</span>
+                <span class="price-currency">€*</span>
+                </div>
+                <p class="pricing-period">je weiteren Arzt</p>
+            </div>
+            <div class="pricing-card-footer">
+                <a href="#contact" class="pricing-btn">Jetzt starten</a>
+            </div>
+            </div>
+        </div>
         </div>
 
-        <!-- Card 3 -->
-        <div class="pricing-card">
-          <div class="pricing-card-header">
-            <div class="pricing-icon">
-              <i class="fas fa-users"></i>
-            </div>
-            <h4 class="pricing-title">5-6 Ärzte</h4>
-          </div>
-          <div class="pricing-card-body">
-            <div class="pricing-amount">
-              <span class="price-number">298,00</span>
-              <span class="price-currency">€*</span>
-            </div>
-            <p class="pricing-period">pro Monat</p>
-          </div>
-          <div class="pricing-card-footer">
-            <a href="#contact" class="pricing-btn">Jetzt starten</a>
-          </div>
+        <!-- Additional Info Box -->
+        <div class="pricing-info-box">
+        <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><strong>Zusätzlicher Standort:</strong> zzgl. 89,00€* pro Standort</p>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-hospital"></i>
+            <p><strong>Klinik & MVZ:</strong> Preise auf Anfrage</p>
+        </div>
         </div>
 
-        <!-- Card 4 -->
-        <div class="pricing-card">
-          <div class="pricing-card-header">
-            <div class="pricing-icon">
-              <i class="fas fa-user-plus"></i>
+        <!-- Physiotherapie Section -->
+        <div class="pricing-category pricing-physio">
+        <h3 class="pricing-category-title">
+            <i class="fas fa-hands"></i>
+            Preise für Physiotherapie Praxen
+        </h3>
+        
+        <div class="pricing-special-card">
+            <div class="special-card-content">
+            <div class="special-icon">
+                <i class="fas fa-spa"></i>
             </div>
-            <h4 class="pricing-title">&gt;6 Ärzte</h4>
-          </div>
-          <div class="pricing-card-body">
-            <div class="pricing-amount">
-              <span class="price-number">59,00</span>
-              <span class="price-currency">€*</span>
+            <div class="special-info">
+                <h4>Unabhängig von der Anzahl der Therapeuten</h4>
+                <p>Perfekt für Physiotherapie-Praxen jeder Größe</p>
             </div>
-            <p class="pricing-period">je weiteren Arzt</p>
-          </div>
-          <div class="pricing-card-footer">
-            <a href="#contact" class="pricing-btn">Jetzt starten</a>
-          </div>
+            <div class="special-price">
+                <span class="price-number">199,00</span>
+                <span class="price-currency">€*</span>
+                <span class="price-period">pro Monat</span>
+            </div>
+            </div>
+            <a href="#contact" class="pricing-btn-special">Jetzt starten</a>
         </div>
-      </div>
-    </div>
-
-    <!-- Additional Info Box -->
-    <div class="pricing-info-box">
-      <div class="info-item">
-        <i class="fas fa-map-marker-alt"></i>
-        <p><strong>Zusätzlicher Standort:</strong> zzgl. 89,00€* pro Standort</p>
-      </div>
-      <div class="info-item">
-        <i class="fas fa-hospital"></i>
-        <p><strong>Klinik & MVZ:</strong> Preise auf Anfrage</p>
-      </div>
-    </div>
-
-    <!-- Physiotherapie Section -->
-    <div class="pricing-category pricing-physio">
-      <h3 class="pricing-category-title">
-        <i class="fas fa-hands"></i>
-        Preise für Physiotherapie Praxen
-      </h3>
-      
-      <div class="pricing-special-card">
-        <div class="special-card-content">
-          <div class="special-icon">
-            <i class="fas fa-spa"></i>
-          </div>
-          <div class="special-info">
-            <h4>Unabhängig von der Anzahl der Therapeuten</h4>
-            <p>Perfekt für Physiotherapie-Praxen jeder Größe</p>
-          </div>
-          <div class="special-price">
-            <span class="price-number">199,00</span>
-            <span class="price-currency">€*</span>
-            <span class="price-period">pro Monat</span>
-          </div>
         </div>
-        <a href="#contact" class="pricing-btn-special">Jetzt starten</a>
-      </div>
-    </div>
 
-    <!-- Footer Notes -->
-    <div class="pricing-footer-notes">
-      <div class="note-item">
-        <i class="fas fa-tools"></i>
-        <p>Sonderwünsche der Praxen werden nach Aufwand abgerechnet.</p>
-      </div>
-    </div>
+        <!-- Footer Notes -->
+        <div class="pricing-footer-notes">
+        <div class="note-item">
+            <i class="fas fa-tools"></i>
+            <p>Sonderwünsche der Praxen werden nach Aufwand abgerechnet.</p>
+        </div>
+        </div>
 
-    <!-- VAT Notice -->
-    <div class="pricing-vat-notice">
-      <p><span class="asterisk">*</span> Alle genannten Preise verstehen sich zzgl. der jeweils gültigen Mehrwertsteuer.</p>
-    </div>
+        <!-- VAT Notice -->
+        <div class="pricing-vat-notice">
+        <p><span class="asterisk">*</span> Alle genannten Preise verstehen sich zzgl. der jeweils gültigen Mehrwertsteuer.</p>
+        </div>
 
-    <!-- CTA Button -->
-    <div class="pricing-cta">
-      <a href="#contact" class="btn btn-primary">
-        Kostenlose Beratung vereinbaren
-        <i class="fas fa-arrow-right"></i>
-      </a>
+        <!-- CTA Button -->
+        <div class="pricing-cta">
+        <a href="#contact" class="btn btn-primary">
+            Kostenlose Beratung vereinbaren
+            <i class="fas fa-arrow-right"></i>
+        </a>
+        </div>
     </div>
-  </div>
-</section>
-<!-- ============= PRICING SECTION END ============= -->
+    </section>
+    <!-- ============= PRICING SECTION END ============= -->
     
     <!-- ============= Faq's ============= -->
     <section class="section-faq">
@@ -1275,6 +1275,123 @@ include 'includes/meta.php';
         </div>
     </section>
     <!-- ============= Faq's End ============= -->
+
+    <!-- ============= BLOG SECTION FOR HOMEPAGE ============= -->
+    <section class="home-blog-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="home-blog-header">
+                <span class="home-blog-label">Aus unserem Blog</span>
+                <h2>Fachwissen zur <span class="highlight-text-bg">Digitalisierung</span> in der Arztpraxis</h2>
+                <p class="home-blog-subline">
+                    Praxistipps, Leitfäden und aktuelle Themen rund um Online-Rezeption, DSGVO und digitale Patientenkommunikation.
+                </p>
+            </div>
+
+            <!-- Featured Article -->
+            <div class="home-blog-featured">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-blog-featured-image">
+                            <img src="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/images/online-rezeption-arztpraxis-hero.jpg" 
+                                alt="Online-Rezeption für Arztpraxen - Der komplette Leitfaden"
+                                loading="lazy">
+                            <div class="home-blog-featured-badge">
+                                <i class="fa-solid fa-star"></i>
+                                Leitfaden
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="home-blog-featured-content">
+                            <div class="home-blog-meta">
+                                <span class="home-blog-meta-item">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Januar 2026
+                                </span>
+                                <span class="home-blog-meta-item">
+                                    <i class="fa-regular fa-clock"></i>
+                                    18 Min.
+                                </span>
+                            </div>
+                            <h3 class="home-blog-featured-title">
+                                <a href="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/">
+                                    Online-Rezeption für Arztpraxen: Der komplette Leitfaden 2026
+                                </a>
+                            </h3>
+                            <p class="home-blog-featured-excerpt">
+                                Definition, Anbieter-Vergleich (Doctolib, 321 MED, MediDesk, CGM), Kosten, DSGVO-Anforderungen und Implementierung – alles was Sie wissen müssen.
+                            </p>
+                            <a href="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/" class="home-blog-read-more">
+                                Jetzt lesen
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Articles Grid -->
+            <div class="home-blog-grid">
+                <!-- Article Card 1 -->
+                <div class="home-blog-card">
+                    <div class="home-blog-card-icon">
+                        <i class="fa-solid fa-phone-slash"></i>
+                    </div>
+                    <div class="home-blog-card-content">
+                        <span class="home-blog-card-category">Telefonentlastung</span>
+                        <h4 class="home-blog-card-title">
+                            <a href="#">Strategien gegen Telefonstress in der Praxis</a>
+                        </h4>
+                        <p class="home-blog-card-description">
+                            Wie MFA-Teams durch digitale Patientenanfragen entlastet werden können.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Article Card 2 -->
+                <div class="home-blog-card">
+                    <div class="home-blog-card-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="home-blog-card-content">
+                        <span class="home-blog-card-category">DSGVO & Datenschutz</span>
+                        <h4 class="home-blog-card-title">
+                            <a href="#">Rechtssichere Patientenkommunikation</a>
+                        </h4>
+                        <p class="home-blog-card-description">
+                            EU-Hosting, AVV-Anforderungen und DSGVO-konforme Umsetzung.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Article Card 3 -->
+                <div class="home-blog-card">
+                    <div class="home-blog-card-icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="home-blog-card-content">
+                        <span class="home-blog-card-category">KI in der Praxis</span>
+                        <h4 class="home-blog-card-title">
+                            <a href="#">KI-Telefonassistenten vs. Online-Rezeption</a>
+                        </h4>
+                        <p class="home-blog-card-description">
+                            Der wichtige Unterschied zwischen Anrufentgegennahme und Anrufprävention.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA to Blog -->
+            <div class="home-blog-cta">
+                <a href="<?= $root; ?>blog/" class="home-blog-cta-btn">
+                    Alle Artikel ansehen
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ============= BLOG SECTION END ============= -->
 
     <!-- ============= CTA Final ============= -->
     <section class="section-final-cta mt-5">
