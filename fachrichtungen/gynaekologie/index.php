@@ -1,36 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Gynäkologen & Frauenärzte - MediDesk® | Digitale Frauenarztpraxis</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Frauenärzte und Gynäkologen. Automatisches Vorsorge-Recall, Schwangerschaftsbetreuung strukturiert, diskrete Kommunikation. DSGVO-konform, in 48h startklar. Reduzieren Sie Telefonanrufe um 70%.">
-<meta name="keywords" content="Online-Rezeption Gynäkologie, Online-Terminbuchung Frauenarzt, digitale Frauenarztpraxis, Gynäkologie Praxisverwaltung, Schwangerschaftsbetreuung digital, Vorsorge-Recall Frauenarzt, Verhütungsberatung online, MediDesk Gynäkologie, Mammographie-Termin online">
-<link rel="canonical" href="<?= $root; ?>gynaekologie">
+<?php
+// SEO Configuration for Gynaekologie
+$page_title = "Online-Rezeption für Gynäkologen & Frauenärzte - MediDesk® | Digitale Frauenarztpraxis";
+$page_description = "Die digitale Online-Rezeption speziell für Frauenärzte und Gynäkologen. Automatisches Vorsorge-Recall, Schwangerschaftsbetreuung strukturiert, diskrete Kommunikation. DSGVO-konform.";
+$page_keywords = "Online-Rezeption Gynäkologie, Online-Terminbuchung Frauenarzt, digitale Frauenarztpraxis, Gynäkologie Praxisverwaltung, MediDesk Gynäkologie";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/gynaekologie/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for Gynecology -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Gynäkologie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "MediDesk® - Online-Rezeption für Gynäkologen",
-  "description": "Digitale Online-Rezeption speziell für Frauenärzte und Gynäkologen. Optimiert für Vorsorge-Recall, Schwangerschaftsbetreuung und diskrete Patientenkommunikation.",
-  "url": "<?= $root; ?>gynaekologie",
-  "medicalSpecialty": "Gynecology",
-  "serviceType": [
-    "Digitale Patientenkommunikation",
-    "Online-Terminverwaltung",
-    "Vorsorge-Recall-System",
-    "Schwangerschaftsbetreuung",
-    "Verhütungsberatung",
-    "Wechseljahre-Beratung",
-    "Krebsnachsorge-Koordination",
-    "Mammographie-Terminierung"
-  ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Gynäkologie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Frauenärzte und Gynäkologen. Vorsorge-Recall, Schwangerschaftsbetreuung, diskrete Kommunikation und Mammographie-Koordination.",
+  "url": "https://medideskr.cloud/fachrichtungen/gynaekologie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
   },
-  "availableLanguage": ["Deutsch", "English"]
+  "featureList": [
+    "Automatisches Vorsorge-Recall",
+    "Schwangerschaftsbetreuung digital",
+    "Diskrete Kommunikation",
+    "Mammographie-Terminierung",
+    "Verhütungsberatung",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for Gynäkologie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,21 +53,109 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie funktioniert das automatische Vorsorge-Recall-System?",
+      "name": "Wie hilft MediDesk® Frauenarztpraxen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MediDesk® erinnert Patientinnen automatisch an ihre jährliche Vorsorgeuntersuchung. Das System speichert, wann die letzte Vorsorge war. 11 Monate später erhält die Patientin eine diskrete Erinnerung per E-Mail: 'Ihre jährliche Vorsorge steht an – jetzt Termin buchen'. Sie kann direkt online buchen. Ihr Team sieht alle überfälligen Vorsorge-Patientinnen. Ergebnis: 88% höhere Vorsorge-Quote, frühere Krebserkennung, bessere Prävention."
+        "text": "MediDesk® reduziert den Telefonaufwand in Frauenarztpraxen um bis zu 75%. Patientinnen können Vorsorge-Termine online buchen, Schwangerschaftskontrollen koordinieren und diskret Anliegen mitteilen."
       }
     },
     {
       "@type": "Question",
-      "name": "Eignet sich MediDesk® für Schwangerschaftsbetreuung?",
+      "name": "Wie funktioniert das automatische Vorsorge-Recall-System?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, perfekt. Schwangere können ihre komplette Terminserie online buchen (z.B. 4-wöchentlich bis SSW 28, dann 2-wöchentlich). Das System berechnet automatisch optimale Termine basierend auf SSW. Terminserien reduzieren Koordinationsaufwand um 85%. Schwangere erhalten automatische Erinnerungen. Bei Risikoschwangerschaften können engmaschigere Intervalle eingestellt werden."
+        "text": "Patientinnen erhalten automatisch diskrete Erinnerungen 11 Monate nach der letzten Vorsorge. Sie können direkt online einen Termin buchen. Das Ergebnis: 88% höhere Vorsorge-Quote und frühere Krebserkennung."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die Schwangerschaftsbetreuung?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Schwangere können ihre komplette Terminserie online buchen. Das System berechnet automatisch optimale Termine basierend auf der Schwangerschaftswoche. Bei Risikoschwangerschaften sind engmaschigere Intervalle einstellbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist die Kommunikation diskret und vertraulich?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ermöglicht diskrete Kommunikation für sensible gynäkologische Anliegen. Patientinnen können Fragen schriftlich stellen, ohne am Telefon Details nennen zu müssen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Mammographie-Termine koordiniert werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das System koordiniert Mammographie-Termine und erinnert an das Screening-Programm. Befundbesprechungen können direkt im Anschluss terminiert werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die Verhütungsberatung?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patientinnen können online Verhütungsberatung anfragen. Das System erfasst Wünsche und Vorgeschichte, sodass das Beratungsgespräch optimal vorbereitet ist."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für sensible Frauengesundheitsdaten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit besonderem Schutz für sensible Gesundheitsdaten. EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung und maximale Diskretion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine Frauenarztpraxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Inkludiert sind Vorsorge-Recall, Schwangerschaftsbetreuung und diskrete Kommunikation. Eine kostenlose 30-Tage-Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Gynäkologie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die gynäkologiespezifische Konfiguration umfasst Vorsorge-Workflows, Schwangerschafts-Terminserien und diskrete Formulare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für größere gynäkologische Praxen geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große Frauenkliniken und MVZs. Multi-Standort-Management, KIS-Anbindung und Spezialisierungen wie Reproduktionsmedizin oder Senologie werden unterstützt."
       }
     }
   ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Gynäkologie",
+  "name": "MediDesk® für Gynäkologen",
+  "description": "Spezialisierte digitale Lösung für Frauenarztpraxen mit Vorsorge-Recall, Schwangerschaftsbetreuung und diskreter Kommunikation.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Gynäkologen, Frauenärzte, Frauenarztpraxen, Frauenkliniken, Reproduktionsmediziner"
+  }
 }
 </script>
 </head>

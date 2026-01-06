@@ -1,13 +1,163 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Onkologie - MediDesk® - Digitale Krebspraxis & Tumortherapie</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Onkologen und onkologische Praxen. Chemotherapie-Termine koordinieren, Nebenwirkungen erfassen, Tumorpatienten strukturiert betreuen, bis zu 65% weniger Telefonate. DSGVO-konform und klinikintegrierbar.">
-<meta name="keywords" content="Online-Rezeption Onkologie, digitale Praxisverwaltung Onkologe, Chemotherapie Terminplanung, Tumorpatienten Management, onkologische Ambulanz digital, Nebenwirkungsmanagement, Tumornachsorge digital, MediDesk Onkologie, Krebstherapie Organisation">
-<meta name="author" content="MediDesk - Digitale Lösungen für Onkologie">
-<meta property="og:title" content="Online-Rezeption für Onkologie | MediDesk®">
-<meta property="og:description" content="Spezialisierte digitale Lösung für Onkologen: Chemotherapie-Zyklen koordinieren, Nebenwirkungen erfassen, Tumorpatienten einfühlsam betreuen.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="<?= $root; ?>fachrichtungen/onkologie">
-<link rel="canonical" href="<?= $root; ?>fachrichtungen/onkologie">
+<?php
+// SEO Configuration for Onkologie
+$page_title = "Online-Rezeption für Onkologie - MediDesk® | Digitale Krebspraxis & Tumortherapie";
+$page_description = "Die digitale Online-Rezeption speziell für Onkologen und onkologische Praxen. Chemotherapie-Termine koordinieren, Nebenwirkungen erfassen, Tumorpatienten strukturiert betreuen, bis zu 65% weniger Telefonate. DSGVO-konform.";
+$page_keywords = "Online-Rezeption Onkologie, digitale Praxisverwaltung Onkologe, Chemotherapie Terminplanung, Tumorpatienten Management, onkologische Ambulanz digital, MediDesk Onkologie";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/onkologie/";
+$page_og_type = "website";
+
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Onkologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Onkologie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Onkologen und onkologische Praxen. CTCAE-basiertes Nebenwirkungsmanagement, Chemotherapie-Koordination, Tumornachsorge und psychoonkologische Unterstützung.",
+  "url": "https://medideskr.cloud/fachrichtungen/onkologie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "CTCAE-basierte Nebenwirkungserfassung",
+    "Chemotherapie-Zyklen koordinieren",
+    "Distress-Thermometer Integration",
+    "Tumornachsorge-Planung",
+    "Febrile Neutropenie Erkennung",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage for Onkologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hilft MediDesk® onkologischen Praxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® reduziert den Telefonaufwand in onkologischen Praxen um bis zu 65%. Krebspatienten können Nebenwirkungen CTCAE-basiert dokumentieren, Therapiefragen stellen und Supportivtherapie anfordern."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die CTCAE-basierte Nebenwirkungserfassung?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patienten wählen Nebenwirkungen aus und beantworten Fragen zur Schwere. Das System berechnet den CTCAE-Grad automatisch: Grad 1-2 wird als Routine behandelt, Grad 3-4 wird sofort als NOTFALL markiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Erkennt MediDesk® febrile Neutropenie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, bei Fieber über 38,5 Grad in Kombination mit Leukopenie wird automatisch höchste Priorität vergeben. Der Patient wird sofort einbestellt. Lebensbedrohliche Komplikationen werden nicht übersehen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann MediDesk® psychische Belastung bei Krebspatienten erkennen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das integrierte Distress-Thermometer erfasst regelmäßig die psychische Belastung auf einer Skala von 0-10. Bei Werten über 6 wird automatisch psychoonkologische Unterstützung angeboten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die Tumornachsorge-Planung?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das System hinterlegt Nachsorgepläne automatisch und erinnert Patienten an fällige Termine. Tumormarker-Kontrollen und Bildgebung werden koordiniert. Kein Patient fällt durchs Raster."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für Palliativpatienten geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, besonders gut. Palliativpatienten können Symptomlast digital dokumentieren. Das System koordiniert Schmerztherapie und SAPV. Advance Care Planning wird digital unterstützt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie sicher sind sensible Krebsdiagnosen geschützt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Höchste Sicherheitsstandards: Ende-zu-Ende-Verschlüsselung, EU-Hosting in Deutschland, KV-Zertifizierung, ISO 27001. Zwei-Faktor-Authentifizierung und Audit-Logs für jeden Zugriff."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine onkologische Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Inkludiert sind CTCAE-Nebenwirkungsmanagement, Distress-Screening und Tumornachsorge-Planung. Optional: Psychoonkologie-Modul."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Angehörige von Krebspatienten Zugang bekommen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, mit schriftlicher Patienteneinwilligung. Angehörige können Symptome melden, Termine koordinieren und Fragen stellen. Besonders sinnvoll bei älteren Patienten oder palliativen Situationen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Onkologie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die onkologiespezifische Konfiguration umfasst Therapieprotokolle, CTCAE-Kriterien und empathisch formulierte Formulare für Krebspatienten."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Onkologie",
+  "name": "MediDesk® für Onkologen",
+  "description": "Spezialisierte digitale Lösung für onkologische Praxen zur Patientenkommunikation, Nebenwirkungsmanagement und empathischer Krebspatientenbetreuung.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Onkologen, Onkologische Praxen, Hämatologie-Ambulanzen, Tumorzentren, Palliativmediziner"
+  }
+}
+</script>
 
 <style>
 /* ============= ONKOLOGIE PAGE RESPONSIVE FIXES ============= */

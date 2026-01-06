@@ -1,33 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Orthopädie & Unfallchirurgie - MediDesk® | Digitale Patientenverwaltung</title>
-<meta name="description" content="Die spezialisierte Online-Rezeption für orthopädische Praxen und Unfallchirurgie. Reduzieren Sie Telefonanrufe um 75%, optimieren Sie Bildgebung-Koordination und Post-OP-Nachsorge. DSGVO-konform, in 48h startklar.">
-<meta name="keywords" content="Online-Rezeption Orthopädie, digitale Praxisverwaltung Orthopädie, Orthopädie Terminverwaltung, digitale Rezeption Unfallchirurgie, MediDesk Orthopädie, Online-Terminbuchung Orthopäde, Bildgebung Koordination, OP-Nachsorge digital">
-<link rel="canonical" href="<?= $root; ?>orthopadie">
+<?php
+// SEO Configuration for Orthopaedie
+$page_title = "Online-Rezeption für Orthopädie & Unfallchirurgie - MediDesk® | Digitale Patientenverwaltung";
+$page_description = "Die spezialisierte Online-Rezeption für orthopädische Praxen und Unfallchirurgie. Reduzieren Sie Telefonanrufe um 75%, optimieren Sie Bildgebung-Koordination und Post-OP-Nachsorge. DSGVO-konform.";
+$page_keywords = "Online-Rezeption Orthopädie, digitale Praxisverwaltung Orthopädie, Orthopädie Terminverwaltung, MediDesk Orthopädie, Online-Terminbuchung Orthopäde";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/orthopaedie/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for Orthopedics -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Orthopädie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "MediDesk® - Online-Rezeption für Orthopädie",
-  "description": "Digitale Online-Rezeption speziell für orthopädische Praxen und Unfallchirurgie. Optimiert für Bildgebung-Koordination, OP-Nachsorge und Terminmanagement.",
-  "url": "<?= $root; ?>orthopadie",
-  "medicalSpecialty": "Orthopedics",
-  "serviceType": [
-    "Digitale Patientenkommunikation",
-    "Online-Terminverwaltung",
-    "Bildgebung-Koordination",
-    "OP-Nachsorge Management",
-    "Physiotherapie-Verordnungen"
-  ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Orthopädie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für orthopädische Praxen und Unfallchirurgie. Bildgebung-Koordination, Post-OP-Nachsorge, Physiotherapie-Verordnungen und Sportorthopädie.",
+  "url": "https://medideskr.cloud/fachrichtungen/orthopaedie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
   },
-  "availableLanguage": ["Deutsch", "English"]
+  "featureList": [
+    "Bildgebung-Koordination (MRT, CT, Röntgen)",
+    "Post-OP-Nachsorge Management",
+    "Physiotherapie-Verordnungen",
+    "Sportorthopädie-Anfragen",
+    "Schmerzmanagement digital",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for Orthopädie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -35,10 +53,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie hilft MediDesk® bei der Koordination von Bildgebung (Röntgen, MRT, CT)?",
+      "name": "Wie hilft MediDesk® orthopädischen Praxen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MediDesk® erfasst alle relevanten Informationen für Bildgebungs-Anfragen strukturiert: Art der Untersuchung, betroffene Körperregion, Verdachtsdiagnose, Dringlichkeit und Vorbefunde. Überweisungen werden automatisch dokumentiert, Termine bei Radiologiezentren können koordiniert werden. Nach der Untersuchung erinnert das System automatisch an die Befundbesprechung. Dies reduziert Koordinationsaufwand um durchschnittlich 60%."
+        "text": "MediDesk® reduziert den Telefonaufwand in orthopädischen Praxen um bis zu 75%. Patienten können Bildgebungstermine koordinieren, Post-OP-Verläufe dokumentieren und Physiotherapie-Verordnungen anfragen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die Bildgebung-Koordination für MRT und CT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® erfasst strukturiert: Art der Untersuchung, Körperregion, Verdachtsdiagnose und Dringlichkeit. Überweisungen werden automatisch dokumentiert und Befundbesprechungen terminiert. Der Koordinationsaufwand sinkt um 60%."
       }
     },
     {
@@ -46,10 +72,90 @@
       "name": "Eignet sich MediDesk® für die Post-OP-Nachsorge?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, speziell dafür optimiert. Patienten können strukturiert über ihren Heilungsverlauf berichten (Schmerzniveau, Beweglichkeit, Wundheilung), Nachsorgetermine vereinbaren und Fragen stellen. Ihr Team sieht auf einen Blick den Post-OP-Status und kann gezielt reagieren. Durchschnittlich 45% weniger Post-OP-Anrufe bei gleichzeitig besserer Dokumentation."
+        "text": "Ja, Patienten können strukturiert über den Heilungsverlauf berichten: Schmerzniveau, Beweglichkeit und Wundheilung. Nachsorgetermine werden koordiniert und bei Komplikationszeichen wird DRINGEND markiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Physiotherapie-Verordnungen digital angefragt werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, alle Angaben für Physiotherapie-Verordnungen werden strukturiert erfasst: Diagnose, Behandlungseinheiten, Folgeverordnung. Das Rezept kann vorbereitet abgeholt oder digital bereitgestellt werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für Sportorthopädie geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, speziell für Sportorthopädie optimiert mit Verletzungsdokumentation, Return-to-Sport-Protokollen und mehrsprachiger Unterstützung für internationale Sportler."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Schmerzpatienten ihre Beschwerden dokumentieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können Schmerzstärke (VAS-Skala), Lokalisation und Auslöser dokumentieren. Bei Red Flags wie nächtlichen Schmerzen oder neurologischen Ausfällen wird automatisch DRINGEND markiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für orthopädische Daten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung und KV-Zertifizierung. Bildgebungsbefunde werden sicher übertragen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine orthopädische Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Inkludiert sind Bildgebung-Koordination, Post-OP-Nachsorge und Physiotherapie-Management. Eine kostenlose 30-Tage-Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Orthopädie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die orthopädiespezifische Konfiguration umfasst Bildgebungsprotokolle, OP-Nachsorge-Workflows und Physiotherapie-Formulare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können auch größere orthopädische Kliniken MediDesk® nutzen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große orthopädische Kliniken und MVZs. Multi-Standort-Management, KIS-Anbindung und Spezialisierungen wie Endoprothetik oder Wirbelsäulenchirurgie werden unterstützt."
       }
     }
   ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Orthopädie",
+  "name": "MediDesk® für Orthopäden",
+  "description": "Spezialisierte digitale Lösung für orthopädische Praxen zur Bildgebung-Koordination, Post-OP-Nachsorge und Physiotherapie-Verordnungen.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Orthopäden, Unfallchirurgen, Orthopädische Kliniken, Sportorthopädie, Wirbelsäulenzentren"
+  }
 }
 </script>
 </head>

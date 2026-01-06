@@ -1,37 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Terminverwaltung für Chirurgische Praxen & OP-Zentren - Präoperative Aufklärung, OP-Termin, Nachsorge digital | MediDesk®</title>
-<meta name="description" content="Spezialisierte digitale Terminverwaltung für chirurgische Praxen, ambulante OP-Zentren und chirurgische Kliniken. OP-Termine koordinieren, präoperative Aufklärung digital, Nachsorge-Termine automatisch, ambulante & stationäre OPs verwalten. 80% weniger Koordinationsaufwand. DSGVO-konform.">
-<meta name="keywords" content="OP-Zentrum Terminverwaltung, Ambulante Operation online buchen, Präoperative Aufklärung digital, Nachsorge-Termine Chirurgie, Chirurgische Praxis Software, OP-Termin buchen online, MediDesk Chirurgie, OP-Koordination digital, Chirurgische Eingriffe Terminplanung, Allgemeinchirurgie Terminverwaltung, Viszeralchirurgie Software, Unfallchirurgie Terminkoordination">
-<link rel="canonical" href="<?= $root; ?>chirurgische-opzentren">
+<?php
+// SEO Configuration for Chirurgische & OP-Zentren
+$page_title = "Online-Terminverwaltung für Chirurgische Praxen & OP-Zentren - MediDesk® | Präoperative Aufklärung, OP-Termin, Nachsorge digital";
+$page_description = "Spezialisierte digitale Terminverwaltung für chirurgische Praxen und OP-Zentren. OP-Termine koordinieren, präoperative Aufklärung digital, Nachsorge-Termine automatisch. 80% weniger Koordinationsaufwand. DSGVO-konform.";
+$page_keywords = "OP-Zentrum Terminverwaltung, Ambulante Operation online, Chirurgische Praxis Software, OP-Termin buchen, MediDesk Chirurgie";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/chirurgische_opzentren/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for Chirurgische & OP-Zentren -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Chirurgische & OP-Zentren -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "MediDesk® - Online-Terminverwaltung für Chirurgische Praxen & OP-Zentren",
-  "description": "Spezialisierte digitale Terminverwaltung für chirurgische Praxen, ambulante OP-Zentren und chirurgische Kliniken. OP-Termine koordinieren, präoperative Aufklärung digital, Nachsorge-Termine automatisch, ambulante & stationäre OPs verwalten.",
-  "url": "<?= $root; ?>chirurgische-opzentren",
-  "medicalSpecialty": ["Surgery", "GeneralSurgery", "VisceralSurgery", "TraumaSurgery"],
-  "serviceType": [
-    "Online-Terminverwaltung Chirurgie",
-    "OP-Termine koordinieren digital",
-    "Präoperative Aufklärung online",
-    "Nachsorge-Termine automatisch",
-    "Ambulante OP-Verwaltung",
-    "Stationäre OP-Koordination",
-    "Chirurgische Sprechstunde online",
-    "OP-Vorbereitung digital",
-    "Wundkontrollen koordinieren"
-  ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Terminverwaltung für Chirurgische Praxen & OP-Zentren",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Terminverwaltung speziell für chirurgische Praxen und OP-Zentren. OP-Termine koordinieren, präoperative Aufklärung digital, Nachsorge automatisch.",
+  "url": "https://medideskr.cloud/fachrichtungen/chirurgische_opzentren/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
   },
-  "availableLanguage": ["Deutsch", "English"]
+  "featureList": [
+    "OP-Terminkoordination",
+    "Präoperative Aufklärung digital",
+    "Automatische Nachsorge-Termine",
+    "Ambulante & stationäre OPs",
+    "OP-Saal-Belegungsplanung",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for Chirurgische & OP-Zentren -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -39,10 +53,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie funktioniert digitale OP-Terminkoordination für chirurgische Praxen und OP-Zentren?",
+      "name": "Wie hilft MediDesk® chirurgischen Praxen und OP-Zentren?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Patienten können kompletten OP-Ablauf online koordinieren: (1) Erstgespräch/Sprechstunde buchen (Chirurg untersucht, erklärt Eingriff), (2) OP-Termin koordinieren (Patient wählt aus verfügbaren OP-Tagen, System berücksichtigt OP-Dauer, Narkose-Art, Nachsorge-Bedarf), (3) Präoperative Aufklärung digital (Aufklärungsbogen online lesen & unterschreiben, Anästhesie-Fragebogen ausfüllen, Labor-Werte hochladen), (4) OP-Vorbereitung automatisch (Checkliste: Nüchtern bleiben, Medikamente absetzen, Begleitperson organisieren - alles als Erinnerungen), (5) Nachsorge-Termine automatisch berechnet (Wundkontrollen nach 2, 7, 14 Tagen, Fadenzug nach 10-14 Tagen). System koordiniert: Chirurg-Verfügbarkeit, OP-Saal-Belegung, Anästhesisten-Verfügbarkeit, Nachsorge-Kapazität. Ergebnis: 80% weniger Koordinationsaufwand, keine vergessenen Nachsorge-Termine, optimale OP-Saal-Auslastung."
+        "text": "MediDesk® reduziert den Koordinationsaufwand um bis zu 80%. Der komplette OP-Ablauf wird digital koordiniert: Erstgespräch, OP-Termin, präoperative Aufklärung und automatische Nachsorge-Termine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die digitale OP-Terminkoordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patienten wählen aus verfügbaren OP-Tagen. Das System berücksichtigt OP-Dauer, Narkose-Art, Chirurg- und Anästhesisten-Verfügbarkeit sowie OP-Saal-Belegung. Nachsorge-Termine werden automatisch berechnet."
       }
     },
     {
@@ -50,38 +72,89 @@
       "name": "Können präoperative Aufklärung und Einverständniserklärungen digital erfolgen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, vollständig digital und rechtssicher. Patient erhält nach OP-Terminbuchung Zugang zu digitalem Aufklärungsbogen (erklärt Eingriff, Risiken, Alternativen, Heilungsverlauf). Kann in Ruhe zuhause lesen (nicht gehetzt vor OP). Unterschreibt digital (rechtsgültige elektronische Signatur). Anästhesie-Fragebogen online ausfüllen (Vorerkrankungen, Allergien, Medikamente, frühere Narkosen). Labor-Werte können hochgeladen werden (Blutbild, Gerinnungswerte, EKG). Chirurg sieht alle Unterlagen vor OP (gut vorbereitet). Bei Unklarheiten: automatische Rückfrage an Patient. Rechtliche Absicherung: Digitale Unterschrift ist rechtsgültig (eIDAS-Verordnung), dokumentiert wann gelesen & unterschrieben, kann bei Bedarf ausgedruckt werden. Ergebnis: 70% weniger Papier-Aufklärungsbögen, Patienten besser informiert (mehr Zeit zum Lesen), rechtssicher dokumentiert."
+        "text": "Ja, vollständig digital und rechtssicher. Patienten lesen den Aufklärungsbogen zu Hause in Ruhe und unterschreiben digital (eIDAS-konform). Anästhesie-Fragebogen und Labor-Werte können ebenfalls hochgeladen werden."
       }
     },
     {
       "@type": "Question",
-      "name": "Wie werden ambulante vs. stationäre Operationen unterschiedlich koordiniert?",
+      "name": "Wie werden ambulante und stationäre OPs unterschieden?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ambulante OPs (Patient geht am selben Tag nach Hause) und stationäre OPs (Patient bleibt 1-5 Tage) haben unterschiedliche Anforderungen. MediDesk unterscheidet: Ambulante OP: (1) OP-Termin meist vormittags (Patient braucht Begleitperson für Heimweg), (2) Aufwachphase 2-4 Stunden nach OP, (3) Nachsorge-Termin nach 2 Tagen (Wundkontrolle), (4) Patient muss Checkliste erfüllen (Begleitperson organisiert? 24h zu Hause bleiben? Kein Autofahren?). Stationäre OP: (1) OP-Termin flexibler (auch nachmittags), (2) Aufnahme-Tag vor OP (Voruntersuchungen), (3) Entlassung nach 1-5 Tagen (je nach Eingriff), (4) Nachsorge-Termine nach Entlassung. System koordiniert automatisch: Bei ambulanter OP wird Begleitperson-Pflicht geprüft, Aufwachzeit geblockt (OP-Saal 1h + Aufwachraum 3h = 4h gesamt), Nachsorge nach 2 Tagen. Bei stationärer OP: Betten-Verfügbarkeit prüfen, Aufnahme-Termin vor OP, Entlass-Termin nach OP. Ergebnis: Keine Verwechslungen (ambulant/stationär), optimale Kapazitäts-Nutzung, Patienten wissen genau, was auf sie zukommt."
+        "text": "Das System koordiniert automatisch: Bei ambulanten OPs werden Begleitperson-Pflicht geprüft und Aufwachzeiten geblockt. Bei stationären OPs werden Aufnahme- und Entlass-Termine koordiniert und Betten-Verfügbarkeit geprüft."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Werden Nachsorge-Termine automatisch geplant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Nachsorge-Termine werden automatisch berechnet: Wundkontrollen nach 2, 7 und 14 Tagen, Fadenzug nach 10-14 Tagen. Patienten erhalten Erinnerungen und können bei Bedarf verschieben."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die OP-Saal-Belegungsplanung?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das System plant OP-Saal-Belegung automatisch basierend auf OP-Dauer, Vor- und Nachbereitung. Parallele Nutzung mehrerer OP-Säle wird optimiert. Auslastung und Leerläufe werden visualisiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für Patientendaten vor OPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting in Deutschland. Digitale Unterschriften sind rechtsgültig (eIDAS-Verordnung). Alle Dokumente werden sicher gespeichert und sind jederzeit abrufbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für ein OP-Zentrum?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat. Für größere OP-Zentren mit mehreren Sälen und umfangreicher Integration gibt es individuelle Enterprise-Angebote. Eine kostenlose Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einem OP-Zentrum eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Grundeinrichtung dauert 48 Stunden. Für OP-Zentren mit komplexer OP-Saal-Planung und KIS-Anbindung planen wir 2-4 Wochen für die vollständige Integration mit Schulung."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Anästhesisten in MediDesk® integriert werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Anästhesisten haben eigene Zugänge. Sie sehen ihre OP-Termine, die ausgefüllten Anästhesie-Fragebögen und können präoperative Rückfragen stellen. Die Koordination mit Chirurgen funktioniert nahtlos."
       }
     }
   ]
 }
 </script>
 
-<!-- Additional Schema for Medical Procedures -->
+<!-- Schema.org Structured Data - Service -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "MediDesk Chirurgische Praxen & OP-Zentren",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web-based",
-  "offers": {
-    "@type": "Offer",
-    "price": "298.00",
-    "priceCurrency": "EUR"
+  "@type": "Service",
+  "serviceType": "Digitale Terminverwaltung für Chirurgische Praxen & OP-Zentren",
+  "name": "MediDesk® für Chirurgen und OP-Zentren",
+  "description": "Spezialisierte digitale Lösung für chirurgische Praxen und OP-Zentren mit OP-Terminkoordination, digitaler präoperativer Aufklärung und automatischer Nachsorge-Planung.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "ratingCount": "73"
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Chirurgen, Chirurgische Praxen, OP-Zentren, Ambulante Chirurgie, Chirurgische Kliniken"
   }
 }
 </script>

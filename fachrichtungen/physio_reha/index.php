@@ -1,36 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Terminverwaltung für Physiotherapie & Reha-Praxen - MediDesk® | Digitale Rezeptverwaltung Heilmittelverordnung</title>
-<meta name="description" content="Die spezialisierte Online-Terminverwaltung für Physiotherapie-Praxen und Reha-Einrichtungen. Heilmittelverordnung digital verwalten, Rezept-Upload für Patienten, automatische Terminserien (6x, 10x, 20x), Behandlungsplan-Koordination. 80% weniger Telefon-Stress. DSGVO-konform.">
-<meta name="keywords" content="Physiotherapie Online-Terminverwaltung, Reha Terminkoordination digital, Heilmittelverordnung online verwalten, Rezept einlösen Physiotherapie online, Terminserien Physiotherapie automatisch, MediDesk Physiotherapie, Physiotherapiepraxis Software, Reha-Einrichtung Terminverwaltung, Behandlungsplan digital, KG Rezept online">
-<link rel="canonical" href="<?= $root; ?>physiotherapie-reha">
+<?php
+// SEO Configuration for Physio & Reha
+$page_title = "Online-Terminverwaltung für Physiotherapie & Reha-Praxen - MediDesk® | Digitale Rezeptverwaltung";
+$page_description = "Die spezialisierte Online-Terminverwaltung für Physiotherapie-Praxen und Reha-Einrichtungen. Heilmittelverordnung digital verwalten, automatische Terminserien. 80% weniger Telefon-Stress. DSGVO-konform.";
+$page_keywords = "Physiotherapie Online-Terminverwaltung, Reha Terminkoordination digital, Heilmittelverordnung online, MediDesk Physiotherapie, Physiotherapiepraxis Software";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/physio_reha/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for Physiotherapie & Reha -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Physiotherapie & Reha -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "MediDesk® - Online-Terminverwaltung für Physiotherapie & Reha",
-  "description": "Spezialisierte digitale Terminverwaltung für Physiotherapie-Praxen und Reha-Einrichtungen. Heilmittelverordnung digital verwalten, Rezept-Upload, automatische Terminserien, Behandlungsplan-Koordination.",
-  "url": "<?= $root; ?>physiotherapie-reha",
-  "medicalSpecialty": ["PhysicalTherapy", "Rehabilitation"],
-  "serviceType": [
-    "Online-Terminverwaltung Physiotherapie",
-    "Heilmittelverordnung digital verwalten",
-    "Rezept-Upload für Patienten",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Terminverwaltung für Physiotherapie & Reha",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Terminverwaltung speziell für Physiotherapie-Praxen und Reha-Einrichtungen. Rezept-Upload, automatische Terminserien, Heilmittelverordnung verwalten.",
+  "url": "https://medideskr.cloud/fachrichtungen/physio_reha/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "Rezept-Upload per Smartphone",
     "Automatische Terminserien",
-    "Behandlungsplan-Koordination",
+    "Heilmittelverordnung verwalten",
     "Hausbesuch-Koordination",
     "Gerätetraining-Buchung",
-    "Reha-Terminmanagement"
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
   ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
-  },
-  "availableLanguage": ["Deutsch", "English"]
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for Physiotherapie & Reha -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,49 +53,108 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie funktioniert Rezept-Upload und digitale Heilmittelverordnung in der Physiotherapie?",
+      "name": "Wie hilft MediDesk® Physiotherapie-Praxen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Patienten können ihr Physiotherapie-Rezept (Heilmittelverordnung) direkt online hochladen – per Smartphone fotografieren oder als PDF. Das System erfasst automatisch: Verordnete Leistung (KG, MT, KMT, Lymphdrainage etc.), Anzahl Behandlungen (6x, 10x, 20x), Frequenz-Empfehlung (1-3x pro Woche), Diagnose, dringlicher Behandlungsbeginn (14 Tage), Hausbesuch ja/nein. Ihre Praxis sieht das Rezept sofort, prüft Gültigkeit (innerhalb 28 Tage nach Ausstellung), schlägt passende Termine vor. Terminserien werden automatisch berechnet. Ergebnis: 85% weniger telefonische Terminvereinbarungen, keine abgelaufenen Rezepte mehr, optimale Auslastung."
+        "text": "MediDesk® reduziert den Telefonaufwand in Physiotherapie-Praxen um bis zu 80%. Patienten laden ihr Rezept per Smartphone hoch, Terminserien werden automatisch berechnet und die Auslastung optimiert."
       }
     },
     {
       "@type": "Question",
-      "name": "Können Terminserien für Physiotherapie automatisch berechnet werden?",
+      "name": "Wie funktioniert der Rezept-Upload?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, absolut. Patient hat Rezept für 10x Krankengymnastik, 2x pro Woche. System berechnet automatisch 10 Termine über 5 Wochen, immer montags und donnerstags. Patient sieht Vorschlag, kann bestätigen oder einzelne Termine anpassen. Bei Verschiebung eines Termins wird die Serie automatisch neu berechnet. Funktioniert für alle gängigen Serien: 6x, 10x, 20x Behandlungen. Auch komplexe Serien (z.B. erst 3x KG, dann 6x MT) möglich. Frequenz-Empfehlung vom Rezept wird berücksichtigt. Dringlicher Behandlungsbeginn (14-Tage-Frist) wird markiert. Ergebnis: 90% weniger Koordinationsaufwand für Terminserien, Patienten erscheinen regelmäßiger, bessere Therapie-Erfolge."
+        "text": "Patienten fotografieren ihr Physiotherapie-Rezept per Smartphone oder laden es als PDF hoch. Das System erfasst automatisch: Leistung, Anzahl, Frequenz, Diagnose und ob ein dringlicher Behandlungsbeginn nötig ist."
       }
     },
     {
       "@type": "Question",
-      "name": "Wie werden verschiedene Therapieformen in der Physiotherapie verwaltet?",
+      "name": "Können Terminserien automatisch berechnet werden?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MediDesk unterstützt alle gängigen Therapieformen: Krankengymnastik (KG), Manuelle Therapie (MT), Klassische Massagetherapie (KMT), Lymphdrainage (MLD), Elektrotherapie, Wärmetherapie, Kältetherapie, Gerätetraining (KGG), Hausbesuche. Jede Therapieform hat eigene Zeitfenster (KG 20 Min, MT 30 Min, Lymphdrainage 45-60 Min). Kombinationen möglich (KG + Wärme). Therapeuten-Qualifikation wird berücksichtigt (MT nur von zertifizierten Therapeuten). Raumplanung automatisch (Gerätetraining nur im Geräteraum). Hausbesuch-Routen können optimiert werden. Patienten wählen bei Buchung Therapieform aus, System schlägt passende Termine und Therapeuten vor."
+        "text": "Ja, bei einem Rezept für 10x Krankengymnastik, 2x pro Woche, berechnet das System automatisch 10 Termine über 5 Wochen. Bei Verschiebung wird die Serie automatisch angepasst. 90% weniger Koordinationsaufwand."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die 28-Tage-Frist für Rezepte?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das System warnt automatisch, wenn ein Rezept kurz vor dem Ablauf steht. So werden keine Rezepte mehr ungültig. Die 14-Tage-Frist für dringlichen Behandlungsbeginn wird ebenfalls markiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Hausbesuche koordiniert werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Hausbesuch-Termine werden separat gekennzeichnet. Das System berechnet Routen und gruppiert Hausbesuche in geografischer Nähe. So werden Fahrzeiten minimiert und mehr Patienten versorgt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für Gerätetraining und Reha geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Gerätetraining-Slots können online gebucht werden. Das System verwaltet Geräte-Kapazitäten und verhindert Überbuchungen. Ideal für medizinische Trainingstherapie (MTT) und Reha-Einrichtungen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für Physiotherapie-Daten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung und sicherer Rezept-Übertragung. Alle Gesundheitsdaten sind maximal geschützt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine Physiotherapie-Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat. Inkludiert sind Rezept-Upload, automatische Terminserien und Hausbesuch-Koordination. Eine kostenlose 30-Tage-Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Physiotherapie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die physiotherapiespezifische Konfiguration umfasst Rezept-Workflows, Terminserien-Berechnung und Behandlungsarten-Katalog."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für größere Physiotherapie-Zentren geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große Physiotherapie-Zentren und Reha-Kliniken. Multi-Standort-Management, Therapeuten-Zuweisung und Geräte-Verwaltung werden unterstützt."
       }
     }
   ]
 }
 </script>
 
-<!-- Additional Schema for Local SEO -->
+<!-- Schema.org Structured Data - Service -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "MediDesk Physiotherapie & Reha",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web-based",
-  "offers": {
-    "@type": "Offer",
-    "price": "119.00",
-    "priceCurrency": "EUR"
+  "@type": "Service",
+  "serviceType": "Digitale Terminverwaltung für Physiotherapie & Reha",
+  "name": "MediDesk® für Physiotherapeuten",
+  "description": "Spezialisierte digitale Lösung für Physiotherapie-Praxen und Reha-Einrichtungen mit Rezept-Upload, automatischen Terminserien und Hausbesuch-Koordination.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "ratingCount": "127"
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Physiotherapeuten, Physiotherapie-Praxen, Reha-Einrichtungen, Therapiezentren, Ergotherapeuten"
   }
 }
 </script>

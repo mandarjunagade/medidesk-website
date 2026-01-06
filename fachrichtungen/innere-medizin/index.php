@@ -1,13 +1,164 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Innere Medizin - MediDesk® | Digitale Internisten-Praxis</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Internisten und Fachärzte für Innere Medizin. Chronische Erkrankungen besser managen, Befunde strukturiert verwalten, bis zu 65% weniger Telefonate. DSGVO-konform und in 48h einsatzbereit.">
-<meta name="keywords" content="Online-Rezeption Innere Medizin, digitale Praxisverwaltung Internist, Online-Terminbuchung Innere Medizin, Befundmanagement Internist, Chronische Erkrankungen Management, digitale Patientenkommunikation Innere Medizin, MediDesk Internist, Kardiologie Online-Rezeption, Gastroenterologie digitale Praxis, Endokrinologie Praxissoftware">
-<meta name="author" content="MediDesk - Digitale Lösungen für Innere Medizin">
-<meta property="og:title" content="Online-Rezeption für Innere Medizin - MediDesk®">
-<meta property="og:description" content="Spezialisierte digitale Lösung für Internisten: Chronische Erkrankungen besser managen, komplexe Patientenfälle strukturiert bearbeiten, Befunde digital verwalten.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="<?= $root; ?>fachrichtungen/innere-medizin">
-<link rel="canonical" href="<?= $root; ?>fachrichtungen/innere-medizin">
+<?php
+// SEO Configuration for Innere Medizin
+$page_title = "Online-Rezeption für Innere Medizin - MediDesk® | Digitale Internisten-Praxis";
+$page_description = "Die digitale Online-Rezeption speziell für Internisten und Fachärzte für Innere Medizin. Chronische Erkrankungen besser managen, Befunde strukturiert verwalten, bis zu 65% weniger Telefonate. DSGVO-konform.";
+$page_keywords = "Online-Rezeption Innere Medizin, digitale Praxisverwaltung Internist, Online-Terminbuchung Innere Medizin, Befundmanagement Internist, Chronische Erkrankungen Management, digitale Patientenkommunikation Innere Medizin, MediDesk Internist";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/innere-medizin/";
+$page_og_type = "website";
+
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Innere Medizin -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Innere Medizin",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption für Internisten. Chronische Erkrankungen verwalten, Befunde strukturiert bereitstellen, komplexe Patientenfälle koordinieren.",
+  "url": "https://medideskr.cloud/fachrichtungen/innere-medizin/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "Chronische Erkrankungen Management",
+    "Befundabfragen strukturiert",
+    "Kontrolltermine koordinieren",
+    "Laborwerte-Anfragen",
+    "Rezeptanfragen online",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage for Innere Medizin -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hilft MediDesk® internistischen Praxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® reduziert den Telefonaufwand in internistischen Praxen um bis zu 65%. Patienten mit chronischen Erkrankungen können Kontrolltermine, Befundanfragen und Rezeptverlängerungen strukturiert online stellen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Patienten mit chronischen Erkrankungen ihre Anfragen online stellen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist ideal für Patienten mit Diabetes, Bluthochdruck, Herzinsuffizienz und anderen chronischen Erkrankungen. Sie können Kontrolltermine anfragen, Laborwerte abfragen und Medikamente nachbestellen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die Befundabfrage bei Internisten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patienten können über MediDesk® anfragen, ob Laborergebnisse, Ultraschallbefunde oder andere Untersuchungsergebnisse vorliegen. Das Praxisteam kann strukturiert antworten und ggf. einen Besprechungstermin anbieten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die Koordination von Kontrolluntersuchungen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können über MediDesk® strukturiert Kontrolltermine für ihre chronischen Erkrankungen anfragen. Das erleichtert dem Team die Planung und reduziert Telefonunterbrechungen erheblich."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Medikamente für Dauertherapien online nachbestellt werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können Rezepte für ihre Dauermedikation strukturiert über MediDesk® anfragen. Die Anfrage enthält alle relevanten Informationen und das Team kann das Rezept in Ruhe vorbereiten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für internistische Schwerpunktpraxen geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® kann für verschiedene internistische Schwerpunkte wie Kardiologie, Gastroenterologie oder Endokrinologie angepasst werden. Die Formulare werden auf Ihre spezifischen Anforderungen zugeschnitten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Internisten-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Ein einfaches Code-Snippet wird auf Ihrer Website eingebunden - ohne IT-Aufwand und ohne Änderungen an bestehenden Systemen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für sensible Patientendaten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting und verschlüsselter Datenübertragung. Ein AVV (Auftragsverarbeitungsvertrag) ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine internistische Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Für größere Praxen und MVZ gibt es angepasste Tarife. Eine kostenlose Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann MediDesk® mit meinem Praxisverwaltungssystem arbeiten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® arbeitet unabhängig von Ihrem PVS. Es entlastet den Empfang bei der Patientenkommunikation, während Ihre bestehenden Systeme unverändert weiterlaufen."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Innere Medizin",
+  "name": "MediDesk® für Internisten",
+  "description": "Spezialisierte digitale Lösung für internistische Praxen zur Patientenkommunikation und Koordination chronischer Erkrankungen.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Internisten, Fachärzte für Innere Medizin"
+  }
+}
+</script>
+
 </head>
 
 <body>

@@ -1,8 +1,164 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Allgemeinmedizin - MediDesk® | Digitale Patientenkommunikation</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Allgemeinmediziner. Reduzieren Sie Telefonanrufe um bis zu 70% und gewinnen Sie mehr Zeit für Ihre Patienten. DSGVO-konform und in 48h einsatzbereit.">
-<meta name="keywords" content="Online-Rezeption Allgemeinmedizin, digitale Praxisverwaltung Hausarzt, Online-Terminbuchung Allgemeinmedizin, digitale Patientenkommunikation, MediDesk Allgemeinmedizin">
-<link rel="canonical" href="<?= $root; ?>allgemeinmedizin">
+<?php
+// SEO Configuration for Allgemeinmedizin
+$page_title = "Online-Rezeption für Allgemeinmedizin - MediDesk® | Digitale Patientenkommunikation";
+$page_description = "Die digitale Online-Rezeption speziell für Allgemeinmediziner. Reduzieren Sie Telefonanrufe um bis zu 70% und gewinnen Sie mehr Zeit für Ihre Patienten. DSGVO-konform und in 48h einsatzbereit.";
+$page_keywords = "Online-Rezeption Allgemeinmedizin, digitale Praxisverwaltung Hausarzt, Online-Terminbuchung Allgemeinmedizin, digitale Patientenkommunikation, MediDesk Allgemeinmedizin, Hausarztpraxis Software, Telefonentlastung Hausarzt";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/allgemeinmedizin/";
+$page_og_type = "website";
+
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Allgemeinmedizin -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Allgemeinmedizin",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption für Allgemeinmediziner und Hausarztpraxen. Strukturierte Patientenanfragen, Terminbuchungen, AU-Anfragen und Rezeptanfragen online.",
+  "url": "https://medideskr.cloud/fachrichtungen/allgemeinmedizin/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "Online-Terminbuchung",
+    "AU-Anfragen digital",
+    "Rezeptanfragen online",
+    "Befundabfragen strukturiert",
+    "Überweisungsanfragen",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage for Allgemeinmedizin -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hilft MediDesk® Hausarztpraxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® reduziert Telefonanrufe um bis zu 70% indem Patienten Termine, AU-Anfragen, Rezeptanfragen und Befundabfragen online stellen können. Das Team bearbeitet alles strukturiert und in Ruhe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Welche Anfragen können Patienten in einer Hausarztpraxis online stellen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Termine buchen, verschieben oder absagen, AU-Bescheinigungen anfragen, Rezepte bestellen, Befunde anfordern, Überweisungen anfragen, Impfberatung und allgemeine Fragen stellen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Patienten AU-Bescheinigungen online anfragen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können über MediDesk® strukturiert eine Arbeitsunfähigkeitsbescheinigung anfragen. Die Anfrage enthält alle relevanten Informationen und das Praxisteam kann in Ruhe entscheiden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die Online-Rezeptanfrage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patienten geben über das MediDesk®-Widget an, welches Medikament sie benötigen. Die Anfrage kommt strukturiert beim Praxisteam an, das dann das Rezept ausstellen und zur Abholung bereitstellen kann."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für Hausärzte mit vielen älteren Patienten geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist bewusst einfach gestaltet. Patienten werden Schritt für Schritt durch die Anfrage geführt. Und wer lieber anruft, kann das weiterhin tun - MediDesk® entlastet den Empfang für alle anderen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell ist MediDesk® in einer Hausarztpraxis einsatzbereit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden startklar. Ein einfaches Code-Snippet wird auf Ihrer Praxis-Website eingebunden - ohne IT-Aufwand und ohne Änderungen an Ihrem Praxisverwaltungssystem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können auch Überweisungen online angefragt werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können strukturiert Überweisungen zu Fachärzten anfragen. Sie geben an, zu welchem Facharzt sie überwiesen werden möchten, und das Praxisteam bereitet die Überweisung vor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform. Alle Daten werden ausschließlich auf EU-Servern gespeichert, die Übertragung ist verschlüsselt und ein AVV (Auftragsverarbeitungsvertrag) ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine Hausarztpraxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für Praxen mit 1-2 Ärzten. Für 3-4 Ärzte sind es 179 EUR. Eine kostenlose Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann MediDesk® mit meinem bestehenden Praxisverwaltungssystem arbeiten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® arbeitet unabhängig von Ihrem PVS und erfordert keine Integration. Es entlastet den Empfang bei der Patientenkommunikation, während Ihr bestehendes System unverändert weiterläuft."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Allgemeinmedizin",
+  "name": "MediDesk® für Hausärzte",
+  "description": "Spezialisierte digitale Lösung für Hausarztpraxen zur Patientenkommunikation und Terminverwaltung.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Allgemeinmediziner, Hausärzte, Hausarztpraxen"
+  }
+}
+</script>
+
 </head>
 
 <body>
@@ -42,7 +198,7 @@
                 <div class="col-md-5">
                     <div class="hero-image">
                         <div class="phone-mockup">
-                            <img src="<?= $root; ?>assets/img/hero-mobile.png" alt="MediDesk Online-Rezeption für Allgemeinmedizin">
+                            <img src="<?= $root; ?>assets/img/hero-mobile.png" alt="MediDesk Online-Rezeption für Allgemeinmedizin - Digitale Patientenkommunikation Hausarzt" loading="lazy" width="400" height="800">
                         </div>
                     </div>
                 </div>

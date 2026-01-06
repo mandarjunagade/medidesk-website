@@ -1,5 +1,181 @@
-<?php include 'includes/meta.php'; ?>
-<title>Die digitale Online-Rezeption für Praxen, Kliniken & Therapiepraxen | <?= $brandname; ?></title>
+<?php
+// Homepage SEO Configuration
+$page_title = "Die digitale Online-Rezeption für Praxen, Kliniken & Therapiepraxen | MediDesk®";
+$page_description = "MediDesk® - Die digitale Online-Rezeption für Arztpraxen, Kliniken & Therapiepraxen. Reduzieren Sie Telefonanrufe um bis zu 70%, strukturierte Patientenanfragen online. DSGVO-konform, in 48h einsatzbereit.";
+$page_keywords = "Online-Rezeption, digitale Patientenkommunikation, Arztpraxis Software, Terminbuchung online, AU-Anfrage digital, Rezeptanfrage online, DSGVO konform, Praxissoftware, MediDesk, Patientenanfragen online, Telefonentlastung Arztpraxis";
+$page_canonical = "https://medideskr.cloud/";
+$page_og_type = "website";
+
+include 'includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MediDesk®",
+  "alternateName": "Unicorn Medical Services K. Narten e.K.",
+  "url": "https://medideskr.cloud/",
+  "logo": "https://medideskr.cloud/assets/img/logo.png",
+  "description": "Die digitale Online-Rezeption für Arztpraxen, Kliniken & Therapiepraxen. Strukturierte Patientenanfragen statt Telefonchaos.",
+  "email": "info@medideskr.cloud",
+  "telephone": "+49-172-4056551",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hambergsfeld 8",
+    "addressLocality": "Westergellersen",
+    "postalCode": "21394",
+    "addressCountry": "DE"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "sameAs": []
+}
+</script>
+
+<!-- Schema.org Structured Data - WebApplication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk®",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock"
+  },
+  "description": "Digitale Online-Rezeption für Arztpraxen, Kliniken und Therapiepraxen. Ermöglicht strukturierte Patientenanfragen online.",
+  "featureList": [
+    "Digitale Terminbuchung",
+    "AU-Anfragen online",
+    "Rezeptanfragen digital",
+    "Befundanfragen strukturiert",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "Deutsch und Englisch",
+    "48h Einrichtungszeit"
+  ],
+  "screenshot": "https://medideskr.cloud/assets/img/hero-mobile.png",
+  "softwareVersion": "1.0",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "50",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® ein Callcenter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. MediDesk® ist kein Telefonservice. Patient:innen stellen online strukturierte Anfragen; Ihr Team bearbeitet sie in Ruhe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell sind wir mit MediDesk® startklar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In der Regel innerhalb von 48 Stunden – ohne IT-Aufwand."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funktioniert MediDesk® auf jeder Website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja. Ein kurzer Code-Snippet reicht. WordPress, HTML/CSS, PHP, Wix, oder eigene Seite – alles möglich."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gibt es MediDesk® auf Deutsch und Englisch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, der Chat und die Formulare sind DE/EN verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist DSGVO-konform mit EU-Hosting, verschlüsselter Übertragung und AVV auf Wunsch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können wir unsere eigenen Praxisabläufe in MediDesk® abbilden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja. Formulare und Regeln werden an Ihre individuellen Praxisabläufe angepasst."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - WebSite with SearchAction -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MediDesk®",
+  "url": "https://medideskr.cloud/",
+  "description": "Die digitale Online-Rezeption für Praxen, Kliniken & Therapiepraxen",
+  "publisher": {
+    "@type": "Organization",
+    "name": "MediDesk®"
+  },
+  "inLanguage": ["de", "en"]
+}
+</script>
+
+<!-- Schema.org Structured Data - LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "MediDesk® - Unicorn Medical Services",
+  "image": "https://medideskr.cloud/assets/img/logo.png",
+  "telephone": "+49-172-4056551",
+  "email": "info@medideskr.cloud",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hambergsfeld 8",
+    "addressLocality": "Westergellersen",
+    "postalCode": "21394",
+    "addressCountry": "DE"
+  },
+  "priceRange": "€€",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }
+}
+</script>
+
 </head>
 
 <body>
@@ -52,7 +228,7 @@
             <div class="col-md-5">
               <div class="hero-image">
                   <div class="phone-mockup">
-                    <img src="<?= $root; ?>assets/img/hero-mobile.png" alt="MediDesk Digital Rezeption App">
+                    <img src="<?= $root; ?>assets/img/hero-mobile.png" alt="MediDesk Digital Rezeption App - Online-Rezeption für Arztpraxen" loading="lazy" width="400" height="800">
                   </div>
               </div>
             </div>

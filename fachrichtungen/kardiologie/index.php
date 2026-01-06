@@ -1,14 +1,163 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Kardiologie - MediDesk® - Digitale Herzpraxis & Kardiovaskuläre Medizin</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Kardiologen und kardiologische Praxen. Herzinsuffizienz-Monitoring, Rhythmusstörungen koordinieren, Schrittmacher-Kontrollen planen, bis zu 60% weniger Telefonate. DSGVO-konform und klinikerprobt.">
-<meta name="keywords" content="Online-Rezeption Kardiologie, digitale Praxisverwaltung Kardiologe, Herzinsuffizienz Management, Rhythmusstörungen digital, kardiologische Ambulanz digital, Antikoagulation Management, Schrittmacher Nachsorge digital, MediDesk Kardiologie, Herzmedizin Organisation">
-<meta name="author" content="MediDesk - Digitale Lösungen für Kardiologie">
-<meta property="og:title" content="Online-Rezeption für Kardiologie - MediDesk®">
-<meta property="og:description" content="Spezialisierte digitale Lösung für Kardiologen: Herzpatienten strukturiert betreuen, Notfälle schnell erkennen, Device-Kontrollen koordinieren.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="<?= $root; ?>fachrichtungen/kardiologie">
-<link rel="canonical" href="<?= $root; ?>fachrichtungen/kardiologie">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<?php
+// SEO Configuration for Kardiologie
+$page_title = "Online-Rezeption für Kardiologie - MediDesk® | Digitale Herzpraxis & Kardiovaskuläre Medizin";
+$page_description = "Die digitale Online-Rezeption speziell für Kardiologen und kardiologische Praxen. Herzinsuffizienz-Monitoring, Rhythmusstörungen koordinieren, Schrittmacher-Kontrollen planen, bis zu 60% weniger Telefonate. DSGVO-konform.";
+$page_keywords = "Online-Rezeption Kardiologie, digitale Praxisverwaltung Kardiologe, Herzinsuffizienz Management, Rhythmusstörungen digital, kardiologische Ambulanz digital, MediDesk Kardiologie, Herzmedizin Organisation";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/kardiologie/";
+$page_og_type = "website";
+
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Kardiologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Kardiologie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Kardiologen und kardiologische Praxen. Herzinsuffizienz-Monitoring, Rhythmusstörungen koordinieren, Schrittmacher-Kontrollen planen, Notfall-Triage für ACS.",
+  "url": "https://medideskr.cloud/fachrichtungen/kardiologie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "ACS-Notfall-Erkennung",
+    "Herzinsuffizienz-Monitoring",
+    "INR-Management digital",
+    "Device-Kontrollen planen",
+    "Rhythmusstörungen dokumentieren",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage for Kardiologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hilft MediDesk® kardiologischen Praxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® reduziert den Telefonaufwand in kardiologischen Praxen um bis zu 60%. Herzpatienten können Symptome strukturiert online melden, Herzinsuffizienz-Werte dokumentieren und Termine für Device-Kontrollen anfragen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die ACS-Notfall-Erkennung bei MediDesk®?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei Thoraxschmerz fragt das System automatisch nach Schmerzcharakter, Dauer und Ausstrahlung. Retrosternaler Schmerz über 20 Minuten wird sofort als NOTFALL markiert, sodass keine Herzinfarkte übersehen werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann MediDesk® Herzinsuffizienz-Patienten überwachen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Herzinsuffizienz-Patienten können täglich Gewicht, Ödeme und Belastbarkeit dokumentieren. Bei Gewichtszunahme über 2kg in 3 Tagen wird automatisch eine Warnung ausgelöst, sodass Dekompensationen 5-7 Tage früher erkannt werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® das INR-Management für Marcumar-Patienten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, INR-Werte können digital erfasst werden. Das System zeigt den Zielbereich an und gibt automatische Dosisempfehlungen. Bei INR über 4,0 wird eine Blutungswarnung ausgegeben."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Schrittmacher- und ICD-Kontrollen geplant werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® erstellt automatisch Kontrollzeitpläne für Schrittmacher, ICD und CRT. Patienten erhalten Erinnerungen und können Kontrolltermine online anfragen. Batteriestand und EOL werden überwacht."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für kardiologische Patientendaten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung und KV-Zertifizierung. Ein AVV ist auf Wunsch verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Kardiologie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die kardiologiespezifische Konfiguration umfasst Notfall-Kriterien, Herzinsuffizienz-Protokolle und Device-Typen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine kardiologische Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Inkludiert sind ACS-Erkennung, Herzinsuffizienz-Monitoring, INR-Management und Device-Planung. Eine kostenlose Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann MediDesk® Vorhofflimmern dokumentieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können ein digitales Symptomtagebuch für Vorhofflimmern führen. Der CHA2DS2-VASc-Score wird automatisch berechnet und Antikoagulationsempfehlungen werden gegeben."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für kardiologische Ambulanzen und Kliniken geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große kardiologische Ambulanzen und Herzzentren. Multi-Standort-Management, KIS-Anbindung und Device-Fernmonitoring-Integration sind verfügbar."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Kardiologie",
+  "name": "MediDesk® für Kardiologen",
+  "description": "Spezialisierte digitale Lösung für kardiologische Praxen zur Patientenkommunikation, Herzinsuffizienz-Monitoring und Device-Management.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Kardiologen, Kardiologische Praxen, Herzambulanzen, Herzzentren"
+  }
+}
+</script>
 
 <style>
 /* ============= KARDIOLOGIE PAGE MOBILE-FRIENDLY STYLES ============= */

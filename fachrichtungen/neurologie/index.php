@@ -1,14 +1,163 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Neurologie - MediDesk® - Digitale Neurologische Praxis</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Neurologen und neurologische Praxen. Schlaganfall-Erkennung, MS-Schübe dokumentieren, Kopfschmerz-Tagebuch, Parkinson-Monitoring, bis zu 65% weniger Telefonate. DSGVO-konform und klinikerprobt.">
-<meta name="keywords" content="Online-Rezeption Neurologie, digitale Praxisverwaltung Neurologe, Schlaganfall Erkennung digital, Multiple Sklerose Management, Epilepsie Dokumentation, Kopfschmerz Tagebuch, Parkinson Monitoring, MediDesk Neurologie, neurologische Ambulanz digital">
-<meta name="author" content="MediDesk - Digitale Lösungen für Neurologie">
-<meta property="og:title" content="Online-Rezeption für Neurologie - MediDesk®">
-<meta property="og:description" content="Spezialisierte digitale Lösung für Neurologen: Schlaganfall schnell erkennen, MS-Patienten strukturiert betreuen, Anfälle dokumentieren, neurologische Notfälle priorisieren.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="<?= $root; ?>fachrichtungen/neurologie">
-<link rel="canonical" href="<?= $root; ?>fachrichtungen/neurologie">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<?php
+// SEO Configuration for Neurologie
+$page_title = "Online-Rezeption für Neurologie - MediDesk® | Digitale Neurologische Praxis";
+$page_description = "Die digitale Online-Rezeption speziell für Neurologen und neurologische Praxen. Schlaganfall-Erkennung, MS-Schübe dokumentieren, Parkinson-Monitoring, bis zu 65% weniger Telefonate. DSGVO-konform.";
+$page_keywords = "Online-Rezeption Neurologie, digitale Praxisverwaltung Neurologe, Schlaganfall Erkennung digital, Multiple Sklerose Management, Epilepsie Dokumentation, MediDesk Neurologie";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/neurologie/";
+$page_og_type = "website";
+
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Neurologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Neurologie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Neurologen und neurologische Praxen. Schlaganfall-Erkennung mit FAST-Kriterien, MS-Schub-Monitoring, Anfallstagebuch für Epilepsie, Kopfschmerz-Kalender.",
+  "url": "https://medideskr.cloud/fachrichtungen/neurologie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "Schlaganfall-Erkennung (FAST-Kriterien)",
+    "MS-Schub-Monitoring",
+    "Digitales Anfallstagebuch",
+    "Kopfschmerz-Kalender",
+    "Parkinson-Medikamententagebuch",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage for Neurologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hilft MediDesk® neurologischen Praxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® reduziert den Telefonaufwand in neurologischen Praxen um bis zu 65%. Patienten können neurologische Symptome strukturiert online melden, MS-Schübe dokumentieren und Anfallstagebücher digital führen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die Schlaganfall-Erkennung bei MediDesk®?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Das System fragt automatisch die FAST-Kriterien ab: Face (Gesichtslähmung), Arms (Armlähmung), Speech (Sprachstörung), Time (Zeitfenster). Bei akuter Hemiparese oder Aphasie wird sofort NOTFALL markiert und zur Stroke-Unit-Einweisung aufgefordert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können MS-Patienten Schübe selbst dokumentieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das MS-Schub-Monitoring-Modul erfasst neue neurologische Symptome wie Sehstörungen, Gangstörungen und Sensibilitätsstörungen. Das System unterscheidet automatisch zwischen echtem Schub und Pseudoschub und empfiehlt bei Bedarf Cortison-Pulstherapie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gibt es ein digitales Anfallstagebuch für Epilepsie-Patienten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Epilepsie-Patienten können jeden Anfall dokumentieren: Datum, Uhrzeit, Dauer, Anfallstyp, Trigger und postiktale Symptome. Das System berechnet die Anfallsfrequenz und zeigt den Verlauf grafisch an."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die Kopfschmerz-Dokumentation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, der digitale Kopfschmerz-Kalender dokumentiert Häufigkeit, Intensität, Trigger und Medikamenteneinnahme. Das System differenziert zwischen Migräne, Spannungskopfschmerz und Cluster-Kopfschmerz und erkennt Medikamentenübergebrauch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Parkinson-Patienten OFF-Phasen dokumentieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das Parkinson-Medikamententagebuch erfasst L-DOPA-Einnahmezeiten, ON- und OFF-Phasen sowie Dyskinesien. So kann die Medikation optimiert und OFF-Phasen reduziert werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für neurologische Patientendaten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung und KV-Zertifizierung. Neurologische Patientendaten werden höchst sicher gespeichert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Neurologie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die neurologiespezifische Konfiguration umfasst FAST-Kriterien, MS-Schub-Kriterien, Anfallsklassifikation und Kopfschmerz-Differenzierung."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine neurologische Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Inkludiert sind Schlaganfall-Erkennung, MS-Schub-Monitoring, Anfallstagebuch, Kopfschmerz-Kalender und Parkinson-Tagebuch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für Stroke-Units und neurologische Kliniken geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große neurologische Ambulanzen und Stroke-Units. Multi-Standort-Management, KIS-Anbindung und EEG-/EMG-System-Integration sind verfügbar."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Neurologie",
+  "name": "MediDesk® für Neurologen",
+  "description": "Spezialisierte digitale Lösung für neurologische Praxen zur Patientenkommunikation, Schlaganfall-Triage und chronischem Krankheitsmanagement bei MS, Epilepsie und Parkinson.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Neurologen, Neurologische Praxen, Stroke-Units, MS-Ambulanzen, Epilepsie-Zentren"
+  }
+}
+</script>
 
 <style>
 /* ============= NEUROLOGIE PAGE MOBILE-FRIENDLY STYLES ============= */

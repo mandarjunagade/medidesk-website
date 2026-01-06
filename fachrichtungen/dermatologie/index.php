@@ -1,35 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Dermatologen & Hautarztpraxen - MediDesk® | Digitale Hautarztpraxis</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Dermatologen und Hautarztpraxen. Foto-Upload für Hautveränderungen, automatisches Hautkrebs-Screening-Recall, strukturierte Akne-Behandlung. DSGVO-konform, in 48h startklar. Reduzieren Sie Telefonanrufe um 75%.">
-<meta name="keywords" content="Online-Rezeption Dermatologie, Online-Terminbuchung Hautarzt, digitale Hautarztpraxis, Dermatologie Praxisverwaltung, Hautkrebs-Screening Termin, Teledermatologie, Foto-Upload Hautveränderungen, MediDesk Hautarzt, Akne-Behandlung online">
-<link rel="canonical" href="<?= $root; ?>dermatologie">
+<?php
+// SEO Configuration for Dermatologie
+$page_title = "Online-Rezeption für Dermatologen & Hautarztpraxen - MediDesk® | Digitale Hautarztpraxis";
+$page_description = "Die digitale Online-Rezeption speziell für Dermatologen und Hautarztpraxen. Foto-Upload für Hautveränderungen, Hautkrebs-Screening-Recall, strukturierte Akne-Behandlung. DSGVO-konform, in 48h startklar.";
+$page_keywords = "Online-Rezeption Dermatologie, Online-Terminbuchung Hautarzt, digitale Hautarztpraxis, Dermatologie Praxisverwaltung, Hautkrebs-Screening Termin, MediDesk Hautarzt";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/dermatologie/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for Dermatology -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Dermatologie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "MediDesk® - Online-Rezeption für Dermatologen",
-  "description": "Digitale Online-Rezeption speziell für Hautarztpraxen. Optimiert für Foto-Upload, Hautkrebs-Screening-Recall, Akne-Management und ästhetische Dermatologie.",
-  "url": "<?= $root; ?>dermatologie",
-  "medicalSpecialty": "Dermatology",
-  "serviceType": [
-    "Digitale Patientenkommunikation",
-    "Online-Terminverwaltung",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Dermatologie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Dermatologen und Hautarztpraxen. Foto-Upload für Hautveränderungen, Hautkrebs-Screening-Recall, Akne-Management und ästhetische Dermatologie.",
+  "url": "https://medideskr.cloud/fachrichtungen/dermatologie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
     "Foto-Upload für Hautveränderungen",
     "Hautkrebs-Screening-Recall",
     "Akne-Behandlungskoordination",
     "Ästhetische Dermatologie-Beratung",
-    "Allergologie-Terminmanagement"
+    "Allergologie-Management",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
   ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
-  },
-  "availableLanguage": ["Deutsch", "English"]
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for Dermatologie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -37,21 +53,109 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie funktioniert der Foto-Upload für Hautveränderungen?",
+      "name": "Wie hilft MediDesk® Hautarztpraxen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Patienten können direkt bei der Online-Anfrage Fotos ihrer Hautveränderungen hochladen (bis zu 5 Bilder, verschiedene Perspektiven). Das System führt durch optimale Foto-Bedingungen: gute Beleuchtung, neutraler Hintergrund, Größenvergleich. Sie als Dermatologe sehen die Bilder sofort im Dashboard mit allen Angaben: Lokalisation, Dauer, Veränderungen, Symptome. Dies ermöglicht Triage, bevor der Patient kommt. 70% schnellere Ersteinschätzung, bessere Vorbereitung auf Untersuchung."
+        "text": "MediDesk® reduziert den Telefonaufwand in Hautarztpraxen um bis zu 75%. Patienten können Fotos von Hautveränderungen hochladen, Hautkrebs-Screening-Termine anfragen und dermatologische Anfragen strukturiert stellen."
       }
     },
     {
       "@type": "Question",
-      "name": "Eignet sich MediDesk® für Hautkrebs-Screening und Vorsorge?",
+      "name": "Wie funktioniert der Foto-Upload für Hautveränderungen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, perfekt. MediDesk® hat ein automatisches Recall-System für Hautkrebs-Screenings. Patienten erhalten Erinnerungen (üblicherweise alle 12 Monate, bei Risikopatienten alle 6 Monate). Sie können direkt online einen Screening-Termin buchen. Das System dokumentiert, wer überfällig ist. Ergebnis: 90% höhere Screening-Quote, frühere Krebserkennung, bessere Prävention."
+        "text": "Patienten können bis zu 5 Bilder ihrer Hautveränderungen hochladen. Das System führt durch optimale Foto-Bedingungen: gute Beleuchtung, neutraler Hintergrund, Größenvergleich. So ist eine Triage vor dem Termin möglich."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® das Hautkrebs-Screening-Recall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das System erinnert Patienten automatisch an fällige Hautkrebs-Screenings. Bei Risikopatienten mit vielen Muttermalen werden kürzere Intervalle empfohlen. Die Recall-Quote steigt um bis zu 40%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Akne-Patienten ihren Verlauf dokumentieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Akne-Patienten können regelmäßig Fotos hochladen und den Therapieverlauf dokumentieren. So kann die Behandlung optimiert werden, ohne dass bei jeder kleinen Änderung ein Termin nötig ist."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für ästhetische Dermatologie geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, für Botox, Filler und ästhetische Behandlungen können Beratungsanfragen strukturiert erfasst werden. Fotos des Behandlungsbereichs, Wünsche und Vorstellungen werden dokumentiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Allergologie-Anfragen bearbeitet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Allergologie-Patienten können Symptome dokumentieren, Prick-Test-Termine anfragen und Desensibilisierungstermine koordinieren. Allergieausweise werden digital verwaltet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für Hautbilder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, alle Foto-Uploads sind Ende-zu-Ende-verschlüsselt. EU-Hosting in Deutschland, KV-Zertifizierung und strenge Zugriffskontrollen garantieren den Schutz sensibler Bildaufnahmen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine Hautarztpraxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Inkludiert sind Foto-Upload, Hautkrebs-Screening-Recall und Allergologie-Management. Eine kostenlose 30-Tage-Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Dermatologie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die dermatologiespezifische Konfiguration umfasst Foto-Upload-Optimierung, Hautkrebsscreening-Workflows und ästhetische Beratungsformulare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können auch größere Dermatologie-Zentren MediDesk® nutzen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große Hautkliniken und Dermatologie-Zentren. Multi-Standort-Management, KIS-Anbindung und Spezialisierungen wie Dermatohistologie werden unterstützt."
       }
     }
   ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Dermatologie",
+  "name": "MediDesk® für Dermatologen",
+  "description": "Spezialisierte digitale Lösung für Hautarztpraxen mit Foto-Upload für Hautveränderungen, Hautkrebs-Screening-Recall und ästhetischer Dermatologie.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Dermatologen, Hautarztpraxen, Hautkliniken, Ästhetische Dermatologie, Allergologen"
+  }
 }
 </script>
 </head>

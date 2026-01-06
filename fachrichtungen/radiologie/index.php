@@ -1,13 +1,164 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Radiologie - MediDesk® | Digitale Röntgenpraxis & Bildgebung</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Radiologen und radiologische Praxen. Terminmanagement für CT, MRT, Röntgen optimieren, Befunde strukturiert verwalten, bis zu 70% weniger Telefonate. DSGVO-konform und PACS-integrierbar.">
-<meta name="keywords" content="Online-Rezeption Radiologie, digitale Praxisverwaltung Radiologe, Online-Terminbuchung Radiologie, Befundmanagement Radiologie, CT-Termin online, MRT-Termin buchen, Röntgen-Terminverwaltung, PACS Integration, digitale Bildgebung Praxis, MediDesk Radiologie, Mammographie Terminbuchung, Sono Terminplanung">
-<meta name="author" content="MediDesk - Digitale Lösungen für Radiologie">
-<meta property="og:title" content="Online-Rezeption für Radiologie - MediDesk®">
-<meta property="og:description" content="Spezialisierte digitale Lösung für Radiologen: Komplexe Untersuchungstermine strukturiert verwalten, Befunde automatisiert bereitstellen, PACS-Integration möglich.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="<?= $root; ?>fachrichtungen/radiologie">
-<link rel="canonical" href="<?= $root; ?>fachrichtungen/radiologie">
+<?php
+// SEO Configuration for Radiologie
+$page_title = "Online-Rezeption für Radiologie - MediDesk® | Digitale Röntgenpraxis & Bildgebung";
+$page_description = "Die digitale Online-Rezeption speziell für Radiologen und radiologische Praxen. Terminmanagement für CT, MRT, Röntgen optimieren, Befunde strukturiert verwalten, bis zu 70% weniger Telefonate. DSGVO-konform.";
+$page_keywords = "Online-Rezeption Radiologie, digitale Praxisverwaltung Radiologe, Online-Terminbuchung Radiologie, Befundmanagement Radiologie, CT-Termin online, MRT-Termin buchen, Röntgen-Terminverwaltung, MediDesk Radiologie";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/radiologie/";
+$page_og_type = "website";
+
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Radiologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Radiologie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Radiologen und radiologische Praxen. CT, MRT, Röntgen und Sono-Termine effizient koordinieren, Befunde automatisiert bereitstellen.",
+  "url": "https://medideskr.cloud/fachrichtungen/radiologie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "CT-Terminbuchung online",
+    "MRT-Terminverwaltung digital",
+    "Röntgen-Terminkoordination",
+    "Befundabfrage online",
+    "Zuweiser-Management",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage for Radiologie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hilft MediDesk® radiologischen Praxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® reduziert den Telefonaufwand in radiologischen Praxen um bis zu 70%. Patienten können CT-, MRT-, Röntgen- und Sono-Termine online anfragen, Befunde digital abrufen und Zuweiser können Überweisungen digital übermitteln."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Patienten CT- und MRT-Termine online buchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können über MediDesk® strukturierte Terminanfragen für alle bildgebenden Verfahren stellen - CT, MRT, Röntgen, Mammographie und Ultraschall. Das Praxisteam bestätigt die Termine in Ruhe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die Befundabfrage für Patienten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patienten können über das MediDesk®-Widget auf Ihrer Website anfragen, ob ihre Befunde bereit sind. Die Anfragen kommen strukturiert beim Team an und können effizient bearbeitet werden - ohne Telefonunterbrechungen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® das Zuweiser-Management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Zuweiser können über MediDesk® digital Überweisungen einreichen und Terminanfragen für ihre Patienten stellen. Das verbessert die Zusammenarbeit und reduziert den Koordinationsaufwand erheblich."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® mit PACS-Systemen kompatibel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® arbeitet als eigenständiges Kommunikationssystem parallel zu Ihren bestehenden Systemen. Es ersetzt nicht Ihr PACS oder RIS, sondern entlastet den Empfang bei der Patientenkommunikation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Radiologie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Ein einfaches Code-Snippet wird auf Ihrer Website eingebunden - ohne IT-Aufwand und ohne Änderungen an bestehenden Systemen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Patienten Kontrastmittel-Fragebögen vorab ausfüllen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® kann so konfiguriert werden, dass Patienten relevante Vorabinformationen strukturiert übermitteln. Das spart Zeit bei der Anmeldung und verbessert die Vorbereitung auf Untersuchungen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für radiologische Daten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting, verschlüsselter Datenübertragung und AVV (Auftragsverarbeitungsvertrag) auf Wunsch. Alle Daten werden ausschließlich in der EU gespeichert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie viel kostet MediDesk® für eine Radiologie-Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Für größere Praxen und MVZ gibt es angepasste Tarife. Eine kostenlose Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann MediDesk® für mehrere Radiologie-Standorte genutzt werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® unterstützt Multi-Standort-Management. Zusätzliche Standorte können für 89 EUR pro Monat hinzugefügt werden. Ideal für radiologische Praxisverbünde und MVZ."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Radiologie",
+  "name": "MediDesk® für Radiologen",
+  "description": "Spezialisierte digitale Lösung für radiologische Praxen zur Patientenkommunikation und Terminverwaltung.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Radiologen, Radiologische Praxen, Bildgebungszentren"
+  }
+}
+</script>
+
 </head>
 
 <body>

@@ -1,37 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Terminverwaltung für Psychotherapie-Praxen - Warteliste, Erstgespräch, Probatorik digital | MediDesk®</title>
-<meta name="description" content="Spezialisierte digitale Terminverwaltung für Psychotherapeuten & psychotherapeutische Praxen. Wartelistenmanagement, Erstgespräch-Buchung, probatorische Sitzungen koordinieren, Kassenplätze verwalten. 75% weniger Telefon-Stress bei sensiblen Themen. DSGVO-konform.">
-<meta name="keywords" content="Psychotherapie Online-Terminverwaltung, Warteliste Psychotherapie digital verwalten, Erstgespräch Psychotherapie online buchen, Probatorische Sitzungen koordinieren, Therapieplatz-Verwaltung Software, MediDesk Psychotherapie, Psychotherapeut Terminmanagement, Kassenplatz Psychotherapie Software, Krisenintervention Koordination, Psychotherapeutische Sprechstunde online">
-<link rel="canonical" href="<?= $root; ?>psychotherapie">
+<?php
+// SEO Configuration for Psychotherapie
+$page_title = "Online-Terminverwaltung für Psychotherapie-Praxen - MediDesk® | Warteliste, Erstgespräch, Probatorik digital";
+$page_description = "Spezialisierte digitale Terminverwaltung für Psychotherapeuten. Wartelistenmanagement, Erstgespräch-Buchung, probatorische Sitzungen koordinieren. 75% weniger Telefon-Stress. DSGVO-konform.";
+$page_keywords = "Psychotherapie Online-Terminverwaltung, Warteliste Psychotherapie digital, Erstgespräch Psychotherapie online, MediDesk Psychotherapie, Psychotherapeut Terminmanagement";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/psychotherapie/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for Psychotherapie -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Psychotherapie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "MediDesk® - Online-Terminverwaltung für Psychotherapie-Praxen",
-  "description": "Spezialisierte digitale Terminverwaltung für Psychotherapeuten und psychotherapeutische Praxen. Wartelistenmanagement, Erstgespräch-Buchung, probatorische Sitzungen, Kassenplätze verwalten. Diskret, sicher, DSGVO-konform.",
-  "url": "<?= $root; ?>psychotherapie",
-  "medicalSpecialty": ["Psychotherapy", "MentalHealth"],
-  "serviceType": [
-    "Online-Terminverwaltung Psychotherapie",
-    "Wartelistenmanagement digital",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Terminverwaltung für Psychotherapie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Terminverwaltung speziell für Psychotherapeuten. Wartelistenmanagement, Erstgespräch-Buchung, probatorische Sitzungen koordinieren, Kassenplätze verwalten.",
+  "url": "https://medideskr.cloud/fachrichtungen/psychotherapie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "Digitales Wartelistenmanagement",
     "Erstgespräch-Buchung online",
     "Probatorische Sitzungen koordinieren",
-    "Therapieplatz-Verwaltung",
-    "Kassenplatz-Management",
-    "Krisenintervention-Koordination",
-    "Video-Therapie Terminverwaltung",
-    "Psychotherapeutische Sprechstunde online"
+    "Kassenplatz-Verwaltung",
+    "Krisenintervention-Priorisierung",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
   ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
-  },
-  "availableLanguage": ["Deutsch", "English"]
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for Psychotherapie -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -39,10 +53,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie funktioniert digitales Wartelistenmanagement für Psychotherapie-Praxen?",
+      "name": "Wie hilft MediDesk® Psychotherapie-Praxen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Patienten können sich online auf die Warteliste setzen lassen – anonym oder mit Kontaktdaten. Das System erfasst: Therapie-Wunsch (Verhaltenstherapie, Tiefenpsychologie, analytische Therapie), Dringlichkeit (Krise, akut, normal), Kassenpatient oder Privatpatient, bevorzugte Zeiten, Erstgespräch schon absolviert?, Symptome/Diagnose (optional). Ihre Praxis sieht strukturierte Warteliste sortiert nach Dringlichkeit und Wartezeit. Bei freiem Therapieplatz: System schlägt automatisch passende Patienten von Warteliste vor. Patienten erhalten Update über Warteposition. Ergebnis: Statt 50-80 Telefonanrufe 'Haben Sie einen freien Platz?' nur noch strukturierte Warteliste. 70% weniger Koordinationsaufwand. Transparenz für Patienten: Sie wissen, wo sie auf Warteliste stehen."
+        "text": "MediDesk® reduziert den Telefonaufwand in Psychotherapie-Praxen um bis zu 75%. Patienten können sich online auf die Warteliste setzen, Erstgespräche buchen und Therapietermine koordinieren."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert das digitale Wartelistenmanagement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patienten setzen sich online auf die Warteliste mit Angaben zu Therapiewunsch, Dringlichkeit und Kassenart. Die Liste ist nach Dringlichkeit und Wartezeit sortiert. Bei freiem Platz schlägt das System passende Patienten vor."
       }
     },
     {
@@ -50,38 +72,89 @@
       "name": "Können Erstgespräche und probatorische Sitzungen online gebucht werden?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, absolut. Erstgespräch (Psychotherapeutische Sprechstunde, 50 Min): Patient bucht online, füllt Vorgespräch-Fragebogen aus (Symptome, Vorgeschichte, was erhofft Patient von Therapie). Probatorische Sitzungen (2-4 Sitzungen à 50 Min): Nach Erstgespräch können probatorische Sitzungen direkt gebucht werden – System berechnet automatisch 2-4 Termine im Wochenrhythmus. Therapie-Serie (nach Antragsbewilligung): Langfristige Terminserien (25, 45, 60 Stunden Verhaltenstherapie) werden automatisch über Monate verteilt, meist 1x pro Woche. Flexible Anpassung möglich (Patient kann nicht Montag → System schlägt Dienstag vor). Krisenintervention: Dringende Fälle werden rot markiert, können bevorzugt behandelt werden. Ergebnis: 80% weniger Telefonie für Terminvereinbarungen, klare Struktur vom Erstgespräch bis zur Langzeittherapie."
+        "text": "Ja, Patienten buchen online ihr Erstgespräch und füllen einen Vorgespräch-Fragebogen aus. Probatorische Sitzungen und Therapie-Serien werden automatisch über Wochen bzw. Monate verteilt."
       }
     },
     {
       "@type": "Question",
-      "name": "Wie werden Kassenplätze vs. Privatplätze in der Psychotherapie verwaltet?",
+      "name": "Unterstützt MediDesk® die Kassenplatz-Verwaltung?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Psychotherapeuten haben meist begrenzte Kassenplätze (z.B. 30 Kassenplätze, 10 Privatplätze). MediDesk verwaltet beide getrennt: Kassenplätze: Kontingent wird im System hinterlegt (z.B. 30 Plätze). Bei Buchung sieht Patient 'Kassenplatz verfügbar' oder 'Warteliste Kasse: aktuell 45 Personen, ca. 6-9 Monate Wartezeit'. Privatplätze: Meist kürzere Wartezeit (0-3 Monate). Patient kann wählen 'Ich bin Privatpatient' oder 'Ich zahle selbst (Selbstzahler)'. Kostenvoranschlag kann automatisch generiert werden. Platzwechsel: Wenn Kassenplatz frei wird, kann Patient von Warteliste kontaktiert werden: 'Jetzt Kassenplatz verfügbar – noch interessiert?'. Transparenz: Dashboard zeigt Ihnen 'Kassenplätze: 28 von 30 belegt, Privatplätze: 7 von 10 belegt'. Ergebnis: Optimale Auslastung, keine ungenutzten Plätze, faire Wartelisten-Abarbeitung, Patienten wissen, womit sie rechnen können."
+        "text": "Ja, das System verwaltet Kassenplätze und Privatpatienten getrennt. Der Überblick zeigt, wie viele Kassenplätze frei sind und wann Therapien enden. Die Warteliste wird entsprechend gefiltert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie werden Krisen und dringende Fälle behandelt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dringende Fälle und Kriseninterventionen werden rot markiert und erscheinen ganz oben. So können akute Situationen bevorzugt behandelt werden, ohne dass Patienten lange telefonieren müssen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist die Kommunikation diskret und vertraulich?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, besonders in der Psychotherapie ist Diskretion wichtig. Patienten können Anliegen schriftlich mitteilen, ohne am Telefon Details nennen zu müssen. Alle Daten sind Ende-zu-Ende-verschlüsselt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für sensible psychotherapeutische Daten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit höchsten Sicherheitsstandards. EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung, Zwei-Faktor-Authentifizierung und maximale Diskretion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine Psychotherapie-Praxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat. Inkludiert sind Wartelistenmanagement, Erstgespräch-Buchung und Therapie-Serien-Koordination. Eine kostenlose 30-Tage-Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Psychotherapie-Praxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die psychotherapiespezifische Konfiguration umfasst Wartelisten-Workflows, Therapie-Serien-Berechnung und diskrete Formulare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® Video-Therapie-Termine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Video-Therapie-Termine können separat gekennzeichnet und koordiniert werden. Patienten erhalten automatisch den Link zur Video-Sitzung. Präsenz- und Video-Termine werden übersichtlich dargestellt."
       }
     }
   ]
 }
 </script>
 
-<!-- Additional Schema for Mental Health Services -->
+<!-- Schema.org Structured Data - Service -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "MediDesk Psychotherapie",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web-based",
-  "offers": {
-    "@type": "Offer",
-    "price": "149.00",
-    "priceCurrency": "EUR"
+  "@type": "Service",
+  "serviceType": "Digitale Terminverwaltung für Psychotherapie",
+  "name": "MediDesk® für Psychotherapeuten",
+  "description": "Spezialisierte digitale Lösung für Psychotherapie-Praxen mit Wartelistenmanagement, Erstgespräch-Buchung und Therapie-Serien-Koordination.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "ratingCount": "94"
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Psychotherapeuten, Psychologische Praxen, Psychiater, Kinder- und Jugendpsychotherapeuten"
   }
 }
 </script>

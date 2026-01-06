@@ -1,14 +1,163 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Pädiatrie - MediDesk® | Digitale Kinderarztpraxis</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Kinderärzte und pädiatrische Praxen. Elternanfragen strukturiert erfassen, Fieber-Monitoring, Impftermine planen, Entwicklungsstörungen dokumentieren, bis zu 70% weniger Telefonate. DSGVO-konform und kindgerecht.">
-<meta name="keywords" content="Online-Rezeption Pädiatrie, digitale Kinderarztpraxis, Kinderarzt digital, Elternanfragen strukturieren, Fieber Kinder Management, Impftermine planen, U-Untersuchungen organisieren, MediDesk Pädiatrie, Kindermedizin Organisation">
-<meta name="author" content="MediDesk - Digitale Lösungen für Pädiatrie">
-<meta property="og:title" content="Online-Rezeption für Pädiatrie - MediDesk®">
-<meta property="og:description" content="Spezialisierte digitale Lösung für Kinderärzte: Elternanfragen klar sortieren, Notfälle schnell erkennen, Impfungen koordinieren, Entwicklung dokumentieren.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="<?= $root; ?>fachrichtungen/paediatrie">
-<link rel="canonical" href="<?= $root; ?>fachrichtungen/paediatrie">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<?php
+// SEO Configuration for Paediatrie
+$page_title = "Online-Rezeption für Pädiatrie - MediDesk® | Digitale Kinderarztpraxis";
+$page_description = "Die digitale Online-Rezeption speziell für Kinderärzte und pädiatrische Praxen. Elternanfragen strukturiert erfassen, Impftermine planen, bis zu 70% weniger Telefonate. DSGVO-konform und kindgerecht.";
+$page_keywords = "Online-Rezeption Pädiatrie, digitale Kinderarztpraxis, Kinderarzt digital, Elternanfragen strukturieren, Impftermine planen, MediDesk Pädiatrie";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/paediatrie/";
+$page_og_type = "website";
+
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Pädiatrie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Pädiatrie",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Kinderärzte und pädiatrische Praxen. Elternanfragen strukturieren, Impftermine koordinieren, U-Untersuchungen planen, kindgerechte Kommunikation.",
+  "url": "https://medideskr.cloud/fachrichtungen/paediatrie/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "featureList": [
+    "Elternanfragen strukturieren",
+    "Impftermin-Koordination",
+    "U-Untersuchungen Recall",
+    "Fieber-Einschätzung digital",
+    "Kinderkrankheiten erkennen",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
+}
+</script>
+
+<!-- Schema.org Structured Data - FAQPage for Pädiatrie -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie hilft MediDesk® Kinderarztpraxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® reduziert den Telefonaufwand in Kinderarztpraxen um bis zu 70%. Eltern können Symptome strukturiert melden, Impftermine anfragen und U-Untersuchungen koordinieren. Besorgte Eltern erhalten schnelle Einschätzungen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Eltern Fieber und Kinderkrankheiten online melden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Eltern können Symptome wie Fieber, Ausschlag, Husten strukturiert dokumentieren. Das System erfasst Temperatur, Begleitsymptome und Allgemeinzustand. Bei Red Flags wird automatisch DRINGEND markiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert die Impftermin-Koordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® erinnert automatisch an fällige Impfungen nach STIKO-Empfehlungen. Eltern können direkt online Impftermine anfragen. Der Impfstatus wird übersichtlich dokumentiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die U-Untersuchungen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das System erinnert automatisch an alle U-Untersuchungen von U1 bis J2. Eltern erhalten rechtzeitig Erinnerungen und können direkt Termine anfragen. Kein Kind verpasst wichtige Vorsorgeuntersuchungen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® kindgerecht und einfach für Eltern?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, die Formulare sind verständlich formuliert und auf besorgte Eltern zugeschnitten. Auch nachts können Symptome gemeldet werden, mit klaren Anweisungen wann sofort ein Arzt aufgesucht werden sollte."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Notfälle bei Kindern erkannt werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, bei Alarmsignalen wie Fieberkrämpfen, Atemnot, Bewusstseinsstörungen oder Nackensteife wird sofort NOTFALL markiert. Eltern erhalten klare Anweisungen zur sofortigen Vorstellung oder 112-Ruf."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für Kinderdaten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit besonderem Schutz für Kinderdaten. EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung und KV-Zertifizierung garantieren höchste Sicherheit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine Kinderarztpraxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Ärzte. Inkludiert sind Elternanfragen, Impfkoordination, U-Untersuchungs-Recall und Fieber-Einschätzung. Eine kostenlose 30-Tage-Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Kinderarztpraxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die pädiatriespezifische Konfiguration umfasst altersgerechte Symptomerfassung, STIKO-Impfpläne und kindgerechte Formulierungen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können auch Kinder-MVZs und Kinderkliniken MediDesk® nutzen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große Kinder-MVZs und Kinderkliniken. Multi-Standort-Management, KIS-Anbindung und Spezialisierungen wie Neuropädiatrie oder Kinderkardiologie werden unterstützt."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Pädiatrie",
+  "name": "MediDesk® für Kinderärzte",
+  "description": "Spezialisierte digitale Lösung für Kinderarztpraxen zur Elternkommunikation, Impfkoordination und strukturierten Symptomerfassung bei Kindern.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Kinderärzte, Pädiatrische Praxen, Kinder-MVZ, Kinderkliniken, Neuropädiater"
+  }
+}
+</script>
 
 <style>
 /* ============= PÄDIATRIE PAGE MOBILE-FRIENDLY STYLES ============= */

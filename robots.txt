@@ -1,55 +1,112 @@
 # robots.txt for medideskr.cloud
+# Last Updated: 2026-01-05
+# Optimized for SEO and AI/GEO (Generative Engine Optimization)
 
-# Allow all search engines and AI crawlers
+# ============================================
+# GENERAL SEARCH ENGINES
+# ============================================
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# Explicitly allow Google's AI crawlers for AI Overview
+# ============================================
+# GOOGLE CRAWLERS
+# ============================================
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
 User-agent: Google-Extended
 Allow: /
 
 User-agent: GoogleOther
 Allow: /
 
-User-agent: Googlebot
-Allow: /
+# ============================================
+# AI & LLM CRAWLERS (GEO Optimization)
+# ============================================
 
-# Allow OpenAI (ChatGPT) crawler
+# OpenAI (ChatGPT, GPT-4, etc.)
 User-agent: GPTBot
 Allow: /
 
-# Allow Common Crawl (used by many AI systems)
-User-agent: CCBot
+User-agent: ChatGPT-User
 Allow: /
 
-# Allow Anthropic (Claude) crawler
+# Anthropic (Claude)
 User-agent: anthropic-ai
 Allow: /
 
 User-agent: Claude-Web
 Allow: /
 
-# Allow Perplexity AI crawler
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
 
-# Allow other AI crawlers
-User-agent: Applebot-Extended
+# Cohere
+User-agent: cohere-ai
 Allow: /
 
-User-agent: Bytespider
-Allow: /
-
+# Meta AI
 User-agent: FacebookBot
 Allow: /
 
-# Disallow crawling of admin and private areas only
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Microsoft/Bing AI
+User-agent: Bingbot
+Allow: /
+
+User-agent: MicrosoftPreview
+Allow: /
+
+# Apple AI
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ByteDance (TikTok AI)
+User-agent: Bytespider
+Allow: /
+
+# Common Crawl (used by many AI systems for training)
+User-agent: CCBot
+Allow: /
+
+# You.com AI
+User-agent: YouBot
+Allow: /
+
+# ============================================
+# BLOCKED DIRECTORIES
+# ============================================
+# Administrative and sensitive areas
 Disallow: /admin/
 Disallow: /includes/
 Disallow: /PHPMailer/
 
-# Allow crawling of assets for rendering and AI training
+# ============================================
+# EXPLICITLY ALLOWED
+# ============================================
+# Assets for proper rendering
 Allow: /assets/
 
-# Sitemap location
+# AI-specific information file
+Allow: /llms.txt
+
+# ============================================
+# SITEMAPS & RESOURCES
+# ============================================
 Sitemap: https://medideskr.cloud/sitemap.xml
+
+# AI Information File (for LLMs and AI systems)
+# See: https://medideskr.cloud/llms.txt

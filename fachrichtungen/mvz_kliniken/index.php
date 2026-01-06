@@ -1,34 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für MVZ & Kliniken - MediDesk® | Digitale Patientenverwaltung für Medizinische Versorgungszentren</title>
-<meta name="description" content="Die skalierbare Online-Rezeption für MVZ, Kliniken und große Praxisverbünde. Multi-Standort-Management, interdisziplinäre Koordination, zentrale Verwaltung. DSGVO-konform, in 48h startklar. Bewältigen Sie 500+ Patientenanfragen täglich.">
-<meta name="keywords" content="Online-Rezeption MVZ, Digitale Klinik-Verwaltung, MVZ Terminverwaltung, Multi-Standort Praxissoftware, Klinikambulanz digital, Patientenverwaltung MVZ, MediDesk MVZ, Medizinisches Versorgungszentrum Software, Klinik Terminkoordination">
-<link rel="canonical" href="<?= $root; ?>mvz-kliniken">
+<?php
+// SEO Configuration for MVZ & Kliniken
+$page_title = "Online-Rezeption für MVZ & Kliniken - MediDesk® | Digitale Patientenverwaltung für Medizinische Versorgungszentren";
+$page_description = "Die skalierbare Online-Rezeption für MVZ, Kliniken und große Praxisverbünde. Multi-Standort-Management, interdisziplinäre Koordination. DSGVO-konform, in 48h startklar.";
+$page_keywords = "Online-Rezeption MVZ, Digitale Klinik-Verwaltung, MVZ Terminverwaltung, Multi-Standort Praxissoftware, MediDesk MVZ";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/mvz_kliniken/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for MVZ & Kliniken -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for MVZ & Kliniken -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "MediDesk® - Online-Rezeption für MVZ & Kliniken",
-  "description": "Skalierbare digitale Online-Rezeption für Medizinische Versorgungszentren, Kliniken und große Praxisverbünde. Multi-Standort-Verwaltung, interdisziplinäre Koordination und zentrale Steuerung.",
-  "url": "<?= $root; ?>mvz-kliniken",
-  "serviceType": [
-    "Multi-Standort-Management",
-    "Interdisziplinäre Terminkoordination",
-    "Zentrale Patientenverwaltung",
-    "Fachrichtungsübergreifende Kommunikation",
-    "Team-Management mit Rollenrechten",
-    "Einheitliche Patientenkommunikation",
-    "Großvolumen-Terminverwaltung"
-  ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für MVZ & Kliniken",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Skalierbare digitale Online-Rezeption für MVZ, Kliniken und Praxisverbünde. Multi-Standort-Management, interdisziplinäre Koordination, zentrale Steuerung.",
+  "url": "https://medideskr.cloud/fachrichtungen/mvz_kliniken/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
   },
-  "availableLanguage": ["Deutsch", "English"]
+  "featureList": [
+    "Multi-Standort-Management",
+    "Interdisziplinäre Koordination",
+    "Zentrale Patientenverwaltung",
+    "Team-Management mit Rollenrechten",
+    "Großvolumen-Terminverwaltung",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for MVZ & Kliniken -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -36,21 +53,109 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie funktioniert Multi-Standort-Management mit MediDesk®?",
+      "name": "Wie hilft MediDesk® MVZ und Kliniken?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MediDesk® verwaltet alle Standorte zentral in einem System. Jeder Standort hat eigenen Kalender, eigene Sprechzeiten, eigenes Team – aber Sie haben zentrale Übersicht über alle Anfragen. Patienten können Standort auswählen, Termine werden automatisch dem richtigen Standort zugeordnet. Einheitliche Standards (Formulare, Abläufe) über alle Standorte. Zentrale Auswertungen (Terminvolumen, Auslastung, Anfrage-Typen) für alle Standorte. Ergebnis: 75% weniger Koordinationsaufwand zwischen Standorten."
+        "text": "MediDesk® ist skalierbar für große Einrichtungen. Alle Standorte werden zentral verwaltet, interdisziplinäre Terminkoordination wird automatisiert und 500+ Patientenanfragen pro Tag werden effizient bearbeitet."
       }
     },
     {
       "@type": "Question",
-      "name": "Eignet sich MediDesk® für große Patientenvolumen (500+ Anfragen/Tag)?",
+      "name": "Wie funktioniert das Multi-Standort-Management?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, absolut. MediDesk® ist skalierbar und bewältigt problemlos 500-1000+ Patientenanfragen täglich. System bleibt schnell und übersichtlich auch bei großem Volumen. Priorisierung nach Dringlichkeit (Notfall, dringend, Routine). Team-Zuweisung automatisch oder manuell. Warteschlangen-Management für Stoßzeiten. Auslastungs-Monitoring in Echtzeit. MVZ mit 3000+ Patienten/Woche nutzen MediDesk erfolgreich."
+        "text": "Jeder Standort hat eigenen Kalender, Sprechzeiten und Team, aber Sie haben zentrale Übersicht. Patienten wählen den Standort, Termine werden automatisch zugeordnet. Einheitliche Standards über alle Standorte. 75% weniger Koordinationsaufwand."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bewältigt MediDesk® große Patientenvolumen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist für 500-1000+ Patientenanfragen täglich ausgelegt. Priorisierung nach Dringlichkeit, automatische Team-Zuweisung, Warteschlangen-Management und Echtzeit-Auslastungsmonitoring sind inklusive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® interdisziplinäre Koordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten können fachübergreifend koordiniert werden. Wenn ein Patient Kardiologie und Diabetologie braucht, werden beide Termine intelligent geplant. Interne Überweisungen funktionieren nahtlos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gibt es Team-Management mit Rollenrechten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, verschiedene Benutzerrollen (Admin, Arzt, MFA, Empfang) mit unterschiedlichen Berechtigungen. Jeder sieht nur, was für seine Rolle relevant ist. Audit-Logs dokumentieren alle Zugriffe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können mehrere PVS-Systeme angebunden werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, bei MVZ mit verschiedenen PVS-Systemen pro Standort können alle angebunden werden. MediDesk® fungiert als zentrale Koordinationsplattform. HL7 und FHIR werden unterstützt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für Kliniken?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® erfüllt alle Anforderungen für Kliniken und MVZ: EU-Hosting, Ende-zu-Ende-Verschlüsselung, KV-Zertifizierung, Audit-Logs und Zwei-Faktor-Authentifizierung. Ein AVV ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für ein MVZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise sind volumenabhängig und beginnen bei 119 EUR pro Monat für kleine Einheiten. Für größere MVZ und Kliniken gibt es individuelle Enterprise-Angebote. Kontaktieren Sie uns für ein Angebot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einem MVZ eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Ersteinrichtung dauert 48 Stunden. Für komplexe MVZ mit Multi-Standort und PVS-Anbindung planen wir 2-4 Wochen für die vollständige Integration mit Schulung."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gibt es zentrale Auswertungen und Berichte?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, das Dashboard zeigt standortübergreifende Statistiken: Terminvolumen, Auslastung pro Arzt und Standort, Wartezeiten, häufigste Anfragen. Exportfunktion für Controlling und QM verfügbar."
       }
     }
   ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für MVZ & Kliniken",
+  "name": "MediDesk® für MVZ und Kliniken",
+  "description": "Skalierbare digitale Lösung für Medizinische Versorgungszentren und Kliniken mit Multi-Standort-Management, interdisziplinärer Koordination und zentraler Steuerung.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "MVZ, Medizinische Versorgungszentren, Kliniken, Krankenhäuser, Praxisverbünde, Polikliniken"
+  }
 }
 </script>
 </head>

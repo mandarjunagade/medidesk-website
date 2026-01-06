@@ -1,34 +1,51 @@
-<?php include '../../includes/meta.php'; ?>
-<title>Online-Rezeption für Zahnärzte & Zahnarztpraxen - MediDesk® | Digitale Praxisverwaltung</title>
-<meta name="description" content="Die digitale Online-Rezeption speziell für Zahnarztpraxen. Reduzieren Sie Telefonanrufe um 80%, optimieren Sie Prophylaxe-Recall und Terminmanagement. DSGVO-konform, in 48h startklar. Ideal für Zahnarzt, Kieferorthopädie & Implantologie.">
-<meta name="keywords" content="Online-Rezeption Zahnarzt, digitale Zahnarztpraxis, Zahnmedizin Terminverwaltung, Online-Terminbuchung Zahnarzt, digitale Patientenkommunikation Zahnmedizin, MediDesk Zahnarzt, Prophylaxe-Recall digital, Zahnersatz-Anfragen online">
-<link rel="canonical" href="<?= $root; ?>zahnmedizin">
+<?php
+// SEO Configuration for Zahnmedizin
+$page_title = "Online-Rezeption für Zahnärzte & Zahnarztpraxen - MediDesk® | Digitale Praxisverwaltung";
+$page_description = "Die digitale Online-Rezeption speziell für Zahnarztpraxen. Reduzieren Sie Telefonanrufe um 80%, optimieren Sie Prophylaxe-Recall und Terminmanagement. DSGVO-konform, in 48h startklar.";
+$page_keywords = "Online-Rezeption Zahnarzt, digitale Zahnarztpraxis, Zahnmedizin Terminverwaltung, Online-Terminbuchung Zahnarzt, MediDesk Zahnarzt";
+$page_canonical = "https://medideskr.cloud/fachrichtungen/zahnmedizin/";
+$page_og_type = "website";
 
-<!-- Enhanced Schema Markup for Dentistry -->
+include '../../includes/meta.php';
+?>
+<title><?= $page_title; ?></title>
+
+<!-- Schema.org Structured Data - WebApplication for Zahnmedizin -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Dentist",
-  "name": "MediDesk® - Online-Rezeption für Zahnärzte",
-  "description": "Digitale Online-Rezeption speziell für Zahnarztpraxen. Optimiert für Prophylaxe-Recall, Schmerzpatienten-Management und Terminkoordination.",
-  "url": "<?= $root; ?>zahnmedizin",
-  "medicalSpecialty": "Dentistry",
-  "serviceType": [
-    "Digitale Patientenkommunikation",
-    "Online-Terminverwaltung",
-    "Prophylaxe-Recall-System",
-    "Schmerzpatienten-Management",
-    "Zahnersatz-Koordination",
-    "Kostenvoranschlag-Management"
-  ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Deutschland"
+  "@type": "WebApplication",
+  "name": "MediDesk® Online-Rezeption für Zahnmedizin",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Medical Practice Management",
+  "operatingSystem": "Web-based",
+  "description": "Digitale Online-Rezeption speziell für Zahnarztpraxen. Prophylaxe-Recall, Schmerzpatienten-Management, Zahnersatz-Koordination und Kostenvoranschlag-Bearbeitung.",
+  "url": "https://medideskr.cloud/fachrichtungen/zahnmedizin/",
+  "offers": {
+    "@type": "Offer",
+    "price": "119.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
   },
-  "availableLanguage": ["Deutsch", "English"]
+  "featureList": [
+    "Automatisches Prophylaxe-Recall",
+    "Schmerzpatienten-Priorisierung",
+    "Zahnersatz-Koordination",
+    "Kostenvoranschlag-Management",
+    "Bonusheft-Erinnerungen",
+    "DSGVO-konform",
+    "EU-Hosting",
+    "48h Einrichtungszeit"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  }
 }
 </script>
 
+<!-- Schema.org Structured Data - FAQPage for Zahnmedizin -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -36,10 +53,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie hilft MediDesk® bei der Prophylaxe-Recall-Organisation?",
+      "name": "Wie hilft MediDesk® Zahnarztpraxen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MediDesk® automatisiert Ihr Recall-System vollständig. Patienten erhalten automatische Erinnerungen für ihre nächste Prophylaxe (individuell einstellbar: 6 Monate, 12 Monate). Sie können direkt online einen Termin buchen. Ihr Team sieht auf einen Blick, welche Patienten fällig sind. Ergebnis: 85% höhere Prophylaxe-Quote, 70% weniger manuelle Recall-Anrufe."
+        "text": "MediDesk® reduziert den Telefonaufwand in Zahnarztpraxen um bis zu 80%. Patienten können online Termine buchen, Prophylaxe-Recall wird automatisiert und Schmerzpatienten werden priorisiert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert das automatische Prophylaxe-Recall-System?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Patienten erhalten automatische Erinnerungen für ihre nächste Prophylaxe (6 oder 12 Monate). Sie können direkt online einen Termin buchen. Das Ergebnis: 85% höhere Prophylaxe-Quote und 70% weniger manuelle Recall-Anrufe."
       }
     },
     {
@@ -47,10 +72,90 @@
       "name": "Können Schmerzpatienten priorisiert werden?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, absolut. Bei der Online-Anfrage wählen Patienten Dringlichkeit aus: Akute Schmerzen, zeitnah gewünscht oder Routinetermin. Schmerzpatienten werden im System rot markiert und erscheinen ganz oben. Sie können sofort reagieren. Durchschnittlich 95% der Schmerzpatienten werden am selben oder nächsten Tag versorgt."
+        "text": "Ja, Patienten wählen bei der Online-Anfrage die Dringlichkeit aus. Schmerzpatienten werden rot markiert und erscheinen ganz oben. 95% werden am selben oder nächsten Tag versorgt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Unterstützt MediDesk® die Zahnersatz-Koordination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Zahnersatz-Anfragen werden strukturiert erfasst: Art der Versorgung, Wünsche, finanzielle Möglichkeiten. Kostenvoranschläge können vorbereitet und Folgetermine koordiniert werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gibt es automatische Bonusheft-Erinnerungen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Patienten erhalten automatisch Erinnerungen an ihren jährlichen Vorsorge-Stempel für das Bonusheft. So verpassen weniger Patienten ihre Vorsorge und behalten ihre Bonusansprüche."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Können Kostenvoranschläge digital verwaltet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, der Status von Kostenvoranschlägen wird nachverfolgt: Erstellt, bei Krankenkasse, genehmigt, Termin vereinbaren. Patienten erhalten automatische Updates und können Fragen stellen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® DSGVO-konform für Zahnarztpraxen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® ist vollständig DSGVO-konform mit EU-Hosting in Deutschland, Ende-zu-Ende-Verschlüsselung und KV-Zertifizierung. Patientendaten sind maximal geschützt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet MediDesk® für eine Zahnarztpraxis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise beginnen bei 119 EUR pro Monat für 1-2 Behandler. Inkludiert sind Prophylaxe-Recall, Schmerzpatienten-Priorisierung und Zahnersatz-Koordination. Eine kostenlose 30-Tage-Testphase ist verfügbar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie schnell kann MediDesk® in einer Zahnarztpraxis eingerichtet werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MediDesk® ist innerhalb von 48 Stunden einsatzbereit. Die zahnmedizinspezifische Konfiguration umfasst Prophylaxe-Recall-Workflows, Schmerzpatienten-Triage und Zahnersatz-Formulare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist MediDesk® für größere Zahnarztpraxen und MVZ geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, MediDesk® skaliert für große Zahnarztpraxen und Zahn-MVZs. Multi-Standort-Management, PVS-Anbindung und Spezialisierungen wie Kieferorthopädie oder Implantologie werden unterstützt."
       }
     }
   ]
+}
+</script>
+
+<!-- Schema.org Structured Data - Service -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digitale Online-Rezeption für Zahnmedizin",
+  "name": "MediDesk® für Zahnärzte",
+  "description": "Spezialisierte digitale Lösung für Zahnarztpraxen mit Prophylaxe-Recall, Schmerzpatienten-Priorisierung und Zahnersatz-Koordination.",
+  "provider": {
+    "@type": "Organization",
+    "name": "MediDesk®",
+    "url": "https://medideskr.cloud/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Zahnärzte, Zahnarztpraxen, Zahn-MVZ, Kieferorthopäden, Oralchirurgen"
+  }
 }
 </script>
 </head>
