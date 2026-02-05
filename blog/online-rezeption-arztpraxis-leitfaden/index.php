@@ -21,7 +21,7 @@ include '../../includes/meta.php';
   "@type": "Article",
   "headline": "Online-Rezeption für Arztpraxen: Der komplette Leitfaden 2026",
   "description": "Umfassender Leitfaden zur Online-Rezeption für Arztpraxen mit Anbieter-Vergleich, Kosten, DSGVO-Anforderungen und Implementierungstipps.",
-  "image": "https://medideskr.cloud/blog/online-rezeption-arztpraxis-leitfaden/images/online-rezeption-arztpraxis-hero.jpg",
+  "image": "https://medideskr.cloud/assets/img/blogs/online-rezeption-arztpraxis-leitfaden.webp",
   "author": {
     "@type": "Organization",
     "name": "MediDesk®",
@@ -123,7 +123,7 @@ include '../../includes/meta.php';
             <!-- Right Column - Image -->
             <div class="col-lg-6">
                 <div class="blog-hero-image-right">
-                    <img src="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/images/online-rezeption-arztpraxis-hero.jpg"
+                    <img src="<?= $root; ?>assets/img/blogs/online-rezeption-arztpraxis-leitfaden.webp"
                          alt="Online-Rezeption für Arztpraxen - Digitale Patientenkommunikation am Empfang"
                          class="img-fluid"
                          loading="eager">

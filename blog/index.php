@@ -36,6 +36,22 @@ include '../includes/meta.php';
 }
 </script>
 
+<style>
+/* Blog Card Hover Effects */
+.card[style*="transition"] {
+    cursor: pointer;
+}
+
+.card[style*="transition"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card[style*="transition"]:hover h3 a {
+    color: #1976D2 !important;
+}
+</style>
+
 </head>
 
 <body>
@@ -75,7 +91,7 @@ include '../includes/meta.php';
                     <div class="row g-0">
                         <div class="col-md-5">
                             <!-- IMAGE PLACEHOLDER: Featured article hero image -->
-                            <img src="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/images/online-rezeption-arztpraxis-hero.jpg"
+                            <img src="<?= $root; ?>assets/img/blogs/online-rezeption-arztpraxis-leitfaden.webp"
                                  alt="Online-Rezeption für Arztpraxen - Der komplette Leitfaden"
                                  class="img-fluid h-100"
                                  style="object-fit: cover; min-height: 250px;"
@@ -100,10 +116,39 @@ include '../includes/meta.php';
                     </div>
                 </article>
 
-                <!-- Info Box -->
-                <div class="alert alert-info mb-5" style="border-radius: 12px;">
-                    <h3 class="h6 mb-2"><i class="fa-solid fa-lightbulb me-2"></i> Weitere Artikel in Planung</h3>
-                    <p class="mb-0">Wir arbeiten an weiteren Fachartikeln zu Themen wie Telefonstress, MFA-Entlastung, DSGVO-konforme Kommunikation und KI in der Arztpraxis. Besuchen Sie uns bald wieder!</p>
+                <!-- Recent Articles -->
+                <h3 class="h5 mb-4">Aktuelle Artikel</h3>
+                <div class="row g-4 mb-5">
+                    <!-- Article Card: 321 MED Alternative -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-primary mb-2">Anbieter-Vergleich</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/321-med-alternative/" style="color: inherit; text-decoration: none;">
+                                        321 MED Alternative 2026: Die besten Online-Rezeption Anbieter im Vergleich
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Ehrlicher Vergleich von MediDesk, Doctolib, Docmedico, samedi & Idana – Preise, Funktionen, Vor- & Nachteile. Mit ROI-Berechnungen und Praxisbeispielen.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 14 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/321-med-alternative/" class="btn btn-sm btn-outline-primary">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Placeholder for future article -->
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0" style="border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border: 2px dashed #dee2e6;">
+                            <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <i class="fa-solid fa-pen-to-square mb-3" style="font-size: 48px; color: #adb5bd;"></i>
+                                <h4 class="h6 mb-2" style="color: #6c757d;">Weitere Artikel in Arbeit</h4>
+                                <p class="small text-muted mb-0">Nächste Themen: Telefonstress-Lösungen, MFA-Entlastung, DSGVO-konforme Kommunikation</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Topics Overview -->
