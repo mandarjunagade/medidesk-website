@@ -171,7 +171,7 @@ include '../../includes/meta.php';
             <!-- Right Column - Image -->
             <div class="col-lg-6">
                 <div class="blog-hero-image-right">
-                    <img src="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/images/online-rezeption-arztpraxis-hero.jpg"
+                    <img src="<?= $root; ?>assets/img/blogs/321-med-alternative.webp"
                          alt="321 MED Alternative - Online-Rezeption Anbieter im Vergleich 2026"
                          class="img-fluid"
                          loading="eager">
