@@ -139,15 +139,24 @@ include '../includes/meta.php';
                         </article>
                     </div>
 
-                    <!-- Placeholder for future article -->
+                    <!-- Article Card: Doctolib Alternative -->
                     <div class="col-md-6">
-                        <div class="card h-100 border-0" style="border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border: 2px dashed #dee2e6;">
-                            <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center text-center">
-                                <i class="fa-solid fa-pen-to-square mb-3" style="font-size: 48px; color: #adb5bd;"></i>
-                                <h4 class="h6 mb-2" style="color: #6c757d;">Weitere Artikel in Arbeit</h4>
-                                <p class="small text-muted mb-0">Nächste Themen: Telefonstress-Lösungen, MFA-Entlastung, DSGVO-konforme Kommunikation</p>
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-primary mb-2">Anbieter-Vergleich</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/doctolib-alternative/" style="color: inherit; text-decoration: none;">
+                                        Doctolib Alternative 2026: Online-Rezeption ohne hohe Kosten
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">229€/Monat für Terminbuchung – muss das sein? Die besten Doctolib Alternativen im Vergleich: MediDesk, 321 MED, Docmedico, samedi & arzt-direkt.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 12 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/doctolib-alternative/" class="btn btn-sm btn-outline-primary">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
                             </div>
-                        </div>
+                        </article>
                     </div>
                 </div>
 

@@ -74,7 +74,7 @@ These target high-intent users actively comparing solutions.
 
 | Week | Article | Target Keyword |
 |------|---------|----------------|
-| 1 | **321 MED Alternative 2026: Anbieter im Vergleich** | 321 med alternative |
+| 1 | ✅ **321 MED Alternative 2026: Anbieter im Vergleich** | 321 med alternative |
 | 1 | **Doctolib Alternative für Online-Rezeption** | doctolib alternative |
 | 2 | **Docmedico vs MediDesk: Online-Rezeption Vergleich** | docmedico erfahrungen |
 | 2 | **Aaron.ai Alternative: Warum Online-Rezeption besser funktioniert** | aaron ai alternative |
@@ -137,7 +137,7 @@ Link each article to existing `/fachrichtungen/` pages.
 
 | # | New Directory | Priority | Article Title | Target Keyword |
 |---|---------------|----------|---------------|----------------|
-| 21 | `321-med-alternative/` | **P1** | 321 MED Alternative 2026: Anbieter im Vergleich | 321 med alternative |
+| 21 | `321-med-alternative/` | ✅ **DONE** | 321 MED Alternative 2026: Anbieter im Vergleich | 321 med alternative |
 | 22 | `doctolib-alternative/` | **P1** | Doctolib Alternative: Online-Rezeption ohne hohe Kosten | doctolib alternative |
 | 23 | `docmedico-vergleich/` | **P1** | Docmedico vs MediDesk: Ehrlicher Vergleich 2026 | docmedico erfahrungen |
 | 24 | `aaron-ai-alternative/` | **P2** | Aaron.ai Alternative: Warum Online-Rezeption besser ist | aaron ai alternative |
@@ -155,7 +155,7 @@ Link each article to existing `/fachrichtungen/` pages.
 ### Week 1: Competitor Comparisons (QUICK WINS)
 | Day | Article | Directory | Est. Traffic |
 |-----|---------|-----------|--------------|
-| Mon | 321 MED Alternative 2026 | `321-med-alternative/` | High |
+| Mon | ✅ 321 MED Alternative 2026 | `321-med-alternative/` | High |
 | Tue | Doctolib Alternative | `doctolib-alternative/` | High |
 | Wed | Online-Rezeption Anbieter Vergleich 2026 | `online-rezeption-anbieter-vergleich/` | High |
 | Thu | Docmedico vs MediDesk | `docmedico-vergleich/` | Medium |
@@ -304,7 +304,7 @@ CTA: Chat Widget Demo
 
 | # | Article | Why First |
 |---|---------|-----------|
-| 1 | 321 MED Alternative | Highest competitor search volume |
+| 1 | ✅ 321 MED Alternative | Highest competitor search volume |
 | 2 | Doctolib Alternative | Major brand, high intent |
 | 3 | Online-Rezeption Anbieter Vergleich | Pillar-supporting, comparison intent |
 | 4 | Online-Rezeption Kosten | Commercial intent, conversion |
