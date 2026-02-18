@@ -965,8 +965,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>fachrichtungen/dermatologie/" style="color: inherit;">Online-Rezeption für Dermatologen</a></h4>
-                                    <p class="small text-muted mb-0">Fachrichtungsspezifisch: Foto-Upload, Hautkrebs-Screening-Anfragen und mehr.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/ki-telefonassistent-vs-online-rezeption/" style="color: inherit;">KI-Telefonassistent vs. Online-Rezeption 2026</a></h4>
+                                    <p class="small text-muted mb-0">Aaron.ai (Doctolib) vs. Online-Rezeption: Welcher Ansatz entlastet Arztpraxen wirklich?</p>
                                 </div>
                             </div>
                         </div>

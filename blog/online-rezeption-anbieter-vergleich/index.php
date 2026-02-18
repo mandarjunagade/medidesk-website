@@ -557,7 +557,7 @@ include '../../includes/meta.php';
                 <section id="preisvergleich" class="blog-section">
                     <h2 class="blog-section-title">3. Preisvergleich: Was kostet eine Online-Rezeption?</h2>
 
-                    <p>Die Kosten einer Online-Rezeption variieren je nach Anbieter, Praxisgröße und Funktionsumfang erheblich. Hier der transparente Preisvergleich:</p>
+                    <p>Die Kosten einer Online-Rezeption variieren je nach Anbieter, Praxisgröße und Funktionsumfang erheblich. Hier der transparente Preisvergleich (eine ausführliche Kostenanalyse mit versteckten Kosten und ROI-Rechner finden Sie in unserem <a href="<?= $root; ?>blog/online-rezeption-kosten/">Online-Rezeption Kosten Artikel</a>):</p>
 
                     <h3 class="blog-subsection-title">Preise nach Praxisgröße</h3>
 
@@ -1131,16 +1131,16 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/321-med-alternative/" style="color: inherit;">321 MED Alternative 2026: Anbieter im Vergleich</a></h4>
-                                    <p class="small text-muted mb-0">Detaillierter Vergleich der besten 321 MED Alternativen mit Preisen, Funktionen und Migration-Guide.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-kosten/" style="color: inherit;">Online-Rezeption Kosten 2026: Preisvergleich aller Anbieter</a></h4>
+                                    <p class="small text-muted mb-0">Versteckte Kosten aufgedeckt: ROI-Rechner, Spartipps und realistische Endpreise aller Anbieter.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/doctolib-alternative/" style="color: inherit;">Doctolib Alternative 2026: Online-Rezeption ohne hohe Kosten</a></h4>
-                                    <p class="small text-muted mb-0">Günstigere Alternativen zu Doctolib mit mehr Funktionen für weniger Geld.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/321-med-alternative/" style="color: inherit;">321 MED Alternative 2026: Anbieter im Vergleich</a></h4>
+                                    <p class="small text-muted mb-0">Detaillierter Vergleich der besten 321 MED Alternativen mit Preisen, Funktionen und Migration-Guide.</p>
                                 </div>
                             </div>
                         </div>
@@ -1155,8 +1155,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>fachrichtungen/allgemeinmedizin/" style="color: inherit;">Online-Rezeption für Hausarztpraxen</a></h4>
-                                    <p class="small text-muted mb-0">Speziell für Allgemeinmediziner: Wie Sie Telefonflut reduzieren und Patienten besser betreuen.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/ki-telefonassistent-vs-online-rezeption/" style="color: inherit;">KI-Telefonassistent vs. Online-Rezeption 2026</a></h4>
+                                    <p class="small text-muted mb-0">Aaron.ai, VITAS & Co. vs. MediDesk, 321 MED: Welcher Ansatz entlastet Ihre Praxis wirklich?</p>
                                 </div>
                             </div>
                         </div>

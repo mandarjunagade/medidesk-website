@@ -119,6 +119,66 @@ include '../includes/meta.php';
                 <!-- Recent Articles -->
                 <h3 class="h5 mb-4">Aktuelle Artikel</h3>
                 <div class="row g-4 mb-5">
+                    <!-- Article Card: Telefonstress in der Arztpraxis -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-danger mb-2">Praxisalltag</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/telefonstress-arztpraxis-loesungen/" style="color: inherit; text-decoration: none;">
+                                        Telefonstress in der Arztpraxis: 10 bewährte Lösungen für 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">75% der MFAs nennen das Dauerklingeln als größten Stressfaktor. 10 sofort umsetzbare Lösungen gegen Telefonflut – von kostenlos bis hochwirksam.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 15 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/telefonstress-arztpraxis-loesungen/" class="btn btn-sm btn-outline-danger">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: KI-Telefonassistent vs Online-Rezeption -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-danger mb-2">Vergleich</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/ki-telefonassistent-vs-online-rezeption/" style="color: inherit; text-decoration: none;">
+                                        KI-Telefonassistent vs. Online-Rezeption: Was entlastet Arztpraxen wirklich?
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Aaron.ai, VITAS, idana vs. MediDesk, 321 MED, Doctolib – Technik, Kosten, Patientenakzeptanz und Kombinationsmöglichkeiten im direkten Vergleich.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 14 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/ki-telefonassistent-vs-online-rezeption/" class="btn btn-sm btn-outline-danger">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Online-Rezeption Kosten -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-warning text-dark mb-2">Kosten & Preise</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/online-rezeption-kosten/" style="color: inherit; text-decoration: none;">
+                                        Online-Rezeption Kosten 2026: Preisvergleich aller Anbieter
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Was kostet eine Online-Rezeption wirklich? Transparenter Preisvergleich mit versteckten Kosten, ROI-Rechner und 5 konkreten Spartipps.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 12 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/online-rezeption-kosten/" class="btn btn-sm btn-outline-warning">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
                     <!-- Article Card: Online-Rezeption Anbieter Vergleich -->
                     <div class="col-md-6">
                         <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
