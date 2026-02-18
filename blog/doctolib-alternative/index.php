@@ -957,8 +957,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>fachrichtungen/allgemeinmedizin/" style="color: inherit;">Online-Rezeption für Hausarztpraxen</a></h4>
-                                    <p class="small text-muted mb-0">Speziell für Allgemeinmediziner: Wie Sie Telefonflut reduzieren und Patienten besser betreuen.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-anbieter-vergleich/" style="color: inherit;">Online-Rezeption Anbieter Vergleich 2026: Die besten Lösungen</a></h4>
+                                    <p class="small text-muted mb-0">6 Anbieter im Vergleich: Preise, Funktionen, Checkliste – finden Sie die passende Online-Rezeption.</p>
                                 </div>
                             </div>
                         </div>

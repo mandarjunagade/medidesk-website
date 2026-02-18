@@ -119,6 +119,26 @@ include '../includes/meta.php';
                 <!-- Recent Articles -->
                 <h3 class="h5 mb-4">Aktuelle Artikel</h3>
                 <div class="row g-4 mb-5">
+                    <!-- Article Card: Online-Rezeption Anbieter Vergleich -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-success mb-2">Anbieter-Vergleich</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/online-rezeption-anbieter-vergleich/" style="color: inherit; text-decoration: none;">
+                                        Online-Rezeption Anbieter Vergleich 2026: Die besten Lösungen für Arztpraxen
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">6 Anbieter im ehrlichen Vergleich: MediDesk, 321 MED, Doctolib, Docmedico, samedi & Idana – Preise, Funktionen, Checkliste und Empfehlungen.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 16 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/online-rezeption-anbieter-vergleich/" class="btn btn-sm btn-outline-success">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
                     <!-- Article Card: 321 MED Alternative -->
                     <div class="col-md-6">
                         <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
