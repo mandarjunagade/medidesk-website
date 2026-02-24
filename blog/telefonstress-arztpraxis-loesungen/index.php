@@ -995,16 +995,16 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/ki-telefonassistent-vs-online-rezeption/" style="color: inherit;">KI-Telefonassistent vs. Online-Rezeption 2026</a></h4>
-                                    <p class="small text-muted mb-0">Aaron.ai, VITAS & Co. vs. MediDesk, 321 MED: Welcher Ansatz entlastet Ihre Praxis wirklich?</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/telefonentlastung-arztpraxis-tipps/" style="color: inherit;">Telefonentlastung Arztpraxis: 15 Tipps für sofortige Entlastung 2026</a></h4>
+                                    <p class="small text-muted mb-0">Sofortmaßnahmen, kurzfristige Strategien und kompletter 4-Wochen-Umsetzungsplan zur Reduktion des Telefonvolumens.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/" style="color: inherit;">Online-Rezeption für Arztpraxen: Der komplette Leitfaden 2026</a></h4>
-                                    <p class="small text-muted mb-0">Definition, Funktionen, DSGVO-Anforderungen und Implementierung – alles was Sie wissen müssen.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/mfa-burnout-vermeiden/" style="color: inherit;">MFA Burnout vermeiden: Digitale Entlastung als Lösung</a></h4>
+                                    <p class="small text-muted mb-0">68% der MFAs berichten von Erschöpfung. Warnsignale erkennen und Burnout mit 7 konkreten Maßnahmen verhindern.</p>
                                 </div>
                             </div>
                         </div>

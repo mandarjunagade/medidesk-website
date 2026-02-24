@@ -965,8 +965,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/ki-telefonassistent-vs-online-rezeption/" style="color: inherit;">KI-Telefonassistent vs. Online-Rezeption 2026</a></h4>
-                                    <p class="small text-muted mb-0">Aaron.ai (Doctolib) vs. Online-Rezeption: Welcher Ansatz entlastet Arztpraxen wirklich?</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-orthopaedie/" style="color: inherit;">Online-Rezeption Orthopädie: MRT, Physio & Termine digital 2026</a></h4>
+                                    <p class="small text-muted mb-0">Orthopädie-spezifische Lösungen: MRT-Vorbefundung, Physio-Koordination, Post-OP-Nachsorge und ROI-Berechnung.</p>
                                 </div>
                             </div>
                         </div>

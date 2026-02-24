@@ -1245,16 +1245,16 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/telefonstress-arztpraxis-loesungen/" style="color: inherit;">Telefonstress in der Arztpraxis: 10 bewährte Lösungen</a></h4>
-                                    <p class="small text-muted mb-0">75% der MFAs nennen das Dauerklingeln als größten Stressfaktor. 10 sofort umsetzbare Maßnahmen.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-hausarztpraxis/" style="color: inherit;">Online-Rezeption Hausarztpraxis: Praxislösung für Allgemeinmediziner</a></h4>
+                                    <p class="small text-muted mb-0">Maßgeschneiderte Lösung für Hausarztpraxen: 5-Tage-Einführungsplan, Anbieter-Vergleich und echtes Praxisbeispiel.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-kosten/" style="color: inherit;">Online-Rezeption Kosten 2026: Preisvergleich aller Anbieter</a></h4>
-                                    <p class="small text-muted mb-0">Versteckte Kosten aufgedeckt: ROI-Rechner, Spartipps und realistische Endpreise.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/roi-online-rezeption/" style="color: inherit;">ROI Online-Rezeption: Lohnt sich die Investition?</a></h4>
+                                    <p class="small text-muted mb-0">119€ Investition → 1.800€ Ersparnis: ROI-Berechnung mit echten Zahlen und 3 Praxisbeispielen.</p>
                                 </div>
                             </div>
                         </div>

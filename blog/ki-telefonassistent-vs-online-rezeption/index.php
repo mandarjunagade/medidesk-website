@@ -777,16 +777,16 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-kosten/" style="color: inherit;">Online-Rezeption Kosten 2026: Preisvergleich aller Anbieter</a></h4>
-                                    <p class="small text-muted mb-0">Versteckte Kosten aufgedeckt: ROI-Rechner, Spartipps und realistische Endpreise.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/sichere-patientenkommunikation-alternativen/" style="color: inherit;">WhatsApp in der Arztpraxis: DSGVO-konforme Alternativen</a></h4>
+                                    <p class="small text-muted mb-0">Warum WhatsApp gegen die DSGVO verstößt und welche 5 sicheren Alternativen es für Arztpraxen gibt.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/telefonstress-arztpraxis-loesungen/" style="color: inherit;">Telefonstress in der Arztpraxis: 10 Lösungen</a></h4>
-                                    <p class="small text-muted mb-0">75% der MFAs nennen das Dauerklingeln als größten Stressfaktor. 10 Lösungen von kostenlos bis hochwirksam.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/epa-2026-arztpraxis-leitfaden/" style="color: inherit;">ePA 2026: Was Arztpraxen jetzt wissen und umsetzen müssen</a></h4>
+                                    <p class="small text-muted mb-0">Zeitplan, Pflichten und Chancen der elektronischen Patientenakte – wie ePA und Online-Rezeption synergetisch zusammenwirken.</p>
                                 </div>
                             </div>
                         </div>

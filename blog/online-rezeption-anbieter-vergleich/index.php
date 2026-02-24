@@ -1139,8 +1139,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/321-med-alternative/" style="color: inherit;">321 MED Alternative 2026: Anbieter im Vergleich</a></h4>
-                                    <p class="small text-muted mb-0">Detaillierter Vergleich der besten 321 MED Alternativen mit Preisen, Funktionen und Migration-Guide.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/digitale-patientenkommunikation/" style="color: inherit;">Digitale Patientenkommunikation: DSGVO-konform & effizient 2026</a></h4>
+                                    <p class="small text-muted mb-0">Alle Kommunikationskanäle im Vergleich – DSGVO-Anforderungen, Implementierungs-Checkliste und ePA-Kontext.</p>
                                 </div>
                             </div>
                         </div>
@@ -1155,8 +1155,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/ki-telefonassistent-vs-online-rezeption/" style="color: inherit;">KI-Telefonassistent vs. Online-Rezeption 2026</a></h4>
-                                    <p class="small text-muted mb-0">Aaron.ai, VITAS & Co. vs. MediDesk, 321 MED: Welcher Ansatz entlastet Ihre Praxis wirklich?</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/roi-online-rezeption/" style="color: inherit;">ROI Online-Rezeption: Lohnt sich die Investition?</a></h4>
+                                    <p class="small text-muted mb-0">119€ Investition → 1.800€ Ersparnis: ROI-Berechnung mit echten Zahlen und 3 Praxisbeispielen.</p>
                                 </div>
                             </div>
                         </div>

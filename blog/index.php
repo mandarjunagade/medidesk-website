@@ -119,6 +119,167 @@ include '../includes/meta.php';
                 <!-- Recent Articles -->
                 <h3 class="h5 mb-4">Aktuelle Artikel</h3>
                 <div class="row g-4 mb-5">
+
+                    <!-- Article Card: Online-Rezeption Orthopädie -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-success mb-2">Fachrichtung</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/online-rezeption-orthopaedie/" style="color: inherit; text-decoration: none;">
+                                        Online-Rezeption Orthopädie: MRT, Physio & Termine digital verwalten 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Orthopädie-spezifische Lösungen: MRT-Vorbefundung, Physio-Koordination, Post-OP-Nachsorge – Anbieter-Vergleich und ROI-Berechnung.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 13 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/online-rezeption-orthopaedie/" class="btn btn-sm btn-outline-success">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: EPA 2026 Leitfaden -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-warning text-dark mb-2">Regulatorik</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/epa-2026-arztpraxis-leitfaden/" style="color: inherit; text-decoration: none;">
+                                        ePA 2026: Was Arztpraxen jetzt wissen und umsetzen müssen
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Zeitplan, Pflichten und Chancen der elektronischen Patientenakte – wie die ePA und Online-Rezeption synergetisch zusammenwirken.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 14 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/epa-2026-arztpraxis-leitfaden/" class="btn btn-sm btn-outline-warning">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Online-Rezeption Hausarztpraxis -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-success mb-2">Fachrichtung</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/online-rezeption-hausarztpraxis/" style="color: inherit; text-decoration: none;">
+                                        Online-Rezeption Hausarztpraxis: Praxislösung für Allgemeinmediziner 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Maßgeschneiderte Lösung für Hausarztpraxen: Anfragentypen, Anbieter-Vergleich, 5-Tage-Einführungsplan und echtes Praxisbeispiel.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 13 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/online-rezeption-hausarztpraxis/" class="btn btn-sm btn-outline-success">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Digitale Patientenkommunikation -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-info text-dark mb-2">Leitfaden</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/digitale-patientenkommunikation/" style="color: inherit; text-decoration: none;">
+                                        Digitale Patientenkommunikation: DSGVO-konform & effizient in 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Was ist erlaubt, was nicht? Alle Kommunikationskanäle im Vergleich – mit DSGVO-Anforderungen, ePA-Kontext und Implementierungs-Checkliste.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 15 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/digitale-patientenkommunikation/" class="btn btn-sm btn-outline-info">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Telefonentlastung Arztpraxis -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-info text-dark mb-2">Praxis-Guide</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/telefonentlastung-arztpraxis-tipps/" style="color: inherit; text-decoration: none;">
+                                        Telefonentlastung Arztpraxis: 15 Tipps für sofortige Entlastung 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Sofortmaßnahmen, kurzfristige Strategien und digitale Lösungen – kompletter 4-Wochen-Umsetzungsplan zur Reduktion des Telefonvolumens.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 16 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/telefonentlastung-arztpraxis-tipps/" class="btn btn-sm btn-outline-info">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: ROI Online-Rezeption -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-success mb-2">ROI & Wirtschaftlichkeit</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/roi-online-rezeption/" style="color: inherit; text-decoration: none;">
+                                        ROI Online-Rezeption: Lohnt sich die Investition? Zahlen & Fakten 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">119€ Investition → 1.800€ Ersparnis: ROI-Berechnung mit echten Zahlen, Amortisation ab Monat 1 und 3 Praxisbeispiele.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 15 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/roi-online-rezeption/" class="btn btn-sm btn-outline-success">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Sichere Patientenkommunikation (WhatsApp Alternative) -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-warning text-dark mb-2">DSGVO</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/sichere-patientenkommunikation-alternativen/" style="color: inherit; text-decoration: none;">
+                                        WhatsApp in der Arztpraxis: DSGVO-konforme Alternativen 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">WhatsApp verstößt gegen die DSGVO – Bußgelder bis 300.000 €. 5 sichere Alternativen für die Patientenkommunikation im Vergleich.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 14 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/sichere-patientenkommunikation-alternativen/" class="btn btn-sm btn-outline-warning">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: MFA Burnout vermeiden -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-danger mb-2">MFA & Personal</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/mfa-burnout-vermeiden/" style="color: inherit; text-decoration: none;">
+                                        MFA Burnout vermeiden: Digitale Entlastung als Lösung 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">68% der MFAs berichten von Erschöpfung. Warnsignale erkennen, Ursachen verstehen und Burnout mit 7 konkreten Maßnahmen verhindern.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 14 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/mfa-burnout-vermeiden/" class="btn btn-sm btn-outline-danger">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
                     <!-- Article Card: Telefonstress in der Arztpraxis -->
                     <div class="col-md-6">
                         <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
