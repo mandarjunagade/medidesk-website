@@ -15,6 +15,40 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+// ── Rate Limiting: 5 requests per IP per day ──
+$rateLimitDir = __DIR__ . '/rate_limits';
+if (!is_dir($rateLimitDir)) {
+    mkdir($rateLimitDir, 0755, true);
+}
+
+$ip = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'unknown';
+$ip = explode(',', $ip)[0]; // take first IP if multiple
+$ipHash = md5(trim($ip));
+$today = date('Y-m-d');
+$rateLimitFile = $rateLimitDir . '/' . $ipHash . '_' . $today . '.txt';
+
+// Clean up old rate limit files (older than today)
+foreach (glob($rateLimitDir . '/*.txt') as $file) {
+    if (strpos(basename($file), $today) === false) {
+        @unlink($file);
+    }
+}
+
+$requestCount = 0;
+if (file_exists($rateLimitFile)) {
+    $requestCount = (int) file_get_contents($rateLimitFile);
+}
+
+if ($requestCount >= 5) {
+    http_response_code(429);
+    echo json_encode([
+        'error' => 'Tageslimit erreicht. Sie können maximal 5 Anfragen pro Tag stellen. Bitte versuchen Sie es morgen erneut.'
+    ]);
+    exit;
+}
+
+file_put_contents($rateLimitFile, $requestCount + 1, LOCK_EX);
+
 $config = require __DIR__ . '/config.php';
 
 $input = json_decode(file_get_contents('php://input'), true);

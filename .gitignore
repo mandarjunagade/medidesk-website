@@ -1,3 +1,6 @@
 # Sensitive config
 includes/config.php
 praxis-dgvt/config.php
+
+# Rate limit data
+praxis-dgvt/rate_limits/
