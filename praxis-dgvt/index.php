@@ -601,8 +601,7 @@
 
         } catch (err) {
             typingEl.remove();
-            showError(err.message);
-            appendMessage('assistant', 'Entschuldigung, es gab einen Fehler. Bitte versuchen Sie es erneut.');
+            appendMessage('assistant', 'Entschuldigung, etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.');
         }
 
         isLoading = false;
