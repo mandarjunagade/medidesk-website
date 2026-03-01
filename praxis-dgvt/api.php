@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
@@ -16,9 +17,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // ── Rate Limiting: 5 requests per IP per day ──
-$rateLimitDir = __DIR__ . '/rate_limits';
+$rateLimitDir = sys_get_temp_dir() . '/medidesk_rate_limits';
 if (!is_dir($rateLimitDir)) {
-    mkdir($rateLimitDir, 0755, true);
+    @mkdir($rateLimitDir, 0755, true);
 }
 
 $ip = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'unknown';
