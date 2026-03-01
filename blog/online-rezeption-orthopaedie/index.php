@@ -487,8 +487,8 @@ include '../../includes/meta.php';
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;"><div class="card-body">
-                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/mfa-burnout-vermeiden/" style="color: inherit;">MFA Burnout vermeiden: Digitale Entlastung als Lösung</a></h4>
-                                <p class="small text-muted mb-0">Orthopädie-MFAs sind besonders gefährdet – wie eine Online-Rezeption Burnout verhindert.</p>
+                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-dermatologie/" style="color: inherit;">Online-Rezeption Dermatologie: Hautkrebs-Screening & Termine digital</a></h4>
+                                <p class="small text-muted mb-0">Wie Dermatologen mit spezialisierten Formularen 90-150 tägliche Anrufe um 70-80% reduzieren.</p>
                             </div></div>
                         </div>
                         <div class="col-md-6">

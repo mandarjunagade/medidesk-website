@@ -895,8 +895,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/telefonstress-arztpraxis-loesungen/" style="color: inherit;">Telefonstress in der Arztpraxis: 10 bewährte Lösungen</a></h4>
-                                    <p class="small text-muted mb-0">75% der MFAs nennen das Dauerklingeln als größten Stressfaktor. 10 Lösungen im Vergleich.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/dsgvo-patientenkommunikation-2026/" style="color: inherit;">DSGVO Patientenkommunikation 2026: Rechtssichere Lösungen</a></h4>
+                                    <p class="small text-muted mb-0">Vertiefung: Bußgeldrisiken, AVV-Anforderungen und die komplette DSGVO-Checkliste für Patientenkommunikation.</p>
                                 </div>
                             </div>
                         </div>

@@ -515,8 +515,8 @@ include '../../includes/meta.php';
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;"><div class="card-body">
-                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/telefonentlastung-arztpraxis-tipps/" style="color: inherit;">Telefonentlastung Arztpraxis: Der komplette Guide</a></h4>
-                                <p class="small text-muted mb-0">15 Strategien gegen die Anrufflut – von kostenlos bis hochwirksam.</p>
+                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/dsgvo-patientenkommunikation-2026/" style="color: inherit;">DSGVO Patientenkommunikation 2026: Rechtssichere Lösungen</a></h4>
+                                <p class="small text-muted mb-0">WhatsApp, E-Mail, Fax – was ist erlaubt? Bußgeldrisiken und Checkliste für rechtssichere Kommunikation.</p>
                             </div></div>
                         </div>
                         <div class="col-md-6">

@@ -850,8 +850,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/" style="color: inherit;">Online-Rezeption für Arztpraxen: Der komplette Leitfaden 2026</a></h4>
-                                    <p class="small text-muted mb-0">Was ist eine Online-Rezeption? Definition, Funktionen, DSGVO und Implementierung.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/mvz-digitalisierung-mehrere-standorte/" style="color: inherit;">MVZ Digitalisierung: Software für mehrere Standorte</a></h4>
+                                    <p class="small text-muted mb-0">MVZ-Preise im Detail: Ab 298€/Monat für Multi-Standort-Lösungen mit zentralem Dashboard.</p>
                                 </div>
                             </div>
                         </div>

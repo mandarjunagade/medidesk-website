@@ -987,8 +987,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-kosten/" style="color: inherit;">Online-Rezeption Kosten 2026: Preisvergleich aller Anbieter</a></h4>
-                                    <p class="small text-muted mb-0">Versteckte Kosten aufgedeckt: ROI-Rechner, Spartipps und realistische Endpreise.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-dermatologie/" style="color: inherit;">Online-Rezeption Dermatologie: Hautkrebs-Screening & Termine digital</a></h4>
+                                    <p class="small text-muted mb-0">Praxisbeispiel: Wie Dermatologie-Praxen den Telefonstress mit spezialisierten Formularen besiegen.</p>
                                 </div>
                             </div>
                         </div>

@@ -120,6 +120,106 @@ include '../includes/meta.php';
                 <h3 class="h5 mb-4">Aktuelle Artikel</h3>
                 <div class="row g-4 mb-5">
 
+                    <!-- Article Card: MVZ Digitalisierung -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-primary mb-2">MVZ</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/mvz-digitalisierung-mehrere-standorte/" style="color: inherit; text-decoration: none;">
+                                        MVZ Digitalisierung: Software für mehrere Standorte 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Zentrale Online-Rezeption für MVZ: Multi-Standort-Dashboard, standortübergreifende Weiterleitung und ROI-Berechnung für 3-10+ Standorte.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 14 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/mvz-digitalisierung-mehrere-standorte/" class="btn btn-sm btn-outline-primary">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Online-Rezeption Psychotherapie -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-success mb-2">Fachrichtung</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/online-rezeption-psychotherapie/" style="color: inherit; text-decoration: none;">
+                                        Online-Rezeption Psychotherapie: Therapieplatzanfragen digital managen
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">20-50 Anfragen täglich, keine MFA, kein Anrufbeantworter: Wie Psychotherapeut:innen mit einer Online-Rezeption 2-3 Stunden pro Tag sparen.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 12 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/online-rezeption-psychotherapie/" class="btn btn-sm btn-outline-success">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: DSGVO Patientenkommunikation 2026 -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-danger mb-2">DSGVO</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/dsgvo-patientenkommunikation-2026/" style="color: inherit; text-decoration: none;">
+                                        DSGVO Patientenkommunikation 2026: Rechtssichere Lösungen für Arztpraxen
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">WhatsApp, E-Mail, Fax – was ist erlaubt? DSGVO-konforme Kommunikationskanäle, Bußgeldrisiken und die Checkliste für rechtssichere Patientenkommunikation.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 15 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/dsgvo-patientenkommunikation-2026/" class="btn btn-sm btn-outline-danger">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Online-Rezeption Zahnarzt -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-success mb-2">Fachrichtung</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/online-rezeption-zahnarzt/" style="color: inherit; text-decoration: none;">
+                                        Online-Rezeption Zahnarzt: Recall, Schmerzpatienten & Termine digital 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Recall-Management, Schmerzpatienten-Triage und PZR-Buchung digital: Wie Zahnarztpraxen 80-130 tägliche Anrufe um 65-75% reduzieren.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 13 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/online-rezeption-zahnarzt/" class="btn btn-sm btn-outline-success">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article Card: Online-Rezeption Dermatologie -->
+                    <div class="col-md-6">
+                        <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                            <div class="card-body p-4">
+                                <span class="badge bg-success mb-2">Fachrichtung</span>
+                                <h3 class="h5 mb-3">
+                                    <a href="<?= $root; ?>blog/online-rezeption-dermatologie/" style="color: inherit; text-decoration: none;">
+                                        Online-Rezeption Dermatologie: Hautkrebs-Screening & Termine digital 2026
+                                    </a>
+                                </h3>
+                                <p class="text-muted small">Hautkrebs-Screening-Termine, Foto-Upload für Befunde, Rezeptanfragen für Dauermedikation – wie Dermatologen 90-150 tägliche Anrufe um 70-80% reduzieren.</p>
+                                <div class="d-flex align-items-center gap-3 text-muted mb-3" style="font-size: 13px;">
+                                    <span><i class="fa-regular fa-calendar me-1"></i> Februar 2026</span>
+                                    <span><i class="fa-regular fa-clock me-1"></i> 12 Min.</span>
+                                </div>
+                                <a href="<?= $root; ?>blog/online-rezeption-dermatologie/" class="btn btn-sm btn-outline-success">Artikel lesen <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
                     <!-- Article Card: Online-Rezeption Orthopädie -->
                     <div class="col-md-6">
                         <article class="card h-100 border-0 shadow-sm" style="border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease;">

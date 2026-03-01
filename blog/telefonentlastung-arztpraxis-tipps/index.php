@@ -529,8 +529,8 @@ include '../../includes/meta.php';
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;"><div class="card-body">
-                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/roi-online-rezeption/" style="color: inherit;">ROI Online-Rezeption: Lohnt sich die Investition?</a></h4>
-                                <p class="small text-muted mb-0">119€ Investition → 1.800€ Ersparnis: Wirtschaftlichkeitsrechnung für Ihre Praxis.</p>
+                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-zahnarzt/" style="color: inherit;">Online-Rezeption Zahnarzt: Recall, Schmerzpatienten & Termine digital</a></h4>
+                                <p class="small text-muted mb-0">Wie Zahnarztpraxen 80-130 tägliche Anrufe mit Recall-Management und Schmerzpatienten-Triage digital lösen.</p>
                             </div></div>
                         </div>
                     </div>

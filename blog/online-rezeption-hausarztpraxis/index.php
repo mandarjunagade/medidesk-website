@@ -442,8 +442,8 @@ include '../../includes/meta.php';
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;"><div class="card-body">
-                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/roi-online-rezeption/" style="color: inherit;">ROI Online-Rezeption: Lohnt sich die Investition?</a></h4>
-                                <p class="small text-muted mb-0">119€ Investition → 1.800€ Ersparnis: Die Wirtschaftlichkeitsrechnung für Hausarztpraxen.</p>
+                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-psychotherapie/" style="color: inherit;">Online-Rezeption Psychotherapie: Therapieplatzanfragen digital managen</a></h4>
+                                <p class="small text-muted mb-0">Auch für Einzelpraxen ohne MFA: Wie Psychotherapeut:innen 20-50 tägliche Anfragen digital strukturieren.</p>
                             </div></div>
                         </div>
                     </div>

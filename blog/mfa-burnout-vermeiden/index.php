@@ -918,8 +918,8 @@ include '../../includes/meta.php';
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;">
                                 <div class="card-body">
-                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-arztpraxis-leitfaden/" style="color: inherit;">Online-Rezeption für Arztpraxen: Der komplette Leitfaden 2026</a></h4>
-                                    <p class="small text-muted mb-0">Definition, Funktionen, DSGVO-Anforderungen und Implementierung – alles was Sie wissen müssen.</p>
+                                    <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/online-rezeption-psychotherapie/" style="color: inherit;">Online-Rezeption Psychotherapie: Therapieplatzanfragen digital</a></h4>
+                                    <p class="small text-muted mb-0">Besonders burnoutgefährdet: Wie Psychotherapeut:innen ohne MFA mit einer Online-Rezeption 2-3 Stunden/Tag sparen.</p>
                                 </div>
                             </div>
                         </div>

@@ -471,8 +471,8 @@ include '../../includes/meta.php';
                         </div>
                         <div class="col-md-6">
                             <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px;"><div class="card-body">
-                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/telefonentlastung-arztpraxis-tipps/" style="color: inherit;">Telefonentlastung Arztpraxis: 15 Strategien</a></h4>
-                                <p class="small text-muted mb-0">EPA reduziert Befund-Anrufe – zusätzlich noch weitere 60% sparen mit der Online-Rezeption.</p>
+                                <h4 class="h6 mb-2"><a href="<?= $root; ?>blog/mvz-digitalisierung-mehrere-standorte/" style="color: inherit;">MVZ Digitalisierung: Software für mehrere Standorte</a></h4>
+                                <p class="small text-muted mb-0">EPA-Compliance über alle Standorte: Wie MVZ mit zentraler Online-Rezeption die Digitalisierung meistern.</p>
                             </div></div>
                         </div>
                     </div>
