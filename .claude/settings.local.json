@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(cat:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(curl -s https://api.openai.com/v1/models -H \"Authorization: Bearer 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\")"
     ]
   }
 }
