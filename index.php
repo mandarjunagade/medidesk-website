@@ -240,13 +240,24 @@ include 'includes/meta.php';
     <!-- Challenges Section -->
     <section class="challenges-section">
         <div class="container">
-            <div class="section-header">
-                <span class="seo-anchor">Typische <span>Herausforderungen</span> im Praxisalltag</span>
-                <h2>Warum es in vielen <span class="highlight-text-red">Praxen hektisch</span> wird – <br>und nicht sein müsste.</h2>
-                <p class="subline">
-                    Täglich kommen viele Patient:innenanfragen rein – aber ungeordnet und oft gleichzeitig. 
-                    Das führt zu Unterbrechungen, Stress und fehlender Ruhe am Empfang.
-                </p>
+            <div class="row align-items-center" style="margin-bottom: 40px;">
+                <div class="col-md-7">
+                    <div class="section-header" style="text-align: left;">
+                        <span class="seo-anchor">Typische <span>Herausforderungen</span> im Praxisalltag</span>
+                        <h2>Warum es in vielen <span class="highlight-text-red">Praxen hektisch</span> wird – <br>und nicht sein müsste.</h2>
+                        <p class="subline">
+                            Täglich kommen viele Patient:innenanfragen rein – aber ungeordnet und oft gleichzeitig.
+                            Das führt zu Unterbrechungen, Stress und fehlender Ruhe am Empfang.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <div style="position: relative; display: inline-block; padding: 18px;">
+                        <span style="position: absolute; top: 0; right: 0; width: 75%; height: 75%; background: linear-gradient(135deg, #FFE5E5 0%, #FFCDD2 100%); border-radius: 30px 8px 30px 8px; z-index: 0;"></span>
+                        <span style="position: absolute; bottom: 0; left: 0; width: 60%; height: 60%; background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-radius: 8px 30px 8px 30px; z-index: 0; opacity: 0.7;"></span>
+                        <img src="<?= $root; ?>assets/img/img-3.jpg" alt="" loading="lazy" style="position: relative; z-index: 1; max-width: 320px; width: 100%; height: auto; border-radius: 24px; box-shadow: 0 18px 48px rgba(0,0,0,0.18); border: 6px solid #fff;">
+                    </div>
+                </div>
             </div>
 
             <div class="challenges-container">
@@ -361,11 +372,23 @@ include 'includes/meta.php';
 
     <!-- Benefits -->
     <section class="section-4-benefits">
-        <!-- Section Header -->
-        <div class="section-4-header">
-            <span class="seo-anchor">Ergebnisse & Vorteile</span>
-            <h2>Was sich mit <span class="highlight-text-bg2">MediDesk ®</span> in Ihrer <br>Praxis verändert</h2>
-            <p class="section-4-subline">Mehr Ruhe. Mehr Struktur. Mehr Zeit für die Menschen vor Ihnen.</p>
+        <div class="container">
+            <div class="row align-items-center" style="margin-bottom: 40px;">
+                <div class="col-md-5 text-center">
+                    <div style="position: relative; display: inline-block; padding: 18px;">
+                        <span style="position: absolute; top: 0; left: 0; width: 75%; height: 75%; background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); border-radius: 30px 8px 30px 8px; z-index: 0;"></span>
+                        <span style="position: absolute; bottom: 0; right: 0; width: 60%; height: 60%; background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); border-radius: 8px 30px 8px 30px; z-index: 0; opacity: 0.7;"></span>
+                        <img src="<?= $root; ?>assets/img/img-1.jpg" alt="" loading="lazy" style="position: relative; z-index: 1; max-width: 320px; width: 100%; height: auto; border-radius: 24px; box-shadow: 0 18px 48px rgba(0,0,0,0.18); border: 6px solid #fff;">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="section-4-header" style="text-align: left;">
+                        <span class="seo-anchor">Ergebnisse & Vorteile</span>
+                        <h2>Was sich mit <span class="highlight-text-bg2">MediDesk ®</span> in Ihrer <br>Praxis verändert</h2>
+                        <p class="section-4-subline">Mehr Ruhe. Mehr Struktur. Mehr Zeit für die Menschen vor Ihnen.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Benefits Grid -->

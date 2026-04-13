@@ -119,14 +119,25 @@ include '../includes/meta.php';
     <!-- Solution Section - MediDesk Vorstellung -->
     <section class="answer-section">
         <div class="container">
-            <div class="answer-section-header">
-                <span class="answer-seo-anchor">
-                    Ihre eigene, digitale <span>24/7-Rezeption</span>
-                </span>
-                <h2>Die smarte Alternative: <span class="highlight-text-green">MediDesk®</span></h2>
-                <p class="subline">
-                    Bündeln Sie den kompletten Patientenstrom auf Ihrer eigenen Website. Entlasten Sie Ihr Telefon drastisch und behalten Sie die volle Kontrolle.
-                </p>
+            <div class="row align-items-center" style="margin-bottom: 40px;">
+                <div class="col-md-7">
+                    <div class="answer-section-header" style="text-align: left;">
+                        <span class="answer-seo-anchor">
+                            Ihre eigene, digitale <span>24/7-Rezeption</span>
+                        </span>
+                        <h2>Die smarte Alternative: <span class="highlight-text-green">MediDesk®</span></h2>
+                        <p class="subline">
+                            Bündeln Sie den kompletten Patientenstrom auf Ihrer eigenen Website. Entlasten Sie Ihr Telefon drastisch und behalten Sie die volle Kontrolle.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <div style="position: relative; display: inline-block; padding: 18px;">
+                        <span style="position: absolute; top: 0; right: 0; width: 75%; height: 75%; background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); border-radius: 30px 8px 30px 8px; z-index: 0;"></span>
+                        <span style="position: absolute; bottom: 0; left: 0; width: 60%; height: 60%; background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-radius: 8px 30px 8px 30px; z-index: 0; opacity: 0.7;"></span>
+                        <img src="<?= $root; ?>assets/img/img-2.jpg" alt="" loading="lazy" style="position: relative; z-index: 1; max-width: 320px; width: 100%; height: auto; border-radius: 24px; box-shadow: 0 18px 48px rgba(0,0,0,0.18); border: 6px solid #fff;">
+                    </div>
+                </div>
             </div>
 
             <div class="answer-container" style="grid-template-columns: repeat(2, 1fr);">
@@ -249,9 +260,22 @@ include '../includes/meta.php';
 
     <!-- Social Proof / Testimonial Section -->
     <section class="section-5-features">
-        <div class="section-5-header">
-            <span class="seo-anchor">Das sagen unsere Kunden</span>
-            <h2>Vertrauen & <span class="highlight-text-bg">Ergebnisse</span></h2>
+        <div class="container">
+            <div class="row align-items-center" style="margin-bottom: 40px;">
+                <div class="col-md-5 text-center">
+                    <div style="position: relative; display: inline-block; padding: 18px;">
+                        <span style="position: absolute; top: 0; left: 0; width: 75%; height: 75%; background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-radius: 30px 8px 30px 8px; z-index: 0;"></span>
+                        <span style="position: absolute; bottom: 0; right: 0; width: 60%; height: 60%; background: linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 100%); border-radius: 8px 30px 8px 30px; z-index: 0; opacity: 0.7;"></span>
+                        <img src="<?= $root; ?>assets/img/img-4.jpg" alt="" loading="lazy" style="position: relative; z-index: 1; max-width: 320px; width: 100%; height: auto; border-radius: 24px; box-shadow: 0 18px 48px rgba(0,0,0,0.18); border: 6px solid #fff;">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="section-5-header" style="text-align: left;">
+                        <span class="seo-anchor">Das sagen unsere Kunden</span>
+                        <h2>Vertrauen & <span class="highlight-text-bg">Ergebnisse</span></h2>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="container">
@@ -261,34 +285,34 @@ include '../includes/meta.php';
             </div>
 
             <!-- Trust Badges -->
-            <div class="section-5-cards-container" style="max-width: 800px; margin: 0 auto;">
-                <div class="section-5-feature-card">
-                    <div class="section-5-icon-wrapper" style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);">
-                        <i class="fa-solid fa-shield-halved" style="color: #388E3C; font-size: 32px;"></i>
-                    </div>
-                    <div class="section-5-content">
-                        <h3 class="section-5-feature-title">DSGVO-konform</h3>
-                        <p class="section-5-feature-description">EU-Hosting, verschlüsselte Übertragung, AVV auf Wunsch.</p>
-                    </div>
-                </div>
-
-                <div class="section-5-feature-card">
-                    <div class="section-5-icon-wrapper" style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);">
-                        <i class="fa-solid fa-lock" style="color: #1976D2; font-size: 32px;"></i>
-                    </div>
-                    <div class="section-5-content">
-                        <h3 class="section-5-feature-title">Sichere Daten</h3>
-                        <p class="section-5-feature-description">Keine Weiterleitung ins Ausland. Keine versteckten Dienste.</p>
+            <div class="row g-4 justify-content-center" style="max-width: 1000px; margin: 0 auto;">
+                <div class="col-md-4 col-sm-6">
+                    <div style="background: #fff; border-radius: 16px; padding: 28px 22px; box-shadow: 0 6px 24px rgba(0,0,0,0.06); text-align: center; height: 100%;">
+                        <div style="width: 64px; height: 64px; margin: 0 auto 18px; border-radius: 50%; background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); display: flex; align-items: center; justify-content: center;">
+                            <i class="fa-solid fa-shield-halved" style="color: #388E3C; font-size: 28px;"></i>
+                        </div>
+                        <h3 style="font-size: 1.15rem; font-weight: 700; color: #1B3A57; margin-bottom: 10px;">DSGVO-konform</h3>
+                        <p style="color: #666; font-size: 0.95rem; margin: 0;">EU-Hosting, verschlüsselte Übertragung, AVV auf Wunsch.</p>
                     </div>
                 </div>
 
-                <div class="section-5-feature-card">
-                    <div class="section-5-icon-wrapper" style="background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);">
-                        <i class="fa-solid fa-bolt" style="color: #F57C00; font-size: 32px;"></i>
+                <div class="col-md-4 col-sm-6">
+                    <div style="background: #fff; border-radius: 16px; padding: 28px 22px; box-shadow: 0 6px 24px rgba(0,0,0,0.06); text-align: center; height: 100%;">
+                        <div style="width: 64px; height: 64px; margin: 0 auto 18px; border-radius: 50%; background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); display: flex; align-items: center; justify-content: center;">
+                            <i class="fa-solid fa-lock" style="color: #1976D2; font-size: 28px;"></i>
+                        </div>
+                        <h3 style="font-size: 1.15rem; font-weight: 700; color: #1B3A57; margin-bottom: 10px;">Sichere Daten</h3>
+                        <p style="color: #666; font-size: 0.95rem; margin: 0;">Keine Weiterleitung ins Ausland. Keine versteckten Dienste.</p>
                     </div>
-                    <div class="section-5-content">
-                        <h3 class="section-5-feature-title">48h Einrichtung</h3>
-                        <p class="section-5-feature-description">Keine IT-Installation. Wir richten alles gemeinsam ein.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div style="background: #fff; border-radius: 16px; padding: 28px 22px; box-shadow: 0 6px 24px rgba(0,0,0,0.06); text-align: center; height: 100%;">
+                        <div style="width: 64px; height: 64px; margin: 0 auto 18px; border-radius: 50%; background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); display: flex; align-items: center; justify-content: center;">
+                            <i class="fa-solid fa-bolt" style="color: #F57C00; font-size: 28px;"></i>
+                        </div>
+                        <h3 style="font-size: 1.15rem; font-weight: 700; color: #1B3A57; margin-bottom: 10px;">48h Einrichtung</h3>
+                        <p style="color: #666; font-size: 0.95rem; margin: 0;">Keine IT-Installation. Wir richten alles gemeinsam ein.</p>
                     </div>
                 </div>
             </div>

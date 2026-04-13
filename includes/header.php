@@ -16,7 +16,7 @@
             
             <ul class="nav-menu">
                 <!-- Online-Rezeption -->
-                <li class="dropdown">
+                <li>
                     <a href="<?= $root; ?>online-rezeption">
                         Online-Rezeption
                     </a>
