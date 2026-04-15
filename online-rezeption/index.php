@@ -45,7 +45,7 @@ include '../includes/meta.php';
                       Für etablierte Facharztpraxen & MVZs
                   </span>
                   <h1>
-                      Sie brauchen keine teuren Arztportale. Sie brauchen eine <span class="highlight-text-bg">Rezeption, die 24/7</span> für Sie arbeitet.
+                      Sie brauchen keine teuren Arztportale. Sie brauchen eine <span class="highlight-text-bg">Rezeption, die 24/7</span> für Sie arbeitet und Online Terminkalender.
                   </h1>
                   <p class="subheading">
                       Facharztpraxen sind voll. Hören Sie auf, hohe monatliche Gebühren für Portale zu zahlen, die Ihnen ungewollte Neupatienten schicken. Nutzen Sie MediDesk® – Ihre maßgeschneiderte Online-Rezeption inkl. Terminbuchung, Rezept-Service und KI-Chatbot. Alles aus einer Hand. Deutlich günstiger.
@@ -56,9 +56,11 @@ include '../includes/meta.php';
 
           <div class="row">
             <div class="col-12 text-center">
-              <div class="cta-buttons" style="justify-content: center;">
+              <div class="cta-buttons" style="justify-content: center; flex-wrap: wrap; gap: 12px;">
                   <a href="#demo-anfragen" class="btn btn-primary">Kostenlose Demo buchen</a>
                   <a href="#vergleich" class="btn btn-secondary">Einsparpotenzial sehen</a>
+                  <a href="mailto:<?= $mail; ?>?subject=Anfrage%20MediDesk" class="btn btn-secondary"><i class="fa fa-envelope me-2"></i>Kurze Nachricht per eMail schreiben</a>
+                  <a href="https://wa.me/49<?= preg_replace('/[^0-9]/', '', ltrim($phoneno, '0')); ?>" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fa-brands fa-whatsapp me-2"></i>Kurze WhatsApp Nachricht schreiben</a>
               </div>
             </div>
           </div>
@@ -146,9 +148,9 @@ include '../includes/meta.php';
                     <div class="answer-icon-wrapper">
                         <i class="fa fa-calendar"></i>
                     </div>
-                    <p class="answer-card-step">Terminkalender</p>
-                    <h3>Der smarte Terminkalender</h3>
-                    <p>Keine Portal-Abhängigkeit. Patienten buchen direkt über Ihre Website. Inklusive intelligentem Ressourcen-Management und bis zu 3 automatisierten Terminerinnerungen (SMS/E-Mail) zur maximalen Reduzierung von No-Shows.</p>
+                    <p class="answer-card-step">Für Patienten und Ihre Praxis</p>
+                    <h3>Der smarte Online-Terminkalender</h3>
+                    <p>Keine Portal-Abhängigkeit. Patienten buchen direkt über Ihre Website. Inklusive intelligentem Ressourcen-Management und bis zu <strong><u>3 automatisierten Terminerinnerungen</u></strong> (SMS/E-Mail) zur maximalen Reduzierung von No-Shows – <strong><u>mit Ihrem Praxislogo</u></strong>.</p>
                 </div>
 
                 <div class="answer-card">
