@@ -45,7 +45,7 @@
   <p>Nutzen Sie unseren Chat-Assistenten unten rechts, um schnell und einfach einen Termin zu vereinbaren.</p>
 </div>
 
-<script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="69edfe81eae40cb97dd73043"></script>
+<script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="69f9f42b0e181d04209def64"></script>
 
 </body>
 </html>
