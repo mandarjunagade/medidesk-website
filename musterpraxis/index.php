@@ -41,8 +41,6 @@
   <h2>Unsere Leistungen</h2>
   <p>Allgemeinmedizin, Vorsorgeuntersuchungen, Diagnostik und individuelle Beratung &mdash; alles unter einem Dach.</p>
 
-  <h2>Termin vereinbaren</h2>
-  <p>Nutzen Sie unseren Chat-Assistenten unten rechts, um schnell und einfach einen Termin zu vereinbaren.</p>
 </div>
 
 <script id="medidesk-widget-script" src="https://widget.medideskr.cloud/widget.iife.js" data-clinic-id="69f9f42b0e181d04209def64"></script>
